@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\bin\Debug\net8.0\FitCorePro.Training.Planning.Application.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\bin\Debug\net8.0\FitCorePro.Training.Planning.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\bin\Debug\net8.0\FitCorePro.Training.Planning.Application.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\refint\FitCorePro.Training.Planning.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\ref\FitCorePro.Training.Planning.Application.dll

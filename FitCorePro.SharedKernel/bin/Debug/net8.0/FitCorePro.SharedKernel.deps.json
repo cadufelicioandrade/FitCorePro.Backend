@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FitCorePro.SharedKernel/1.0.0": {
+        "runtime": {
+          "FitCorePro.SharedKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FitCorePro.SharedKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

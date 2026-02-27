@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\bin\Debug\net8.0\FitCorePro.Identity.Domain.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\bin\Debug\net8.0\FitCorePro.Identity.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\bin\Debug\net8.0\FitCorePro.Identity.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\FitCorePro.Identity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\FitCorePro.Identity.Domain.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\FitCorePro.Identity.Domain.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\FitCorePro.Identity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\FitCorePro.Identity.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\refint\FitCorePro.Identity.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\FitCorePro.Identity.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Domain\obj\Debug\net8.0\ref\FitCorePro.Identity.Domain.dll

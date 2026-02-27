@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\refint\FitCorePro.Nutrition.Tracking.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\ref\FitCorePro.Nutrition.Tracking.Application.dll

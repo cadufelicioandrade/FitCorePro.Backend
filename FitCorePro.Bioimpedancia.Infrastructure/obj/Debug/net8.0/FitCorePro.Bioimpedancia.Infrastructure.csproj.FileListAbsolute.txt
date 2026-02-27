@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Bioimpedancia.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Bioimpedancia.Infrastructure.dll

@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\bin\Debug\net8.0\FitCorePro.SharedKernel.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\bin\Debug\net8.0\FitCorePro.SharedKernel.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\bin\Debug\net8.0\FitCorePro.SharedKernel.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\FitCorePro.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\FitCorePro.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\FitCorePro.SharedKernel.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\FitCorePro.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\FitCorePro.SharedKernel.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\refint\FitCorePro.SharedKernel.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\FitCorePro.SharedKernel.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.SharedKernel\obj\Debug\net8.0\ref\FitCorePro.SharedKernel.dll

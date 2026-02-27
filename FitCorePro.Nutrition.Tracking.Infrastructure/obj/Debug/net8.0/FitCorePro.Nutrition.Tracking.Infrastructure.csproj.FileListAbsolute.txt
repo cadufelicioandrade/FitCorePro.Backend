@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Nutrition.Tracking.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Nutrition.Tracking.Infrastructure.dll

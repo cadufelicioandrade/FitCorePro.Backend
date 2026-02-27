@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Nutrition.Planning.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Nutrition.Planning.Infrastructure.dll

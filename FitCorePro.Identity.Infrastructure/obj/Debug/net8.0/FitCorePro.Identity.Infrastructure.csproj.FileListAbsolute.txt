@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Identity.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Identity.Infrastructure.dll
