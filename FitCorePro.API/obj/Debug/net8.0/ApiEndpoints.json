@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.PlanoSemanaController",
+    "Method": "GetAll",
+    "RelativePath": "api/nutritionplanning/plano-semnal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

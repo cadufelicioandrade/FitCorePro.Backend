@@ -9,3 +9,7 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrast
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Nutrition.Planning.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Nutrition.Planning.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Planning.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Nutrition.Planning.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Nutrition.Planning.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Planning.Infrastructure\obj\Debug\net8.0\FitCoreP.F87C307F.Up2Date

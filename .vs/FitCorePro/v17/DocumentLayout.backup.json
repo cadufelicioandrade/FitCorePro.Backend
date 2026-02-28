@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\persistence\\planningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\persistence\\planningdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\repositories\\planosemanarepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\repositories\\planosemanarepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\getplanosemanalbyusuarioidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|solutionrelative:fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\getplanosemanalbyusuarioidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{532F08BB-BE07-4B55-A1EB-9EAEC89BF590}|FitCorePro.Nutrition.Planning.Domain\\FitCorePro.Nutrition.Planning.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.domain\\repositories\\iplanosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{532F08BB-BE07-4B55-A1EB-9EAEC89BF590}|FitCorePro.Nutrition.Planning.Domain\\FitCorePro.Nutrition.Planning.Domain.csproj|solutionrelative:fitcorepro.nutrition.planning.domain\\repositories\\iplanosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{532F08BB-BE07-4B55-A1EB-9EAEC89BF590}|FitCorePro.Nutrition.Planning.Domain\\FitCorePro.Nutrition.Planning.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.domain\\entities\\planosemanal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{532F08BB-BE07-4B55-A1EB-9EAEC89BF590}|FitCorePro.Nutrition.Planning.Domain\\FitCorePro.Nutrition.Planning.Domain.csproj|solutionrelative:fitcorepro.nutrition.planning.domain\\entities\\planosemanal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\getplanosemanalbyusuarioidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|solutionrelative:fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\getplanosemanalbyusuarioidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\response\\planosemanalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|solutionrelative:fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\response\\planosemanalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanningDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\PlanningDbContext.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\PlanningDbContext.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\PlanningDbContext.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\PlanningDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:20:59.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlanoSemanaRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\PlanoSemanaRepositories.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\PlanoSemanaRepositories.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\PlanoSemanaRepositories.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\PlanoSemanaRepositories.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:18:01.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlanoSemanal.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanal.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanal.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanal.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:16:43.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlanoSemanalResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\Response\\PlanoSemanalResponse.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\Response\\PlanoSemanalResponse.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\Response\\PlanoSemanalResponse.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\Response\\PlanoSemanalResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:10:39.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPlanoSemanalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Domain\\Repositories\\IPlanoSemanalRepository.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Domain\\Repositories\\IPlanoSemanalRepository.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Domain\\Repositories\\IPlanoSemanalRepository.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Domain\\Repositories\\IPlanoSemanalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:05:40.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetPlanoSemanalByUsuarioIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAtwDgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:02:49.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetPlanoSemanalbyUsuarioIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalbyUsuarioIdQuery.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalbyUsuarioIdQuery.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalbyUsuarioIdQuery.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalbyUsuarioIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T01:01:43.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

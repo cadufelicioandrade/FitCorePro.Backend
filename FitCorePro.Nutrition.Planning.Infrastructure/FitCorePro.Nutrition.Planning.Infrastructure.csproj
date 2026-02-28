@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Integrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Domain\FitCorePro.Nutrition.Planning.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

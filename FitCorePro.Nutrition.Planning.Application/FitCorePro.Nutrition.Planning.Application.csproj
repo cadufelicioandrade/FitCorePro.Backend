@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="UseCases\Queries\GeByUsuarioById\GetPlanoSemanalByUsuarioIdHandler.cs~RF63a58f4.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstractions\Services\" />
+    <Folder Include="Abstractions\Repositories\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Validation\" />
+    <Folder Include="UseCases\Comands\Create\" />
+    <Folder Include="UseCases\Comands\Delete\" />
+    <Folder Include="UseCases\Comands\Update\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Domain\FitCorePro.Nutrition.Planning.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
