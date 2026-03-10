@@ -1,10 +1,5 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById.Response;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById
 {
@@ -17,44 +12,51 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
             _repo = planoSemanalRepository;
         }
 
-        public async Task<PlanoSemanalResponse> Handle(GetPlanoSemanalbyUsuarioIdQuery query)
+        public async Task<PlanoSemanalResponse?> Handle(GetPlanoSemanalByUsuarioIdQuery query)
         {
-            var plano = await _repo.GetPlanoByUsuarioIdAsync(query.usuarioId);
+            var plano = await _repo.GetPlanoByUsuarioIdAsync(query.UsuarioId);
 
-            if (plano is null) return null;
+            if (plano is null)
+                return null;
 
             return new PlanoSemanalResponse
             {
                 Id = plano.Id,
                 Nome = plano.Nome,
                 Ativo = plano.Ativo,
-                IdUsuario = plano.IdUsuario,
+                UsuarioId = plano.UsuarioId,
                 CreatedDate = plano.CreatedDate,
-                PlanoSemanalDias = plano.PlanoSemanalDias.Select(d => new PlanoSemanalDiaResponse
-                {
-                    Id = d.Id,
-                    PlanoSemanaId = d.PlanoSemanaId,
-                    DiaSemana = d.DiaSemana,
-                    CreatedDate = d.CreatedDate,
-
-                    Refeicoes = d.Refeicoes.Select(r => new RefeicaoPlanoSemanalResponse
+                PlanoSemanalDias = plano.PlanoSemanalDias
+                    .OrderBy(d => d.DiaSemana)
+                    .Select(d => new PlanoSemanalDiaResponse
                     {
-                        Id = r.Id,
-                       Tipo = r.Tipo,
-                       Ordem = r.Ordem,
-                       PlanoSemanaDiaId = r.PlanoSemanaDiaId,
-                       CreatedDate = r.CreatedDate,
-
-                       AlimentoPlanoSemanais = r.AlimentoPlanoSemanais.Select(a => new AlimentoPlanoSemanalResponse
-                       {
-                           Id =a.Id,
-                           Nome = a.Nome,
-                           Gramas = a.Gramas,
-                           RefeicaoId = a.RefeicaoId,
-                           CreateDate = a.CreatedDate,
-                       }).ToList()
-                    }).ToList()
-                }).ToList()
+                        Id = d.Id,
+                        PlanoSemanalId = d.PlanoSemanalId,
+                        DiaSemana = d.DiaSemana,
+                        CreatedDate = d.CreatedDate,
+                        Refeicoes = d.Refeicoes
+                            .OrderBy(r => r.Ordem)
+                            .Select(r => new RefeicaoPlanoSemanalResponse
+                            {
+                                Id = r.Id,
+                                Tipo = r.Tipo,
+                                Ordem = r.Ordem,
+                                PlanoSemanalDiaId = r.PlanoSemanalDiaId,
+                                CreatedDate = r.CreatedDate,
+                                AlimentoPlanoSemanais = r.RefeicaoAlimentos
+                                    .Select(ra => new AlimentoPlanoSemanalResponse
+                                    {
+                                        Id = ra.AlimentoId,
+                                        Nome = ra.Alimento != null ? ra.Alimento.Nome : string.Empty,
+                                        Gramas = (int)ra.Gramas,
+                                        RefeicaoId = ra.RefeicaoId,
+                                        CreatedDate = ra.CreatedDate
+                                    })
+                                    .ToList()
+                            })
+                            .ToList()
+                    })
+                    .ToList()
             };
         }
     }

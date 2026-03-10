@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById
 {
-    public sealed record class GetPlanoSemanalbyUsuarioIdQuery(string usuarioId);
+    public sealed record class GetPlanoSemanalByUsuarioIdQuery(string UsuarioId);
 }

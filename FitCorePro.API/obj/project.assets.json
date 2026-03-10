@@ -13,6 +13,22 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.OpenApi/1.6.14": {
         "type": "package",
         "compile": {
@@ -88,6 +104,30 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FitCorePro.Nutrition.Planning.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FitCorePro.Nutrition.Planning.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.3"
+        },
+        "compile": {
+          "bin/placeholder/FitCorePro.Nutrition.Planning.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitCorePro.Nutrition.Planning.Application.dll": {}
+        }
+      },
+      "FitCorePro.Nutrition.Planning.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FitCorePro.Nutrition.Planning.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitCorePro.Nutrition.Planning.Domain.dll": {}
+        }
       }
     }
   },
@@ -323,6 +363,37 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.3": {
+      "sha512": "bwGMrRcAMWx2s/RDgja97p27rxSz2pEQW0+rX5cWAUWVETVJ/eyxGfjAl8vuG5a+lckWmPIE+vcuaZNVB5YDdw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.OpenApi/1.6.14": {
       "sha512": "tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
       "type": "package",
@@ -439,10 +510,21 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FitCorePro.Nutrition.Planning.Application/1.0.0": {
+      "type": "project",
+      "path": "../FitCorePro.Nutrition.Planning.Application/FitCorePro.Nutrition.Planning.Application.csproj",
+      "msbuildProject": "../FitCorePro.Nutrition.Planning.Application/FitCorePro.Nutrition.Planning.Application.csproj"
+    },
+    "FitCorePro.Nutrition.Planning.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FitCorePro.Nutrition.Planning.Domain/FitCorePro.Nutrition.Planning.Domain.csproj",
+      "msbuildProject": "../FitCorePro.Nutrition.Planning.Domain/FitCorePro.Nutrition.Planning.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FitCorePro.Nutrition.Planning.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -478,7 +560,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj": {
+              "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

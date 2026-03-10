@@ -16,4 +16,8 @@
     <Folder Include="Middlewares\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Application\FitCorePro.Nutrition.Planning.Application.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
+using FitCorePro.Nutrition.Planning.Application.Service;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace FitCorePro.Nutrition.Planning.Application.DependencyInjection
 {
-    public class ApplicationDI
+    public static class ApplicationDI
     {
+        public static IServiceCollection AddPlanningApplication(
+            this IServiceCollection services
+            )
+        {
+            services.AddScoped<GetPlanoSemanalByUsuarioIdHandler>();
+            services.AddScoped<IPlanoSemanalService, PlanoSemanalService>();
+
+            return services;
+        }
     }
 }

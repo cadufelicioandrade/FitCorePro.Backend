@@ -8,11 +8,11 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
 {
     public sealed class AlimentoPlanoSemanalResponse
     {
-        public string Id { get; set; } = default;
-        public string Nome { get; set; } = default;
+        public string Id { get; set; } = default!;
+        public string Nome { get; set; } = default!;
         public int Gramas { get; set; }
-        public string RefeicaoId { get; set; } = default;
-        public DateTime CreateDate { get; set; }
+        public string RefeicaoId { get; set; } = default!;
+        public DateTime CreatedDate { get; set; }
 
     }
 }
