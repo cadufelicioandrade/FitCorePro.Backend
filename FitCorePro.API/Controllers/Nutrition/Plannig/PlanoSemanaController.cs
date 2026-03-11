@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FitCorePro.API.Controllers.Nutrition.Plannig
 {
     [ApiController]
-    [Route("api/nutritionplanning/plano-semnal")]
+    [Route("api/nutritionplanning/plano-semanal")]
     public class PlanoSemanaController : ControllerBase
     {
         private readonly IPlanoSemanalService _planoSemanalService;

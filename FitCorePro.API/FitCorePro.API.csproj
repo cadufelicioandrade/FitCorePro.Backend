@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Application\FitCorePro.Nutrition.Planning.Application.csproj" />
+    <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Infrastructure\FitCorePro.Nutrition.Planning.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

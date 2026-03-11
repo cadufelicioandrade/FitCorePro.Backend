@@ -1,12 +1,18 @@
 [
   {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.PlanoSemanaController",
-    "Method": "GetAll",
-    "RelativePath": "api/nutritionplanning/plano-semnal",
+    "Method": "GetAllByUsuarioId",
+    "RelativePath": "api/nutritionplanning/plano-semanal/{usuarioId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]
