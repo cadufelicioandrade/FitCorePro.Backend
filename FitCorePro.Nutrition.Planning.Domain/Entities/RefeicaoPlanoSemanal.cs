@@ -14,8 +14,8 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
         public string PlanoSemanalDiaId { get; private set; } = default!;
         public DateTime CreatedDate { get; private set; }
 
-        private readonly List<RefeicaoAlimento> _refeicaoAlimentos = new();
-        public IReadOnlyCollection<RefeicaoAlimento> RefeicaoAlimentos => _refeicaoAlimentos;
+        private readonly List<AlimentoPlanoSemanal> _alimentosPlanoSemanais = new();
+        public IReadOnlyCollection<AlimentoPlanoSemanal> AlimentosPlanoSemanais => _alimentosPlanoSemanais;
 
         protected RefeicaoPlanoSemanal() { }
 
@@ -33,9 +33,9 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
             CreatedDate = createdDate;
         }
 
-        public void AdicionarRefeicaoAlimento(RefeicaoAlimento refeicaoAlimento)
+        public void AdicionarAlimentoPlanoSemanal(AlimentoPlanoSemanal alimento)
         {
-            _refeicaoAlimentos.Add(refeicaoAlimento);
+            _alimentosPlanoSemanais.Add(alimento);
         }
     }
 }

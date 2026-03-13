@@ -18,8 +18,6 @@ public sealed class PlanningDbContext : DbContext
 
     public DbSet<RefeicaoPlanoSemanal> RefeicoesPlanoSemanais => Set<RefeicaoPlanoSemanal>();
 
-    public DbSet<RefeicaoAlimento> RefeicaoAlimentos => Set<RefeicaoAlimento>();
-
     public DbSet<AlimentoPlanoSemanal> AlimentosPlanoSemanais => Set<AlimentoPlanoSemanal>();
 
 

@@ -36,7 +36,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 ativo: true,
                 usuarioId: usuarioId,
                 createdDate: DateTime.Now
-);
+            );
 
             // =====================
             // SEGUNDA FEIRA
@@ -58,24 +58,24 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 createdDate: DateTime.UtcNow
             );
 
-            var banana = new RefeicaoAlimento(
-                id: Guid.NewGuid().ToString(),
-                refeicaoId: cafe.Id,
-                alimentoId: "banana-id",
-                gramas: 120,
+
+            var banana = new AlimentoPlanoSemanal(
+                Guid.NewGuid().ToString(),
+                "Banana",
+                120,
+                cafe.Id,
+                DateTime.UtcNow);
+
+            var aveia = new AlimentoPlanoSemanal(
+                Guid.NewGuid().ToString(),
+                "Aveia",
+                40,
+                cafe.Id,
                 createdDate: DateTime.UtcNow
             );
 
-            var aveia = new RefeicaoAlimento(
-                id: Guid.NewGuid().ToString(),
-                refeicaoId: cafe.Id,
-                alimentoId: "aveia-id",
-                gramas: 40,
-                createdDate: DateTime.UtcNow
-            );
-
-            cafe.AdicionarRefeicaoAlimento(banana);
-            cafe.AdicionarRefeicaoAlimento(aveia);
+            cafe.AdicionarAlimentoPlanoSemanal(banana);
+            cafe.AdicionarAlimentoPlanoSemanal(aveia);
 
             // Almoço
             var almoco = new RefeicaoPlanoSemanal(
@@ -86,28 +86,57 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 createdDate: DateTime.UtcNow
             );
 
-            var arroz = new RefeicaoAlimento(
-                id: Guid.NewGuid().ToString(),
-                refeicaoId: almoco.Id,
-                alimentoId: "arroz-id",
+            var arroz = new AlimentoPlanoSemanal(
+                Guid.NewGuid().ToString(),
+                "Arroz Branco",
                 gramas: 150,
+                almoco.Id,
                 createdDate: DateTime.UtcNow
             );
 
-            var frango = new RefeicaoAlimento(
+            var frango = new AlimentoPlanoSemanal(
                 id: Guid.NewGuid().ToString(),
-                refeicaoId: almoco.Id,
-                alimentoId: "frango-id",
+                "Filé de Frango",
                 gramas: 200,
+                almoco.Id,
                 createdDate: DateTime.UtcNow
             );
 
-            almoco.AdicionarRefeicaoAlimento(arroz);
-            almoco.AdicionarRefeicaoAlimento(frango);
+            almoco.AdicionarAlimentoPlanoSemanal(arroz);
+            almoco.AdicionarAlimentoPlanoSemanal(frango);
+
+            // Almoço
+            var jantar = new RefeicaoPlanoSemanal(
+                id: Guid.NewGuid().ToString(),
+                tipo: "Jantar",
+                ordem: 3,
+                planoSemanalDiaId: segunda.Id,
+                createdDate: DateTime.UtcNow
+            );
+
+            var batataDoce = new AlimentoPlanoSemanal(
+                Guid.NewGuid().ToString(),
+                "Batata Doce",
+                gramas: 350,
+                jantar.Id,
+                createdDate: DateTime.UtcNow
+            );
+
+            var carne = new AlimentoPlanoSemanal(
+                id: Guid.NewGuid().ToString(),
+                "Patinho moído",
+                gramas: 250,
+                jantar.Id,
+                createdDate: DateTime.UtcNow
+            );
+
+            jantar.AdicionarAlimentoPlanoSemanal(batataDoce);
+            jantar.AdicionarAlimentoPlanoSemanal(carne);
 
             // adiciona refeições ao dia
             segunda.AdicionarRefeicao(cafe);
             segunda.AdicionarRefeicao(almoco);
+            segunda.AdicionarRefeicao(jantar);
 
             // adiciona dia ao plano
             planoSemanal.AdicionarPlanSemanalDia(segunda);

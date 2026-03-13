@@ -43,13 +43,13 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                                 Ordem = r.Ordem,
                                 PlanoSemanalDiaId = r.PlanoSemanalDiaId,
                                 CreatedDate = r.CreatedDate,
-                                AlimentoPlanoSemanais = r.RefeicaoAlimentos
+                                AlimentoPlanoSemanais = r.AlimentosPlanoSemanais
                                     .Select(ra => new AlimentoPlanoSemanalResponse
                                     {
-                                        Id = ra.AlimentoId,
-                                        Nome = ra.Alimento != null ? ra.Alimento.Nome : string.Empty,
+                                        Id = ra.Id,
+                                        Nome = ra.Nome,
                                         Gramas = (int)ra.Gramas,
-                                        RefeicaoId = ra.RefeicaoId,
+                                        RefeicaoId = ra.RefeicaoPlanoSemanalId,
                                         CreatedDate = ra.CreatedDate
                                     })
                                     .ToList()
