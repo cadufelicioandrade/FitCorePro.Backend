@@ -21,5 +21,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
 
             return Ok(result);
         }
+
+
     }
 }
