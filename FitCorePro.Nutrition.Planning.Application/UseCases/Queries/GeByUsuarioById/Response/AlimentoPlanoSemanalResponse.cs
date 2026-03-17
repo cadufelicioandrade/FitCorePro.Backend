@@ -12,7 +12,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
         public string Nome { get; set; } = default!;
         public int Gramas { get; set; }
         public string RefeicaoId { get; set; } = default!;
-        public DateTime CreatedDate { get; set; }
 
     }
 }

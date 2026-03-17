@@ -6,13 +6,13 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
 {
     public sealed class PostCriaRefeicaoPlanoSemanalHandler
     {
-        private readonly IRefeicaoPlanoSemanal _repo;
-        public PostCriaRefeicaoPlanoSemanalHandler(IRefeicaoPlanoSemanal refeicaoPlanoSemanal)
+        private readonly IRefeicaoPlanoSemanalRepository _repo;
+        public PostCriaRefeicaoPlanoSemanalHandler(IRefeicaoPlanoSemanalRepository refeicaoPlanoSemanal)
         {
             _repo = refeicaoPlanoSemanal;
         }
 
-        public async Task<string> Handle(CriaRefeicaoRequest criaRefeicaoRequest)
+        public async Task<string> HandleAsync(CriaRefeicaoRequest criaRefeicaoRequest)
         {
 
             var refeicaoPlanoSemanal = new RefeicaoPlanoSemanal(
@@ -29,7 +29,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
             });
 
             //modelar a relação PK e FK para o ef core salvar tudo
-            await _repo.AdicionarRefeicaoPlanoSemanal(refeicaoPlanoSemanal);
+            await _repo.AdicionarRefeicaoPlanoSemanalAsync(refeicaoPlanoSemanal);
 
             return "";
         }

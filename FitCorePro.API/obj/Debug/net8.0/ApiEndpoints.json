@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.RefeicaoPlanoSemanalController",
+    "Method": "AdicionarRefeicao",
+    "RelativePath": "api/nutritionplanning/plano-semanal/refeicao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criaRefeicaoRequest",
+        "Type": "FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request.CriaRefeicaoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

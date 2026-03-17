@@ -1,4 +1,5 @@
-﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request;
+﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Plannig
@@ -7,11 +8,19 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
     [Route("api/nutritionplanning/plano-semanal")]
     public class RefeicaoPlanoSemanalController : ControllerBase
     {
+        IRefeicaoPlanoSemanalService _service;
+
+        public RefeicaoPlanoSemanalController(IRefeicaoPlanoSemanalService service)
+        {
+            _service = service;
+        }
+
         [HttpPost("refeicao")]
         public async Task<IActionResult> AdicionarRefeicao([FromBody] CriaRefeicaoRequest criaRefeicaoRequest)
         {
+            var result = await _service.AdicionarRefeicaoPlanoSemanalAsync(criaRefeicaoRequest);
 
-            return Ok();
+            return Ok(result);
         }
 
     }

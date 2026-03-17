@@ -12,7 +12,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
         public string Nome { get; set; } = default!;
         public bool Ativo { get; set; }
         public string UsuarioId { get; set; } = default!;
-        public DateTime CreatedDate { get; set; }
 
         public List<PlanoSemanalDiaResponse> PlanoSemanalDias { get; set; } = new();
 

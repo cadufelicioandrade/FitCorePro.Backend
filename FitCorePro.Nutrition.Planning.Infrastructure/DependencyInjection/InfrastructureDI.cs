@@ -9,6 +9,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection
         public static IServiceCollection AddPlannigInfrastructure(this IServiceCollection services)
         {
             services.AddScoped<IPlanoSemanalRepository, PlanoSemanalRepository>();
+            services.AddScoped<IRefeicaoPlanoSemanalRepository, RefeicaoPlanoSemanalRepository>();
             return services;
         }
     }

@@ -4,6 +4,6 @@ namespace FitCorePro.Nutrition.Planning.Application.Abstractions.Services
 {
     public interface IRefeicaoPlanoSemanalService
     {
-        Task<string> AdicionarRefeicaoPlanoSemanal(CriaRefeicaoRequest criaRefeicaoRequest);
+        Task<string> AdicionarRefeicaoPlanoSemanalAsync(CriaRefeicaoRequest criaRefeicaoRequest);
     }
 }

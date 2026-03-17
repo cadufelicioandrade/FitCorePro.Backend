@@ -26,7 +26,88 @@
           }
         }
       }
+    },
+    "/api/nutritionplanning/plano-semanal/refeicao": {
+      "post": {
+        "tags": [
+          "RefeicaoPlanoSemanal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriaRefeicaoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriaRefeicaoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CriaRefeicaoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "AlimentoPlanoSemanalResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "gramas": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "refeicaoId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CriaRefeicaoRequest": {
+        "type": "object",
+        "properties": {
+          "planoSemanalDiaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaSemana": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tipoRefeicao": {
+            "type": "string",
+            "nullable": true
+          },
+          "alimentoPlanoSemanais": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AlimentoPlanoSemanalResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

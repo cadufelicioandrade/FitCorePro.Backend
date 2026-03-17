@@ -12,7 +12,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
             _repo = planoSemanalRepository;
         }
 
-        public async Task<PlanoSemanalResponse?> Handle(GetPlanoSemanalByUsuarioIdQuery query)
+        public async Task<PlanoSemanalResponse?> HandleAsync(GetPlanoSemanalByUsuarioIdQuery query)
         {
             var plano = await _repo.GetPlanoByUsuarioIdAsync(query.UsuarioId);
 
@@ -25,7 +25,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                 Nome = plano.Nome,
                 Ativo = plano.Ativo,
                 UsuarioId = plano.UsuarioId,
-                CreatedDate = plano.CreatedDate,
                 PlanoSemanalDias = plano.PlanoSemanalDias
                     .OrderBy(d => d.DiaSemana)
                     .Select(d => new PlanoSemanalDiaResponse
@@ -33,7 +32,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                         Id = d.Id,
                         PlanoSemanalId = d.PlanoSemanalId,
                         DiaSemana = d.DiaSemana,
-                        CreatedDate = d.CreatedDate,
                         Refeicoes = d.Refeicoes
                             .OrderBy(r => r.Ordem)
                             .Select(r => new RefeicaoPlanoSemanalResponse
@@ -42,7 +40,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                                 Tipo = r.Tipo,
                                 Ordem = r.Ordem,
                                 PlanoSemanalDiaId = r.PlanoSemanalDiaId,
-                                CreatedDate = r.CreatedDate,
                                 AlimentoPlanoSemanais = r.AlimentosPlanoSemanais
                                     .Select(ra => new AlimentoPlanoSemanalResponse
                                     {
@@ -50,7 +47,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                                         Nome = ra.Nome,
                                         Gramas = (int)ra.Gramas,
                                         RefeicaoId = ra.RefeicaoPlanoSemanalId,
-                                        CreatedDate = ra.CreatedDate
                                     })
                                     .ToList()
                             })

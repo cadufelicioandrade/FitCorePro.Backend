@@ -15,7 +15,7 @@ namespace FitCorePro.Nutrition.Planning.Application.Service
         public async Task<PlanoSemanalResponse?> GetByUsuarioIdAsync(string usuarioId)
         {
             var query = new GetPlanoSemanalByUsuarioIdQuery(usuarioId);
-            return await _handler.Handle(query);
+            return await _handler.HandleAsync(query);
         }
     }
 }
