@@ -12,6 +12,7 @@ namespace FitCorePro.Nutrition.Planning.Application.DependencyInjection
         {
             services.AddScoped<GetPlanoSemanalByUsuarioIdHandler>();
             services.AddScoped<PostCriaRefeicaoPlanoSemanalHandler>();
+            services.AddScoped<DeleteRefeicaoPlanoSemanalHandler>();
             services.AddScoped<IPlanoSemanalService, PlanoSemanalService>();
             services.AddScoped<IRefeicaoPlanoSemanalService, RefeicaoPlanoSemanalService>();
 

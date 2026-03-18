@@ -1,6 +1,8 @@
 ﻿using FitCorePro.Nutrition.Planning.Domain.Entities;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
 using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 {
@@ -13,16 +15,28 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<bool> AdicionarRefeicaoPlanoSemanalAsync(RefeicaoPlanoSemanal refeicaoPlanoSemanal)
+        public async Task<string> AdicionarRefeicaoPlanoSemanalAsync(RefeicaoPlanoSemanal refeicaoPlanoSemanal)
         {
             _context.RefeicoesPlanoSemanais.Add(refeicaoPlanoSemanal);
 
             var resutl = await _context.SaveChangesAsync();
 
-            if(resutl > 0) 
-                return true;
+            if (resutl > 0)
+                return "Refeição adicionada com sucesso!";
 
-            return false;
+            return "Falha ao tentar adicionar refeição.";
+        }
+
+        public async Task<string> RemoverRefeicaoPlanoSemanalAsync(string refeicaoId)
+        {
+            var refeicao = await _context.RefeicoesPlanoSemanais
+                                    .FirstOrDefaultAsync(x => x.Id == refeicaoId);
+
+            _context.RefeicoesPlanoSemanais.Remove(refeicao);
+            var result = await _context.SaveChangesAsync();
+
+            if (result > 0) return "Refeição Excluída com Sucesso!";
+            return "Falha ao tentar excluir a refeição.";
         }
     }
 }

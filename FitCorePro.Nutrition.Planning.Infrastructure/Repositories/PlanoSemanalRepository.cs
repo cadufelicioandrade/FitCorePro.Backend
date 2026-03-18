@@ -54,8 +54,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 id: Guid.NewGuid().ToString(),
                 tipo: "CafeDaManha",
                 ordem: 1,
-                planoSemanalDiaId: segunda.Id,
-                createdDate: DateTime.UtcNow
+                planoSemanalDiaId: segunda.Id
             );
 
 
@@ -63,15 +62,13 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 Guid.NewGuid().ToString(),
                 "Banana",
                 120,
-                cafe.Id,
-                DateTime.UtcNow);
+                cafe.Id);
 
             var aveia = new AlimentoPlanoSemanal(
                 Guid.NewGuid().ToString(),
                 "Aveia",
                 40,
-                cafe.Id,
-                createdDate: DateTime.UtcNow
+                cafe.Id
             );
 
             cafe.AdicionarAlimentoPlanoSemanal(banana);
@@ -82,24 +79,21 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 id: Guid.NewGuid().ToString(),
                 tipo: "Almoco",
                 ordem: 2,
-                planoSemanalDiaId: segunda.Id,
-                createdDate: DateTime.UtcNow
+                planoSemanalDiaId: segunda.Id
             );
 
             var arroz = new AlimentoPlanoSemanal(
                 Guid.NewGuid().ToString(),
                 "Arroz Branco",
                 gramas: 150,
-                almoco.Id,
-                createdDate: DateTime.UtcNow
+                almoco.Id
             );
 
             var frango = new AlimentoPlanoSemanal(
                 id: Guid.NewGuid().ToString(),
                 "Filé de Frango",
                 gramas: 200,
-                almoco.Id,
-                createdDate: DateTime.UtcNow
+                almoco.Id
             );
 
             almoco.AdicionarAlimentoPlanoSemanal(arroz);
@@ -110,24 +104,21 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 id: Guid.NewGuid().ToString(),
                 tipo: "Jantar",
                 ordem: 3,
-                planoSemanalDiaId: segunda.Id,
-                createdDate: DateTime.UtcNow
+                planoSemanalDiaId: segunda.Id
             );
 
             var batataDoce = new AlimentoPlanoSemanal(
                 Guid.NewGuid().ToString(),
                 "Batata Doce",
                 gramas: 350,
-                jantar.Id,
-                createdDate: DateTime.UtcNow
+                jantar.Id
             );
 
             var carne = new AlimentoPlanoSemanal(
                 id: Guid.NewGuid().ToString(),
                 "Patinho moído",
                 gramas: 250,
-                jantar.Id,
-                createdDate: DateTime.UtcNow
+                jantar.Id
             );
 
             jantar.AdicionarAlimentoPlanoSemanal(batataDoce);

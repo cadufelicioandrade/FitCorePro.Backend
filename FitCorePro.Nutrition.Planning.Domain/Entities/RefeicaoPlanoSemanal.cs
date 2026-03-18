@@ -17,14 +17,12 @@
             string id,
             string tipo,
             int ordem,
-            string planoSemanalDiaId,
-            DateTime createdDate)
+            string planoSemanalDiaId)
         {
             Id = id;
             Tipo = tipo;
             Ordem = ordem;
             PlanoSemanalDiaId = planoSemanalDiaId;
-            CreatedDate = createdDate;
         }
 
         public void AdicionarAlimentoPlanoSemanal(AlimentoPlanoSemanal alimento)

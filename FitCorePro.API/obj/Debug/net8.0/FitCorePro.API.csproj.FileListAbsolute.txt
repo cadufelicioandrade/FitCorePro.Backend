@@ -80,3 +80,10 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\refin
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.genruntimeconfig.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\ref\FitCorePro.API.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

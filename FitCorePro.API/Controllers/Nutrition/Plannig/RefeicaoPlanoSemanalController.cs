@@ -23,5 +23,13 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
             return Ok(result);
         }
 
+        [HttpDelete("delete-refeicao/{refeicaoId}")]
+        public async Task<IActionResult> DeleteRefeicao(string refeicaoId)
+        {
+            var resutl = await _service.RemoverRefeicaoPlanoSemanalAsync(refeicaoId);
+
+            return Ok(resutl);
+        }
+
     }
 }

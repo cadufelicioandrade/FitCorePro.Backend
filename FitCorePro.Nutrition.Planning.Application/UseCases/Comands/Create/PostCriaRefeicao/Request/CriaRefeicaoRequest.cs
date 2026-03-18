@@ -8,6 +8,6 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
         public string PlanoSemanalDiaId { get; set; }
         public int DiaSemana { get; set; }
         public string TipoRefeicao { get; set; }
-        public List<AlimentoPlanoSemanalResponse> AlimentoPlanoSemanais { get; set; }
+        public List<AlimentoPlanoSemanalRequest> AlimentoPlanoSemanais { get; set; }
     }
 }

@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.RefeicaoPlanoSemanalController",
+    "Method": "DeleteRefeicao",
+    "RelativePath": "api/nutritionplanning/plano-semanal/delete-refeicao/{refeicaoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refeicaoId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.RefeicaoPlanoSemanalController",
     "Method": "AdicionarRefeicao",
     "RelativePath": "api/nutritionplanning/plano-semanal/refeicao",
     "HttpMethod": "POST",
