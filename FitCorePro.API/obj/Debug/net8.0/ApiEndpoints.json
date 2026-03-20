@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.AlimentoPlanoSemanalController",
+    "Method": "GetAllByUsuarioId",
+    "RelativePath": "api/nutritionplanning/alimento-plano-semanal/adiciona-range",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Collections.Generic.List\u00601[[FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostAlimentos.Request.AlimentoPlanoSemanalRequest, FitCorePro.Nutrition.Planning.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.PlanoSemanaController",
     "Method": "GetAllByUsuarioId",
     "RelativePath": "api/nutritionplanning/plano-semanal/{usuarioId}",

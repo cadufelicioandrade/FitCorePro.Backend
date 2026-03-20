@@ -12,13 +12,13 @@ public sealed class PlanningDbContext : DbContext
     {
     }
 
-    public DbSet<PlanoSemanal> PlanosSemanais => Set<PlanoSemanal>();
+    public DbSet<PlanoSemanal> PlanosSemanal => Set<PlanoSemanal>();
 
-    public DbSet<PlanoSemanalDia> PlanoSemanalDias => Set<PlanoSemanalDia>();
+    public DbSet<PlanoSemanalDia> PlanoSemanalDia => Set<PlanoSemanalDia>();
 
-    public DbSet<RefeicaoPlanoSemanal> RefeicoesPlanoSemanais => Set<RefeicaoPlanoSemanal>();
+    public DbSet<RefeicaoPlanoSemanal> RefeicoesPlanoSemanal => Set<RefeicaoPlanoSemanal>();
 
-    public DbSet<AlimentoPlanoSemanal> AlimentosPlanoSemanais => Set<AlimentoPlanoSemanal>();
+    public DbSet<AlimentoPlanoSemanal> AlimentosPlanoSemanal => Set<AlimentoPlanoSemanal>();
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

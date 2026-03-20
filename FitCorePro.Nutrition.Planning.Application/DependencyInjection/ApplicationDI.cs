@@ -1,5 +1,6 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Planning.Application.Service;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.CreateAlimentos;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById;
 using Microsoft.Extensions.DependencyInjection;
@@ -13,8 +14,10 @@ namespace FitCorePro.Nutrition.Planning.Application.DependencyInjection
             services.AddScoped<GetPlanoSemanalByUsuarioIdHandler>();
             services.AddScoped<PostCriaRefeicaoPlanoSemanalHandler>();
             services.AddScoped<DeleteRefeicaoPlanoSemanalHandler>();
+            services.AddScoped<PostAlimentoPlanoSemanalHandler>();
             services.AddScoped<IPlanoSemanalService, PlanoSemanalService>();
             services.AddScoped<IRefeicaoPlanoSemanalService, RefeicaoPlanoSemanalService>();
+            services.AddScoped<IAlimentoPlanoSemanalService, AlimentoPlanoSemanalService>();
 
             return services;
         }

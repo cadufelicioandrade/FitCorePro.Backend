@@ -17,7 +17,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> AdicionarRefeicaoPlanoSemanalAsync(RefeicaoPlanoSemanal refeicaoPlanoSemanal)
         {
-            _context.RefeicoesPlanoSemanais.Add(refeicaoPlanoSemanal);
+            _context.RefeicoesPlanoSemanal.Add(refeicaoPlanoSemanal);
 
             var resutl = await _context.SaveChangesAsync();
 

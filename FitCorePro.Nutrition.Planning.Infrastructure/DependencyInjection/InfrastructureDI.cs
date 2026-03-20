@@ -10,6 +10,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection
         {
             services.AddScoped<IPlanoSemanalRepository, PlanoSemanalRepository>();
             services.AddScoped<IRefeicaoPlanoSemanalRepository, RefeicaoPlanoSemanalRepository>();
+            services.AddScoped<IAlimentoPlanoSemanalRepository, AlimentoPlanoSemanalRepository>();
             return services;
         }
     }
