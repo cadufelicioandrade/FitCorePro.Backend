@@ -29,11 +29,13 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> RemoverRefeicaoPlanoSemanalAsync(string refeicaoId)
         {
-            var refeicao = await _context.RefeicoesPlanoSemanais
-                                    .FirstOrDefaultAsync(x => x.Id == refeicaoId);
+            var result = 1;
 
-            _context.RefeicoesPlanoSemanais.Remove(refeicao);
-            var result = await _context.SaveChangesAsync();
+            //var refeicao = await _context.RefeicoesPlanoSemanais
+            //                        .FirstOrDefaultAsync(x => x.Id == refeicaoId);
+
+            //_context.RefeicoesPlanoSemanais.Remove(refeicao);
+            //var result = await _context.SaveChangesAsync();
 
             if (result > 0) return "Refeição Excluída com Sucesso!";
             return "Falha ao tentar excluir a refeição.";

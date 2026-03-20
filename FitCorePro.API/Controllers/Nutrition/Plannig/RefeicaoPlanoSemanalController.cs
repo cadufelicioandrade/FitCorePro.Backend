@@ -1,5 +1,6 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Plannig
@@ -28,7 +29,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
         {
             var resutl = await _service.RemoverRefeicaoPlanoSemanalAsync(refeicaoId);
 
-            return Ok(resutl);
+            return Ok(new ApiMessagemResponse(resutl));
         }
 
     }
