@@ -1,6 +1,7 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.CreateAlimentos;
-using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostAlimentos.Request;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
+
 
 namespace FitCorePro.Nutrition.Planning.Application.Service
 {

@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.AlimentoPlanoSemanalController",
-    "Method": "GetAllByUsuarioId",
+    "Method": "AdicionarRangeAlimentos",
     "RelativePath": "api/nutritionplanning/alimento-plano-semanal/adiciona-range",
     "HttpMethod": "POST",
     "IsController": true,
@@ -9,23 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "System.Collections.Generic.List\u00601[[FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostAlimentos.Request.AlimentoPlanoSemanalRequest, FitCorePro.Nutrition.Planning.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.PlanoSemanaController",
-    "Method": "GetAllByUsuarioId",
-    "RelativePath": "api/nutritionplanning/plano-semanal/{usuarioId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuarioId",
-        "Type": "System.String",
+        "Type": "System.Collections.Generic.List\u00601[[FitCorePro.Nutrition.Planning.Application.UseCases.Request.AlimentoPlanoSemanalRequest, FitCorePro.Nutrition.Planning.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],
@@ -48,6 +32,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.PlanoSemanalController",
+    "Method": "GetAllByUsuarioId",
+    "RelativePath": "api/nutritionplanning/plano-semanal/obter-todos/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.RefeicaoPlanoSemanalController",
     "Method": "AdicionarRefeicao",
     "RelativePath": "api/nutritionplanning/plano-semanal/refeicao",
@@ -57,7 +57,7 @@
     "Parameters": [
       {
         "Name": "criaRefeicaoRequest",
-        "Type": "FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request.CriaRefeicaoRequest",
+        "Type": "FitCorePro.Nutrition.Planning.Application.UseCases.Request.CriaRefeicaoRequest",
         "IsRequired": true
       }
     ],

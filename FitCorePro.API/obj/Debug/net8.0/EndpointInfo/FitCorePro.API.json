@@ -5,10 +5,50 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/nutritionplanning/plano-semanal/{usuarioId}": {
+    "/api/nutritionplanning/alimento-plano-semanal/adiciona-range": {
+      "post": {
+        "tags": [
+          "AlimentoPlanoSemanal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/nutritionplanning/plano-semanal/obter-todos/{usuarioId}": {
       "get": {
         "tags": [
-          "PlanoSemana"
+          "PlanoSemanal"
         ],
         "parameters": [
           {

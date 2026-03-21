@@ -1,5 +1,4 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
-using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using Microsoft.AspNetCore.Mvc;
 

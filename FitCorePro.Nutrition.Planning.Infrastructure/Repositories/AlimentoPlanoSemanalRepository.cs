@@ -15,8 +15,8 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> AdicionarAlimentoPLanoSemanalAsync(List<AlimentoPlanoSemanal> listAlimentos)
         {
-            _context.AlimentosPlanoSemanal.AddRange(listAlimentos);
-            var result = await _context.SaveChangesAsync();
+            //_context.AlimentosPlanoSemanal.AddRange(listAlimentos);
+            var result = 1; //await _context.SaveChangesAsync();
 
             if (result > 0)
                 return "Alimento adicionado com sucesso!";

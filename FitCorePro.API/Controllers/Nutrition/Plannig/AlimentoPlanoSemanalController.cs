@@ -1,5 +1,4 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
-using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostAlimentos.Request;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +16,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
         }
 
         [HttpPost("adiciona-range")]
-        public async Task<IActionResult> GetAllByUsuarioId(List<AlimentoPlanoSemanalRequest> request)
+        public async Task<IActionResult> AdicionarRangeAlimentos(List<AlimentoPlanoSemanalRequest> request)
         {
             var result = await _alimentoPlanoSemanalService.AdicionarRangeAlimentoPlanoSemanalAsync(request);
 

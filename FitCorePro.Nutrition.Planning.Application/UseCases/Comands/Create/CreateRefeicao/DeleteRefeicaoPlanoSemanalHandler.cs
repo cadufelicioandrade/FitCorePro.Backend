@@ -1,7 +1,4 @@
-﻿
-using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request;
-using FitCorePro.Nutrition.Planning.Domain.Entities;
-using FitCorePro.Nutrition.Planning.Domain.Repositories;
+﻿using FitCorePro.Nutrition.Planning.Domain.Repositories;
 
 namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao
 {

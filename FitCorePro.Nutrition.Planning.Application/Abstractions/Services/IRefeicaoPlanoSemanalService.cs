@@ -1,4 +1,4 @@
-﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.PostCriaRefeicao.Request;
+﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 
 namespace FitCorePro.Nutrition.Planning.Application.Abstractions.Services
 {
