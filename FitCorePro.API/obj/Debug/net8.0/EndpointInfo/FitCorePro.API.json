@@ -45,6 +45,59 @@
         }
       }
     },
+    "/api/nutritionplanning/alimento-plano-semanal/editar": {
+      "put": {
+        "tags": [
+          "AlimentoPlanoSemanal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/nutritionplanning/alimento-plano-semanal/remover/{alimentoId}": {
+      "delete": {
+        "tags": [
+          "AlimentoPlanoSemanal"
+        ],
+        "parameters": [
+          {
+            "name": "alimentoId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/plano-semanal/obter-todos/{usuarioId}": {
       "get": {
         "tags": [

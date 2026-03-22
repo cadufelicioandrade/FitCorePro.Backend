@@ -5,5 +5,7 @@ namespace FitCorePro.Nutrition.Planning.Domain.Repositories
     public interface IAlimentoPlanoSemanalRepository
     {
         Task<string> AdicionarAlimentoPLanoSemanalAsync(List<AlimentoPlanoSemanal> listAlimentos);
+        Task<string> EditarAlimentoPlanoSemanalAsync(AlimentoPlanoSemanal alimento);
+        Task<string> ExcluirAlimentoPlanoSemanalAsync(string id);
     }
 }

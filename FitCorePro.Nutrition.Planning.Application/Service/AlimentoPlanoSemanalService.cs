@@ -18,5 +18,15 @@ namespace FitCorePro.Nutrition.Planning.Application.Service
         {
             return await _handler.AdicionarRangeHandleAsync(request);
         }
+
+        public async Task<string> EditarAlimentoPlanoSemanal(AlimentoPlanoSemanalRequest request)
+        {
+            return await _handler.EditarHandleAsync(request);
+        }
+
+        public async Task<string> ExcluirAlimentoPlanoSemanal(string id)
+        {
+            return await _handler.ExcluirHandleAsync(id);
+        }
     }
 }

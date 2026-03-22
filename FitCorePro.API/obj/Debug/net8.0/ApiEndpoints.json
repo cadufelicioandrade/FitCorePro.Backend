@@ -16,6 +16,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.AlimentoPlanoSemanalController",
+    "Method": "EditarAlimentoPlanoSemanal",
+    "RelativePath": "api/nutritionplanning/alimento-plano-semanal/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FitCorePro.Nutrition.Planning.Application.UseCases.Request.AlimentoPlanoSemanalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.AlimentoPlanoSemanalController",
+    "Method": "ExcluirAlimentoPlanoSemanal",
+    "RelativePath": "api/nutritionplanning/alimento-plano-semanal/remover/{alimentoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alimentoId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.RefeicaoPlanoSemanalController",
     "Method": "DeleteRefeicao",
     "RelativePath": "api/nutritionplanning/plano-semanal/delete-refeicao/{refeicaoId}",

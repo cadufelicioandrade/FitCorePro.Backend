@@ -46,7 +46,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                                         Id = ra.Id,
                                         Nome = ra.Nome,
                                         Gramas = (int)ra.Gramas,
-                                        RefeicaoId = ra.RefeicaoPlanoSemanalId,
+                                        RefeicaoPlanoSemanalId = ra.RefeicaoPlanoSemanalId,
                                     })
                                     .ToList()
                             })
