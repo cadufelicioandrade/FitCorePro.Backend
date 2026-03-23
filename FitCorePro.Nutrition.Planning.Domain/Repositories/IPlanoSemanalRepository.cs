@@ -5,5 +5,6 @@ namespace FitCorePro.Nutrition.Planning.Domain.Repositories
     public interface IPlanoSemanalRepository
     {
         Task<PlanoSemanal?> GetPlanoByUsuarioIdAsync(string usuarioId);
+        Task<string> AdicionarPlanoSemanalAsync(PlanoSemanal planoSemanal);
     }
 }

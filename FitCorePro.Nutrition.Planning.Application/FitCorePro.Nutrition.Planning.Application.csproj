@@ -13,6 +13,7 @@
   <ItemGroup>
     <Folder Include="Abstractions\Repositories\" />
     <Folder Include="Mapping\" />
+    <Folder Include="UseCases\Queries\GeByUsuarioById\Response\" />
     <Folder Include="Validation\" />
     <Folder Include="UseCases\Comands\Delete\" />
     <Folder Include="UseCases\Comands\Update\" />

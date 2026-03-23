@@ -20,7 +20,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
         {
             var result = await _service.AdicionarRefeicaoPlanoSemanalAsync(criaRefeicaoRequest);
 
-            return Ok(result);
+            return Ok(new ApiMessagemResponse(result));
         }
 
         [HttpDelete("delete-refeicao/{refeicaoId}")]

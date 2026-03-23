@@ -1,9 +1,11 @@
-﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById.Response;
+﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Response;
 
 namespace FitCorePro.Nutrition.Planning.Application.Abstractions.Services
 {
     public interface IPlanoSemanalService
     {
+        Task<string> AdicionarPlanoSemanalAsync(PlanoSemanalRequest request);
         Task<PlanoSemanalResponse?> GetByUsuarioIdAsync(string usuarioId);
     }
 }

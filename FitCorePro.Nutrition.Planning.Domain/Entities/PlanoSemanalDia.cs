@@ -6,8 +6,7 @@
             string id,
             string planoSemanalId,
             int diaSemana,
-            DateTime createdDate,
-            List<RefeicaoPlanoSemanal> refeicoes)
+            DateTime createdDate)
         {
             Id = id;
             PlanoSemanalId = planoSemanalId;
@@ -22,7 +21,7 @@
 
         private List<RefeicaoPlanoSemanal> _refeicoes { get; set; } = new();
 
-        public IReadOnlyCollection<RefeicaoPlanoSemanal> Refeicoes => _refeicoes;
+        public IReadOnlyCollection<RefeicaoPlanoSemanal> RefeicoesPlanoSemanal => _refeicoes;
 
         public void AdicionarRefeicao(RefeicaoPlanoSemanal refeicaoPlanoSemanal)
         {

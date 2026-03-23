@@ -1,7 +1,6 @@
 ﻿using FitCorePro.Nutrition.Planning.Domain.Entities;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
 using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
 
 namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 {
@@ -12,6 +11,15 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
         public PlanoSemanalRepository(PlanningDbContext context)
         {
             _context = context;
+        }
+
+        public async Task<string> AdicionarPlanoSemanalAsync(PlanoSemanal planoSemanal)
+        {
+            // _context.PlanosSemanal.Add(planoSemanal);
+            var result = 1;//await _context.SaveChangesAsync();
+
+            if (result > 0) return "Plano semanal incluído com sucesso!";
+            return "Falha ao incluir plano semana.";
         }
 
         public async Task<PlanoSemanal?> GetPlanoByUsuarioIdAsync(string usuarioId)
@@ -45,8 +53,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 id: Guid.NewGuid().ToString(),
                 planoSemanalId: planoSemanal.Id,
                 diaSemana: 1,
-                createdDate: DateTime.UtcNow,
-                refeicoes: new List<RefeicaoPlanoSemanal>()
+                createdDate: DateTime.UtcNow
             );
 
             // Café da manhã

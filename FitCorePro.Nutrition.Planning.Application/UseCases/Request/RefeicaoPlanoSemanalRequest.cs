@@ -6,6 +6,6 @@
         public string tipo { get; set; }
         public int Ordem { get; set; }
         public string PlanoSemanalDiaId { get; set; }
-        public List<AlimentoPlanoSemanalRequest> AlimentoPlanoSemanais { get; set; }
+        public List<AlimentoPlanoSemanalRequest> AlimentosPlanoSemanal { get; set; }
     }
 }

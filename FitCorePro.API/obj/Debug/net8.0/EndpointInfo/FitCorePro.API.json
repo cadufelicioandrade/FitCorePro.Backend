@@ -120,6 +120,37 @@
         }
       }
     },
+    "/api/nutritionplanning/plano-semanal/adicionar": {
+      "post": {
+        "tags": [
+          "PlanoSemanal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanoSemanalRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanoSemanalRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanoSemanalRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/plano-semanal/refeicao": {
       "post": {
         "tags": [
@@ -214,6 +245,88 @@
             "nullable": true
           },
           "alimentoPlanoSemanais": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlanoSemanalDiaRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "planoSemanalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaSemana": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "refeicoesPlanoSemanal": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RefeicaoPlanoSemanalRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlanoSemanalRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "ativo": {
+            "type": "boolean"
+          },
+          "usuarioId": {
+            "type": "string",
+            "nullable": true
+          },
+          "planoSemanalDias": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PlanoSemanalDiaRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefeicaoPlanoSemanalRequest": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ordem": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planoSemanalDiaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "alimentosPlanoSemanal": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/AlimentoPlanoSemanalRequest"

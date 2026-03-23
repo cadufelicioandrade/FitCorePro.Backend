@@ -1,4 +1,6 @@
-﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById.Response;
+﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
+using FitCorePro.Nutrition.Planning.Application.UseCases.Response;
+using FitCorePro.Nutrition.Planning.Domain.Entities;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
 
 namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById
@@ -12,7 +14,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
             _repo = planoSemanalRepository;
         }
 
-        public async Task<PlanoSemanalResponse?> HandleAsync(GetPlanoSemanalByUsuarioIdQuery query)
+        public async Task<PlanoSemanalResponse?> GetHandleAsync(GetPlanoSemanalByUsuarioIdQuery query)
         {
             var plano = await _repo.GetPlanoByUsuarioIdAsync(query.UsuarioId);
 
@@ -32,7 +34,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                         Id = d.Id,
                         PlanoSemanalId = d.PlanoSemanalId,
                         DiaSemana = d.DiaSemana,
-                        Refeicoes = d.Refeicoes
+                        RefeicoesPlanoSemanal = d.RefeicoesPlanoSemanal
                             .OrderBy(r => r.Ordem)
                             .Select(r => new RefeicaoPlanoSemanalResponse
                             {
@@ -40,7 +42,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                                 Tipo = r.Tipo,
                                 Ordem = r.Ordem,
                                 PlanoSemanalDiaId = r.PlanoSemanalDiaId,
-                                AlimentoPlanoSemanais = r.AlimentosPlanoSemanais
+                                AlimentosPlanoSemanal = r.AlimentosPlanoSemanais
                                     .Select(ra => new AlimentoPlanoSemanalResponse
                                     {
                                         Id = ra.Id,
@@ -54,6 +56,52 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                     })
                     .ToList()
             };
+        }
+
+        public async Task<string> AddHandleAsync(PlanoSemanalRequest request)
+        {
+            var planoSemanalId = Guid.NewGuid().ToString();
+            
+
+            var planoSemanal = new PlanoSemanal(planoSemanalId, request.Nome, true, request.UsuarioId, DateTime.Now);
+
+            request.PlanoSemanalDias.ForEach(diaRequest => {
+                var planoSemanalDiaId = Guid.NewGuid().ToString();
+
+                var planoSemanalDia = new PlanoSemanalDia(
+                    planoSemanalDiaId,
+                    planoSemanalId,
+                    diaRequest.DiaSemana,
+                    DateTime.Now);
+
+                planoSemanal.AdicionarPlanSemanalDia(planoSemanalDia);
+
+                diaRequest.RefeicoesPlanoSemanal.ForEach(refeicaoRequest =>
+                {
+                    var refeicaoId = Guid.NewGuid().ToString();
+                    var refeicaoPlanoSemanal = new RefeicaoPlanoSemanal(
+                        refeicaoId,
+                        refeicaoRequest.tipo,
+                        refeicaoRequest.Ordem, planoSemanalDiaId);
+
+                    planoSemanalDia.AdicionarRefeicao(refeicaoPlanoSemanal);
+
+                    refeicaoRequest.AlimentosPlanoSemanal.ForEach(alimentoRequest =>
+                    {
+                        var alimentoId = Guid.NewGuid().ToString();
+                        var alimentoPlanoSemanal = new AlimentoPlanoSemanal(
+                            alimentoId,
+                            alimentoRequest.Nome,
+                            alimentoRequest.Gramas,
+                            refeicaoId);
+
+                        refeicaoPlanoSemanal.AdicionarAlimentoPlanoSemanal(alimentoPlanoSemanal);
+                    });
+                });
+
+            });
+
+            return await _repo.AdicionarPlanoSemanalAsync(planoSemanal);
         }
     }
 }

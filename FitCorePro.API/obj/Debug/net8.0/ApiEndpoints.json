@@ -48,6 +48,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.PlanoSemanalController",
+    "Method": "AdicionarPlanoSemanal",
+    "RelativePath": "api/nutritionplanning/plano-semanal/adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FitCorePro.Nutrition.Planning.Application.UseCases.Request.PlanoSemanalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Plannig.RefeicaoPlanoSemanalController",
     "Method": "DeleteRefeicao",
     "RelativePath": "api/nutritionplanning/plano-semanal/delete-refeicao/{refeicaoId}",

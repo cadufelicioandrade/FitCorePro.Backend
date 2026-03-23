@@ -1,7 +1,4 @@
-﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuarioById.Response;
-using FitCorePro.Nutrition.Planning.Domain.Enums;
-
-namespace FitCorePro.Nutrition.Planning.Application.UseCases.Request
+﻿namespace FitCorePro.Nutrition.Planning.Application.UseCases.Request
 {
     public class CriaRefeicaoRequest
     {
