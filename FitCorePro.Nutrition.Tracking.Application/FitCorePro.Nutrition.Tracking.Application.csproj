@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstractions\Services\" />
+    <Folder Include="Abstractions\Repositories\" />
+    <Folder Include="DependecyInjection\" />
+    <Folder Include="Service\" />
+    <Folder Include="UseCases\Comands\" />
+    <Folder Include="UseCases\Response\" />
+    <Folder Include="UseCases\Request\" />
+    <Folder Include="UseCases\Queries\" />
+  </ItemGroup>
+
 </Project>

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\plannig\\planosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\plannig\\planosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.domain\\entities\\alimentodietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|solutionrelative:fitcorepro.nutrition.tracking.domain\\entities\\alimentodietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\getplanosemanalbyusuarioidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E84A56E3-393C-4F24-A97D-FE7CCF3FB804}|FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj|solutionrelative:fitcorepro.nutrition.planning.application\\usecases\\queries\\gebyusuariobyid\\getplanosemanalbyusuarioidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.domain\\entities\\refeicaodietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|solutionrelative:fitcorepro.nutrition.tracking.domain\\entities\\refeicaodietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.domain\\entities\\dietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|solutionrelative:fitcorepro.nutrition.tracking.domain\\entities\\dietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetPlanoSemanalByUsuarioIdHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Application\\UseCases\\Queries\\GeByUsuarioById\\GetPlanoSemanalByUsuarioIdHandler.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwDoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AlimentoDietaDia.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\AlimentoDietaDia.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\AlimentoDietaDia.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\AlimentoDietaDia.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\AlimentoDietaDia.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T00:47:40.525Z",
+              "WhenOpened": "2026-03-23T14:47:17.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlanoSemanalController.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
-              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
-              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwB4AAABgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RefeicaoDietaDia.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\RefeicaoDietaDia.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\RefeicaoDietaDia.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\RefeicaoDietaDia.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\RefeicaoDietaDia.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T23:31:43.918Z",
+              "WhenOpened": "2026-03-23T14:38:38.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DietaDia.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T14:35:58.038Z",
               "EditorCaption": ""
             }
           ]
