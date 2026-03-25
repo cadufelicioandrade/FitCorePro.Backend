@@ -11,6 +11,7 @@
           "FitCorePro.Nutrition.Planning.Application": "1.0.0",
           "FitCorePro.Nutrition.Planning.Infrastructure": "1.0.0",
           "FitCorePro.Nutrition.Tracking.Application": "1.0.0",
+          "FitCorePro.Nutrition.Tracking.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -553,6 +554,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "FitCorePro.Nutrition.Tracking.Infrastructure/1.0.0": {
+        "dependencies": {
+          "FitCorePro.Nutrition.Tracking.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.5"
+        },
+        "runtime": {
+          "FitCorePro.Nutrition.Tracking.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -849,6 +862,11 @@
       "sha512": ""
     },
     "FitCorePro.Nutrition.Tracking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FitCorePro.Nutrition.Tracking.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

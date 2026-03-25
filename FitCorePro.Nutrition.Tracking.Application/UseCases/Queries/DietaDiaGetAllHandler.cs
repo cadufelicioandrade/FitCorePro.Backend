@@ -19,7 +19,7 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Queries
 
             var view = new DietaDiaView(dietaDia.Id, dietaDia.UsuarioId, dietaDia.DataDieta, dietaDia.CreatedDate);
 
-            dietaDia.RefeicoesDietaDia.Select(y => new RefeicaoDietDiaView
+            view.RefeicaoDietDiaViews = dietaDia.RefeicoesDietaDia.Select(y => new RefeicaoDietDiaView
             {
                 Id = y.Id,
                 DietaDiaId = y.DietaDiaId,
