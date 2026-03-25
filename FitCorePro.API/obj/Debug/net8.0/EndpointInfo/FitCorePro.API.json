@@ -98,6 +98,35 @@
         }
       }
     },
+    "/api/tracking/dieta-dia/obter-todos": {
+      "get": {
+        "tags": [
+          "DietaDia"
+        ],
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dataDieta",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/plano-semanal/obter-todos/{usuarioId}": {
       "get": {
         "tags": [

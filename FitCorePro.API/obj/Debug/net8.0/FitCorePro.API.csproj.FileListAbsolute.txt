@@ -87,3 +87,7 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\refin
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.genruntimeconfig.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\ref\FitCorePro.API.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Domain.pdb

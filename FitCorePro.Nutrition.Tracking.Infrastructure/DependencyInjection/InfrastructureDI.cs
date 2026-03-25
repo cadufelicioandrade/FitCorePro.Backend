@@ -1,6 +1,14 @@
-﻿namespace FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection
+﻿using FitCorePro.Nutrition.Tracking.Domain.Repositories;
+using FitCorePro.Nutrition.Tracking.Infrastructure.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection
 {
-    public class InfrastructureDI
+    public static class InfrastructureDI
     {
+        public static void AddTrackingApplication(this IServiceCollection services)
+        {
+            services.AddScoped<IDietaDiaRepository, DietaDiaRepository>();
+        }
     }
 }

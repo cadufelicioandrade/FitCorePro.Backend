@@ -9,3 +9,7 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Applica
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\refint\FitCorePro.Nutrition.Tracking.Application.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\ref\FitCorePro.Nutrition.Tracking.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCorePro.Nutrition.Tracking.Application.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\bin\Debug\net8.0\FitCorePro.Nutrition.Tracking.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Nutrition.Tracking.Application\obj\Debug\net8.0\FitCoreP.5F8E4B7F.Up2Date

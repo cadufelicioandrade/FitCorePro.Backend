@@ -110,5 +110,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.DietaDiaController",
+    "Method": "GetAll",
+    "RelativePath": "api/tracking/dieta-dia/obter-todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataDieta",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

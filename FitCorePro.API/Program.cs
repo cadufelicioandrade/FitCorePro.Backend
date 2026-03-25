@@ -1,5 +1,7 @@
 using FitCorePro.Nutrition.Planning.Application.DependencyInjection;
 using FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection;
+using FitCorePro.Nutrition.Tracking.Application.DependecyInjection;
+using FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection;
 using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +19,9 @@ options.UseInMemoryDatabase("NOME_BANCO_DADOS"));
 
 builder.Services.AddPlanningApplication();
 builder.Services.AddPlannigInfrastructure();
+builder.Services.AddTrackingApplication();
+builder.Services.AddTrackingInfrastructure();
+
 
 var app = builder.Build();
 
