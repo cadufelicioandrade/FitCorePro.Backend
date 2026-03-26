@@ -54,8 +54,7 @@
               "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\DependencyInjection\\InfrastructureDI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T12:47:43.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T12:47:43.092Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "FitCorePro.API\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T01:03:34.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T01:03:34.977Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\Service\\DietaDiaService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAASwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T00:56:50.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T00:56:50.738Z"
             },
             {
               "$type": "Document",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\DietaDiaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T00:42:50.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T00:42:50.998Z"
             },
             {
               "$type": "Document",
@@ -128,7 +124,7 @@
               "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
               "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
               "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAASwBQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-25T00:34:32.678Z",
               "EditorCaption": ""
@@ -143,8 +139,7 @@
               "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\DietaDiaGetAllHandler.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T23:54:52.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-24T23:54:52.312Z"
             }
           ]
         }

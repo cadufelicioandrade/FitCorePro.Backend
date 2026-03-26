@@ -17,7 +17,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Tracking
         }
 
         [HttpGet("obter-todos")]
-        public async Task<IActionResult> GetAll(string usuarioId, DateTime dataDieta) 
+        public async Task<IActionResult> GetAll([FromQuery] string usuarioId, [FromQuery] DateTime dataDieta)
         {
             if (String.IsNullOrWhiteSpace(usuarioId))
                 return BadRequest(new ApiMessageResponse("Forneça um usuarioId válido."));
