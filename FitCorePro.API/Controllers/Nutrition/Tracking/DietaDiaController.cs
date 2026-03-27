@@ -1,6 +1,7 @@
 ﻿using FitCorePro.Nutrition.Tracking.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Tracking.Application.UseCases.Response;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace FitCorePro.API.Controllers.Nutrition.Tracking
 {

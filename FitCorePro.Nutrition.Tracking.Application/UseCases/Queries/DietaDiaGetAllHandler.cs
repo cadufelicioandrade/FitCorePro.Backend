@@ -17,27 +17,27 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Queries
         {
             var dietaDia = await _dietaDiaRepository.GetAllAsync(query.usuarioId, query.dataDieta);
 
-            var view = new DietaDiaView(dietaDia.Id, dietaDia.UsuarioId, dietaDia.DataDieta, dietaDia.CreatedDate);
+            var view = new DietaDiaView(dietaDia.Id, dietaDia.UsuarioId, dietaDia.DataDieta.ToString("yyyy-MM-dd"), dietaDia.CreatedDate.ToString("yyyy-MM-dd"));
 
-            view.RefeicaoDietDiaViews = dietaDia.RefeicoesDietaDia.Select(y => new RefeicaoDietDiaView
+            view.RefeicoesDietaDia = dietaDia.RefeicoesDietaDia.Select(y => new RefeicaoDietDiaView
             {
                 Id = y.Id,
                 DietaDiaId = y.DietaDiaId,
                 Ordem = y.Ordem,
                 Titulo = y.Titulo,
-                CreatedDate = y.CreatedDate,
-                AlimentoDietaDiaViews = y.AlimentosDietaDia.Select(w => new AlimentoDietaDiaView
+                CreatedDate = y.CreatedDate.ToString("yyyy-MM-dd"),
+                AlimentosDietaDia = y.AlimentosDietaDia.Select(w => new AlimentoDietaDiaView
                 {
                     Id = w.Id,
                     Calorias = w.Calorias,
-                    Carboidrados = w.Carboidratos,
+                    Carboidratos = w.Carboidratos,
                     Gorduras = w.Gorduras,
                     Fibras = w.Fibras,
                     Nome = w.Nome,
                     Proteinas = w.Proteinas,
                     QuantidadeGramas = w.QuantidadeGramas,
                     RefeicaoDietaDiaId = w.RefeicaoDietaDiaId,
-                    CreatedDate = w.CreatedDate
+                    CreatedDate = w.CreatedDate.ToString("yyyy-MM-dd")
                 }).ToList()
             }).ToList();
 

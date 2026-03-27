@@ -2,7 +2,7 @@
 {
     public class DietaDiaView
     {
-        public DietaDiaView(string id, string usuarioId, DateTime dataDieta, DateTime createdDate)
+        public DietaDiaView(string id, string usuarioId, string dataDieta, string createdDate)
         {
             Id = id;
             UsuarioId = usuarioId;
@@ -12,9 +12,9 @@
 
         public string Id { get; set; }
         public string UsuarioId { get; set; }
-        public DateTime DataDieta { get; set; }
-        public List<RefeicaoDietDiaView> RefeicaoDietDiaViews { get; set; } = new();
-        public DateTime CreatedDate { get; set; }
+        public string DataDieta { get; set; }
+        public List<RefeicaoDietDiaView> RefeicoesDietaDia { get; set; } = new();
+        public string CreatedDate { get; set; }
 
     }
 }

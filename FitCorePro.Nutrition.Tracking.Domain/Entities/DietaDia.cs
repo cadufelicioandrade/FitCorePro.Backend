@@ -4,8 +4,8 @@
     {
         public string Id { get; set; }
         public string UsuarioId { get; set; }
-        public DateTime DataDieta { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime DataDieta { get; set; } = DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
         private List<RefeicaoDietaDia> _refeicoesDietaDia = new();
 

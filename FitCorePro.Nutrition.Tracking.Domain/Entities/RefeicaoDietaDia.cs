@@ -7,7 +7,7 @@
         public int Ordem { get; set; }
         public string DietaDiaId { get; set; }
 
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
         private List<AlimentoDietaDia> _alimentosDietaDia = new();
 

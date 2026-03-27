@@ -24,7 +24,7 @@
         public double Proteinas { get; set; }
         public double Gorduras { get; set; }
         public double Fibras { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
     }
 }

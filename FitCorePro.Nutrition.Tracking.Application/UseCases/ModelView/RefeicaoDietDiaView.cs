@@ -6,8 +6,8 @@
         public string Titulo { get; set; }
         public int Ordem { get; set; }
         public string DietaDiaId { get; set; }
-        public List<AlimentoDietaDiaView> AlimentoDietaDiaViews { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public List<AlimentoDietaDiaView> AlimentosDietaDia { get; set; }
+        public string CreatedDate { get; set; }
 
     }
 }
