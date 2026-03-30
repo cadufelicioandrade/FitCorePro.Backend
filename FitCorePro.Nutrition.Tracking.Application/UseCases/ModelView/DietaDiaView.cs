@@ -13,7 +13,7 @@
         public string Id { get; set; }
         public string UsuarioId { get; set; }
         public string DataDieta { get; set; }
-        public List<RefeicaoDietDiaView> RefeicoesDietaDia { get; set; } = new();
+        public List<RefeicaoDietaDiaView> RefeicoesDietaDia { get; set; } = new();
         public string CreatedDate { get; set; }
 
     }

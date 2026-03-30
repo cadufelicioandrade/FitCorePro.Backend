@@ -2,6 +2,20 @@
 {
     public class AlimentoDietaDiaView
     {
+        public AlimentoDietaDiaView(string id, string nome, string refeicaoDietaDiaId, int quantidadeGramas, double calorias, double carboidratos, double proteinas, double gorduras, double fibras, string createdDate)
+        {
+            Id = id;
+            Nome = nome;
+            RefeicaoDietaDiaId = refeicaoDietaDiaId;
+            QuantidadeGramas = quantidadeGramas;
+            Calorias = calorias;
+            Carboidratos = carboidratos;
+            Proteinas = proteinas;
+            Gorduras = gorduras;
+            Fibras = fibras;
+            CreatedDate = createdDate;
+        }
+
         public string Id { get; set; }
         public string Nome { get; set; }
         public string RefeicaoDietaDiaId { get; set; }

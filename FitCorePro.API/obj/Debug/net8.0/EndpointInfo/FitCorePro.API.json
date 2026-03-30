@@ -180,6 +180,59 @@
         }
       }
     },
+    "/api/tracking/refeicao-dieta-dia/adicionar-refeicao": {
+      "post": {
+        "tags": [
+          "RefeicaoDietaDia"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefeicaoDietaDiaView"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefeicaoDietaDiaView"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RefeicaoDietaDiaView"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/tracking/refeicao-dieta-dia/excluir-refeicao/{id}": {
+      "post": {
+        "tags": [
+          "RefeicaoDietaDia"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/plano-semanal/refeicao": {
       "post": {
         "tags": [
@@ -236,6 +289,52 @@
   },
   "components": {
     "schemas": {
+      "AlimentoDietaDiaView": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "refeicaoDietaDiaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantidadeGramas": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "calorias": {
+            "type": "number",
+            "format": "double"
+          },
+          "carboidratos": {
+            "type": "number",
+            "format": "double"
+          },
+          "proteinas": {
+            "type": "number",
+            "format": "double"
+          },
+          "gorduras": {
+            "type": "number",
+            "format": "double"
+          },
+          "fibras": {
+            "type": "number",
+            "format": "double"
+          },
+          "createdDate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "AlimentoPlanoSemanalRequest": {
         "type": "object",
         "properties": {
@@ -331,6 +430,39 @@
             "items": {
               "$ref": "#/components/schemas/PlanoSemanalDiaRequest"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RefeicaoDietaDiaView": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ordem": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dietaDiaId": {
+            "type": "string",
+            "nullable": true
+          },
+          "alimentosDietaDia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AlimentoDietaDiaView"
+            },
+            "nullable": true
+          },
+          "createdDate": {
+            "type": "string",
             "nullable": true
           }
         },

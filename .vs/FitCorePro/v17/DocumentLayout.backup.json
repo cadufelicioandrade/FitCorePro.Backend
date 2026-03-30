@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.domain\\entities\\dietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62C08E0B-6EC4-461B-A91A-1AB93C5A7F09}|FitCorePro.Nutrition.Tracking.Domain\\FitCorePro.Nutrition.Tracking.Domain.csproj|solutionrelative:fitcorepro.nutrition.tracking.domain\\entities\\dietadia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.application\\dependecyinjection\\aplicationdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|solutionrelative:fitcorepro.nutrition.tracking.application\\dependecyinjection\\aplicationdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.application\\usecases\\queries\\dietadiagetallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|solutionrelative:fitcorepro.nutrition.tracking.application\\usecases\\queries\\dietadiagetallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\dependencyinjection\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\dependencyinjection\\infrastructuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\tracking\\refeicaodietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\tracking\\refeicaodietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.application\\usecases\\comands\\comandrefeicaodietadiahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|solutionrelative:fitcorepro.nutrition.tracking.application\\usecases\\comands\\comandrefeicaodietadiahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.application\\service\\refeicaodietadiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|solutionrelative:fitcorepro.nutrition.tracking.application\\service\\refeicaodietadiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.application\\usecases\\queries\\queryrefeicaodietadiahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|solutionrelative:fitcorepro.nutrition.tracking.application\\usecases\\queries\\queryrefeicaodietadiahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.application\\usecases\\modelview\\alimentodietadiaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{835403DB-B3D3-454E-8EB6-76E426A8A848}|FitCorePro.Nutrition.Tracking.Application\\FitCorePro.Nutrition.Tracking.Application.csproj|solutionrelative:fitcorepro.nutrition.tracking.application\\usecases\\modelview\\alimentodietadiaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DietaDia.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Domain\\Entities\\DietaDia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Title": "AplicationDI.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\DependecyInjection\\AplicationDI.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Application\\DependecyInjection\\AplicationDI.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\DependecyInjection\\AplicationDI.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\DependecyInjection\\AplicationDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T01:02:43.789Z",
+              "WhenOpened": "2026-03-30T01:10:36.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DietaDiaGetAllHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\DietaDiaGetAllHandler.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\DietaDiaGetAllHandler.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\DietaDiaGetAllHandler.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\DietaDiaGetAllHandler.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Title": "InfrastructureDI.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\DependencyInjection\\InfrastructureDI.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\DependencyInjection\\InfrastructureDI.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\DependencyInjection\\InfrastructureDI.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\DependencyInjection\\InfrastructureDI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T00:51:59.328Z",
+              "WhenOpened": "2026-03-30T01:09:26.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlimentoDietaDiaView.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\ModelView\\AlimentoDietaDiaView.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\ModelView\\AlimentoDietaDiaView.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\ModelView\\AlimentoDietaDiaView.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\ModelView\\AlimentoDietaDiaView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAADXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:38:10.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueryRefeicaoDietaDiaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\QueryRefeicaoDietaDiaHandler.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\QueryRefeicaoDietaDiaHandler.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\QueryRefeicaoDietaDiaHandler.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Queries\\QueryRefeicaoDietaDiaHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:27:48.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefeicaoDietaDiaService.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\Service\\RefeicaoDietaDiaService.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Application\\Service\\RefeicaoDietaDiaService.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\Service\\RefeicaoDietaDiaService.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\Service\\RefeicaoDietaDiaService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAArwBQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:22:25.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComandRefeicaoDietaDiaHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\Comands\\ComandRefeicaoDietaDiaHandler.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Comands\\ComandRefeicaoDietaDiaHandler.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Application\\UseCases\\Comands\\ComandRefeicaoDietaDiaHandler.cs",
+              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Application\\UseCases\\Comands\\ComandRefeicaoDietaDiaHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAArwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:59:48.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RefeicaoDietaDiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:22:41.665Z",
               "EditorCaption": ""
             }
           ]

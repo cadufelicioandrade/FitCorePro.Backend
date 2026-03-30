@@ -9,6 +9,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection
         public static void AddTrackingInfrastructure(this IServiceCollection services)
         {
             services.AddScoped<IDietaDiaRepository, DietaDiaRepository>();
+            services.AddScoped<IRefeicaoDietaDiaRepository, RefeicaoDietaDiaRepository>();
         }
     }
 }

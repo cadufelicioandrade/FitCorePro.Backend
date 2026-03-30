@@ -1,6 +1,5 @@
 ﻿using FitCorePro.Nutrition.Tracking.Domain.Entities;
 using FitCorePro.Nutrition.Tracking.Domain.Repositories;
-using System.Numerics;
 
 namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 {

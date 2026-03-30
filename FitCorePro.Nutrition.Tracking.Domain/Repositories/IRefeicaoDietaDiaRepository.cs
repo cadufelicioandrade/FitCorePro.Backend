@@ -6,5 +6,6 @@ namespace FitCorePro.Nutrition.Tracking.Domain.Repositories
     {
         Task<string> AdicionarRefeicaoDietaDiaAsync(RefeicaoDietaDia refeicao);
         Task<string> ExcluirRefeicaoDietaDiaAsync(string id);
+        Task<RefeicaoDietaDia> ObterPorIdAsync(string id);   
     }
 }
