@@ -8,5 +8,6 @@ namespace FitCorePro.Nutrition.Tracking.Application.Abstractions.Services
         Task<string> AtualizarListaRefeicoes(List<RefeicaoDietaDiaView> list);
         Task<string> ExcluirRefeicaoDietaDiaAsync(string id);
         Task<RefeicaoDietaDiaView> ObterPorId(string id);
+        Task<string> ExcluirRefeicoesPorDataAsync(DateTime dataDia);
     }
 }

@@ -179,5 +179,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.RefeicaoDietaDiaController",
+    "Method": "ExcluirRefeicoesPorData",
+    "RelativePath": "api/tracking/refeicao-dieta-dia/excluir-refeicoes-data/{dataDia}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataDia",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

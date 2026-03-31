@@ -273,6 +273,29 @@
         }
       }
     },
+    "/api/tracking/refeicao-dieta-dia/excluir-refeicoes-data/{dataDia}": {
+      "delete": {
+        "tags": [
+          "RefeicaoDietaDia"
+        ],
+        "parameters": [
+          {
+            "name": "dataDia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/plano-semanal/refeicao": {
       "post": {
         "tags": [

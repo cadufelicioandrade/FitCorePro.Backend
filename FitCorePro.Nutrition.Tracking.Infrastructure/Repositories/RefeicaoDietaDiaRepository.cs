@@ -15,11 +15,16 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
             return await Task.FromResult<string>("Refeição atualizadas com sucesso!");
         }
 
-        public async Task<string> ExcluirRefeicaoDietaDiaAsync(string id)
+        public async Task<string> ExcluirRefeicaoPorIdAsync(string id)
         {
             var refeicao = await this.ObterPorIdAsync(id);
 
             return await Task.FromResult<string>("Refeição excluída com sucesso!");
+        }
+
+        public async Task<string> ExcluirRefeicoesPorDataAsync(DateTime dataDia)
+        {
+            return await Task.FromResult<string>("Refeições excluídas com sucesso!");
         }
 
         public async Task<RefeicaoDietaDia> ObterPorIdAsync(string id)

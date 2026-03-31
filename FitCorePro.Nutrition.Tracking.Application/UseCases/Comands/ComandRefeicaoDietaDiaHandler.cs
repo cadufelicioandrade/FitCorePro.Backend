@@ -23,7 +23,7 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Comands
 
         public async Task<string> DeleteHandleAsync(string refeicaoDietaDiaId)
         {
-            return await _repo.ExcluirRefeicaoDietaDiaAsync(refeicaoDietaDiaId);
+            return await _repo.ExcluirRefeicaoPorIdAsync(refeicaoDietaDiaId);
         }
 
         public async Task<string> UpdateListRefeicoes(List<RefeicaoDietaDiaView> list)
@@ -59,6 +59,11 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Comands
             }).ToList();
 
             return await _repo.AtualizarListRefeicoesAsync(refeicoes);
+        }
+
+        public async Task<string> ExcluirRefeicoesPorDataAsync(DateTime dataDia)
+        {
+            return await _repo.ExcluirRefeicoesPorDataAsync(dataDia);
         }
     }
 }

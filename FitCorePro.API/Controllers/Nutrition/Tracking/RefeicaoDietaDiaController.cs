@@ -39,5 +39,14 @@ namespace FitCorePro.API.Controllers.Nutrition.Tracking
 
             return Ok(new ApiMessagemResponse(resp));
         }
+
+        [HttpDelete("excluir-refeicoes-data/{dataDia}")]
+        public async Task<IActionResult> ExcluirRefeicoesPorData(DateTime dataDia)
+        {
+
+            var resp = await _service.ExcluirRefeicoesPorDataAsync(dataDia);
+
+            return Ok(new ApiMessagemResponse(resp));
+        }
     }
 }
