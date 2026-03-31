@@ -24,13 +24,20 @@ namespace FitCorePro.API.Controllers.Nutrition.Tracking
             return Ok(new ApiMessagemResponse(resp));
         }
 
-        [HttpPost("excluir-refeicao/{id}")]
-        public async Task<IActionResult> ExcluirRefeicao(string id)
+        [HttpDelete("excluir-refeicao/{refeicaoId}")]
+        public async Task<IActionResult> ExcluirRefeicao(string refeicaoId)
         {
-            var resp = await _service.ExcluirRefeicaoDietaDiaAsync(id);
+            var resp = await _service.ExcluirRefeicaoDietaDiaAsync(refeicaoId);
 
             return Ok(new ApiMessagemResponse(resp));
         }
 
+        [HttpPut("atualizar-list-refeicoes")]
+        public async Task<IActionResult> AtualizarListaRefeicoes([FromBody] List<RefeicaoDietaDiaView> list)
+        {
+            var resp = await _service.AtualizarListaRefeicoes(list);
+
+            return Ok(new ApiMessagemResponse(resp));
+        }
     }
 }

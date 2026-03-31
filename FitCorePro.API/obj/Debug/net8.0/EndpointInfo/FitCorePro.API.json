@@ -211,14 +211,14 @@
         }
       }
     },
-    "/api/tracking/refeicao-dieta-dia/excluir-refeicao/{id}": {
-      "post": {
+    "/api/tracking/refeicao-dieta-dia/excluir-refeicao/{refeicaoId}": {
+      "delete": {
         "tags": [
           "RefeicaoDietaDia"
         ],
         "parameters": [
           {
-            "name": "id",
+            "name": "refeicaoId",
             "in": "path",
             "required": true,
             "schema": {
@@ -226,6 +226,46 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/tracking/refeicao-dieta-dia/atualizar-list-refeicoes": {
+      "put": {
+        "tags": [
+          "RefeicaoDietaDia"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RefeicaoDietaDiaView"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RefeicaoDietaDiaView"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/RefeicaoDietaDiaView"
+                }
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"

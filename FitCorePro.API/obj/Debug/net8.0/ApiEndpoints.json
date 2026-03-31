@@ -150,14 +150,30 @@
   },
   {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.RefeicaoDietaDiaController",
-    "Method": "ExcluirRefeicao",
-    "RelativePath": "api/tracking/refeicao-dieta-dia/excluir-refeicao/{id}",
-    "HttpMethod": "POST",
+    "Method": "AtualizarListaRefeicoes",
+    "RelativePath": "api/tracking/refeicao-dieta-dia/atualizar-list-refeicoes",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "list",
+        "Type": "System.Collections.Generic.List\u00601[[FitCorePro.Nutrition.Tracking.Application.UseCases.ModelView.RefeicaoDietaDiaView, FitCorePro.Nutrition.Tracking.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.RefeicaoDietaDiaController",
+    "Method": "ExcluirRefeicao",
+    "RelativePath": "api/tracking/refeicao-dieta-dia/excluir-refeicao/{refeicaoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refeicaoId",
         "Type": "System.String",
         "IsRequired": true
       }

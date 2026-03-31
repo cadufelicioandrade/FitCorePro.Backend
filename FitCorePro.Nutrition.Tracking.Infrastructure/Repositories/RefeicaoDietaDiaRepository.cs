@@ -10,6 +10,11 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
             return await Task.FromResult<string>("Refeição adicionada com sucesso!");
         }
 
+        public async Task<string> AtualizarListRefeicoesAsync(List<RefeicaoDietaDia> list)
+        {
+            return await Task.FromResult<string>("Refeição atualizadas com sucesso!");
+        }
+
         public async Task<string> ExcluirRefeicaoDietaDiaAsync(string id)
         {
             var refeicao = await this.ObterPorIdAsync(id);
@@ -19,7 +24,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 
         public async Task<RefeicaoDietaDia> ObterPorIdAsync(string id)
         {
-            return await Task.FromResult<RefeicaoDietaDia>(new RefeicaoDietaDia(id,"teste", 1, "teste-123"));
+            return await Task.FromResult<RefeicaoDietaDia>(new RefeicaoDietaDia(id, "teste", 1, "teste-123"));
         }
     }
 }

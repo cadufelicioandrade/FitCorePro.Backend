@@ -21,6 +21,11 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
             return await _comandHandle.PostHandleAsync(view);
         }
 
+        public async Task<string> AtualizarListaRefeicoes(List<RefeicaoDietaDiaView> list)
+        {
+            return await _comandHandle.UpdateListRefeicoes(list);
+        }
+
         public async Task<string> ExcluirRefeicaoDietaDiaAsync(string id)
         {
             return await _comandHandle.DeleteHandleAsync(id);
