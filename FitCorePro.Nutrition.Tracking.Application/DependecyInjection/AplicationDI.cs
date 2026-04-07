@@ -13,8 +13,10 @@ namespace FitCorePro.Nutrition.Tracking.Application.DependecyInjection
             service.AddScoped<QueryDietaDiaHandler>();
             service.AddScoped<QueryRefeicaoDietaDiaHandler>();
             service.AddScoped<ComandRefeicaoDietaDiaHandler>();
+            service.AddScoped<ComandAlimentoDietaDiaHandler>();
             service.AddScoped<IDietaDiaService , DietaDiaService>();
             service.AddScoped<IRefeicaoDietaDiaService, RefeicaoDietaDiaService>();
+            service.AddScoped<IAlimentoDietaDiaService, AlimentoDietaDiaService>();
         }
     }
 }

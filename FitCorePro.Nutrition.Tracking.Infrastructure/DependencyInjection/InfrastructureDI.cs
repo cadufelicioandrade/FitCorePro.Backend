@@ -10,6 +10,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection
         {
             services.AddScoped<IDietaDiaRepository, DietaDiaRepository>();
             services.AddScoped<IRefeicaoDietaDiaRepository, RefeicaoDietaDiaRepository>();
+            services.AddScoped<IAlimentoDietaDiaRepository, AlimentoDietaDiaRepository>();
         }
     }
 }
