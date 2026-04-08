@@ -15,7 +15,9 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Comands
 
         public async Task<string> CreateHandleAsync(AlimentoDietaDiaView view)
         {
-            var alimento = new AlimentoDietaDia(view.Id, view.Nome, view.RefeicaoDietaDiaId, view.QuantidadeGramas, view.Calorias, view.Carboidratos,view.Proteinas, view.Gorduras, view.Fibras);
+            var id = Guid.NewGuid().ToString();
+
+            var alimento = new AlimentoDietaDia(id, view.Nome, view.RefeicaoDietaDiaId, view.QuantidadeGramas, view.Calorias, view.Carboidratos,view.Proteinas, view.Gorduras, view.Fibras);
 
             return await _repo.AdicionarAsync(alimento);
         }

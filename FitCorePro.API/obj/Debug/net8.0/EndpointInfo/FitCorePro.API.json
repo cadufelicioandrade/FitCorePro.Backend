@@ -5,6 +5,68 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/tracking/aliemnto-dieta-dia/adicionar-alimento-dieta-dia": {
+      "post": {
+        "tags": [
+          "AlimentoDietaDia"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoDietaDiaView"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoDietaDiaView"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoDietaDiaView"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/tracking/aliemnto-dieta-dia/editar-alimento-dieta-dia": {
+      "put": {
+        "tags": [
+          "AlimentoDietaDia"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoDietaDiaView"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoDietaDiaView"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AlimentoDietaDiaView"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/alimento-plano-semanal/adiciona-range": {
       "post": {
         "tags": [

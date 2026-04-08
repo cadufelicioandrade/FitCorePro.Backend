@@ -112,6 +112,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.AlimentoDietaDiaController",
+    "Method": "AdicionarAlimento",
+    "RelativePath": "api/tracking/aliemnto-dieta-dia/adicionar-alimento-dieta-dia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "view",
+        "Type": "FitCorePro.Nutrition.Tracking.Application.UseCases.ModelView.AlimentoDietaDiaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.AlimentoDietaDiaController",
+    "Method": "EditarAlimento",
+    "RelativePath": "api/tracking/aliemnto-dieta-dia/editar-alimento-dieta-dia",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "view",
+        "Type": "FitCorePro.Nutrition.Tracking.Application.UseCases.ModelView.AlimentoDietaDiaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.DietaDiaController",
     "Method": "GetAll",
     "RelativePath": "api/tracking/dieta-dia/obter-todos",
