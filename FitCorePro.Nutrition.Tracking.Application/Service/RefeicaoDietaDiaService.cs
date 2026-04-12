@@ -7,10 +7,10 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
 {
     public class RefeicaoDietaDiaService : IRefeicaoDietaDiaService
     {
-        private ComandRefeicaoDietaDiaHandler _comandHandle;
-        private QueryRefeicaoDietaDiaHandler _queryHandle;
+        private RefeicaoDietaDiaHandlerComand _comandHandle;
+        private RefeicaoDietaDiaHandlerQuery _queryHandle;
 
-        public RefeicaoDietaDiaService(ComandRefeicaoDietaDiaHandler comandHandle, QueryRefeicaoDietaDiaHandler queryHandle)
+        public RefeicaoDietaDiaService(RefeicaoDietaDiaHandlerComand comandHandle, RefeicaoDietaDiaHandlerQuery queryHandle)
         {
             _comandHandle = comandHandle;
             _queryHandle = queryHandle;

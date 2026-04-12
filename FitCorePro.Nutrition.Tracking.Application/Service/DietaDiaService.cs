@@ -6,9 +6,9 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
 {
     public class DietaDiaService : IDietaDiaService
     {
-        private QueryDietaDiaHandler _handle;
+        private DietaDiaHandlerQuery _handle;
 
-        public DietaDiaService(QueryDietaDiaHandler handle)
+        public DietaDiaService(DietaDiaHandlerQuery handle)
         {
             _handle = handle;
         }

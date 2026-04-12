@@ -6,9 +6,9 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
 {
     public class AlimentoDietaDiaService : IAlimentoDietaDiaService
     {
-        private ComandAlimentoDietaDiaHandler _handler;
+        private AlimentoDietaDiaHandlerComand _handler;
 
-        public AlimentoDietaDiaService(ComandAlimentoDietaDiaHandler handler)
+        public AlimentoDietaDiaService(AlimentoDietaDiaHandlerComand handler)
         {
             _handler = handler;
         }

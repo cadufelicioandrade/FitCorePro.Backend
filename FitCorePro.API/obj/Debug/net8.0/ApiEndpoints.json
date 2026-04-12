@@ -160,6 +160,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.AlimentoBaseController",
+    "Method": "GetAll",
+    "RelativePath": "api/tracking/alimento-base/obter-todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.DietaDiaController",
     "Method": "GetAll",
     "RelativePath": "api/tracking/dieta-dia/obter-todos",
