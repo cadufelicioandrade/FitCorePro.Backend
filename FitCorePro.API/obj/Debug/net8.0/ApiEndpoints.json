@@ -144,6 +144,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.AlimentoDietaDiaController",
+    "Method": "ExcluirAlimento",
+    "RelativePath": "api/tracking/aliemnto-dieta-dia/excluir-alimento-dieta-dia/{alimentoDietaDiaId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alimentoDietaDiaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Nutrition.Tracking.DietaDiaController",
     "Method": "GetAll",
     "RelativePath": "api/tracking/dieta-dia/obter-todos",

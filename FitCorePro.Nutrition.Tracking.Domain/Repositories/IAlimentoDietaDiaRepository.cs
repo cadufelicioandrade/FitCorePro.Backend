@@ -7,5 +7,6 @@ namespace FitCorePro.Nutrition.Tracking.Domain.Repositories
 
         Task<string> EditarAsync(AlimentoDietaDia alimento);
         Task<string> AdicionarAsync(AlimentoDietaDia alimento);
+        Task<string> ExcluirAsync(string alimentoDietaDiaId);
     }
 }

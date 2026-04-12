@@ -28,5 +28,10 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Comands
 
             return await _repo.EditarAsync(alimento);
         }
+
+        internal async Task<string> DeleteHandleAsync(string alimentoDietaDiaId)
+        {
+            return await _repo.ExcluirAsync(alimentoDietaDiaId);
+        }
     }
 }

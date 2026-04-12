@@ -12,7 +12,12 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 
         public async Task<string> EditarAsync(AlimentoDietaDia alimento)
         {
-            return await Task.FromResult<string>("Alimento Editado com sucesso!");
+            return await Task.FromResult<string>("Alimento editado com sucesso!");
+        }
+
+        public async Task<string> ExcluirAsync(string alimentoDietaDiaId)
+        {
+            return await Task.FromResult<string>("Alimento excluído com sucesso!");
         }
     }
 }

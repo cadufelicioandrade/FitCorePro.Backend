@@ -6,5 +6,6 @@ namespace FitCorePro.Nutrition.Tracking.Application.Abstractions.Services
     {
         Task<string> EditarAsync(AlimentoDietaDiaView view);
         Task<string> AdicionarAsync(AlimentoDietaDiaView view);
+        Task<string> ExcluirAsync(string alimentoDietaDiaId);
     }
 }

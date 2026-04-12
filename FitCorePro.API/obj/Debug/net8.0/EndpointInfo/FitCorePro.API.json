@@ -67,6 +67,28 @@
         }
       }
     },
+    "/api/tracking/aliemnto-dieta-dia/excluir-alimento-dieta-dia/{alimentoDietaDiaId}": {
+      "delete": {
+        "tags": [
+          "AlimentoDietaDia"
+        ],
+        "parameters": [
+          {
+            "name": "alimentoDietaDiaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/nutritionplanning/alimento-plano-semanal/adiciona-range": {
       "post": {
         "tags": [

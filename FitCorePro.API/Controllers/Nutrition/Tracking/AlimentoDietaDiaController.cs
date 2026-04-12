@@ -30,5 +30,12 @@ namespace FitCorePro.API.Controllers.Nutrition.Tracking
 
             return Ok(new ApiMessagemResponse(result));
         }
+
+        [HttpDelete("excluir-alimento-dieta-dia/{alimentoDietaDiaId}")]
+        public async Task<IActionResult> ExcluirAlimento(string alimentoDietaDiaId)
+        {
+            string result = await _service.ExcluirAsync(alimentoDietaDiaId);
+            return Ok(new ApiMessagemResponse(result));
+        }
     }
 }

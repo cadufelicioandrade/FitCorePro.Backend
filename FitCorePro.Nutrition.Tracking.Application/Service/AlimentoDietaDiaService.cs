@@ -22,5 +22,10 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
         {
             return await _handler.EditHandleAsync(view);
         }
+
+        public async Task<string> ExcluirAsync(string alimentoDietaDiaId)
+        {
+            return await _handler.DeleteHandleAsync(alimentoDietaDiaId);
+        }
     }
 }
