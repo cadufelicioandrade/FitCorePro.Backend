@@ -1,4 +1,6 @@
-﻿namespace FitCorePro.Nutrition.Planning.Domain.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace FitCorePro.Nutrition.Planning.Domain.Entities
 {
     public class PlanoSemanalDia
     {
@@ -15,7 +17,10 @@
         }
 
         public string Id { get; set; } = default;
+        
+        public PlanoSemanal PlanoSemanal { get; set; }
         public string PlanoSemanalId { get; set; } = default;
+
         public int DiaSemana { get; set; }
         public DateTime CreatedDate { get; set; }
 

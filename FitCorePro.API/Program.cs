@@ -16,12 +16,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PlanningDbContext>(options =>
 options.UseInMemoryDatabase("NOME_BANCO_DADOS"));
 
-
+//injeção Nutrition Planning
 builder.Services.AddPlanningApplication();
-builder.Services.AddPlannigInfrastructure();
-builder.Services.AddTrackingApplication();
-builder.Services.AddTrackingInfrastructure();
+builder.Services.AddPlannigInfrastructure(builder.Configuration);
 
+//injeção Nutrition Tracking
+builder.Services.AddTrackingApplication();
+builder.Services.AddTrackingInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

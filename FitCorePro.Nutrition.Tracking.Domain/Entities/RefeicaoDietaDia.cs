@@ -5,6 +5,7 @@
         public string Id { get; set; }
         public string Titulo { get; set; }
         public int Ordem { get; set; }
+        public DietaDia DietaDia { get; set; }
         public string DietaDiaId { get; set; }
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;

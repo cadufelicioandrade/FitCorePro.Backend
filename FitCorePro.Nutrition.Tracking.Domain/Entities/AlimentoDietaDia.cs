@@ -17,6 +17,7 @@
 
         public string Id { get; set; }
         public string Nome { get; set; }
+        public RefeicaoDietaDia RefeicaoDietaDia { get; set; }
         public string RefeicaoDietaDiaId { get; set; }
         public int QuantidadeGramas { get; set; }
         public double Calorias { get; set; }
