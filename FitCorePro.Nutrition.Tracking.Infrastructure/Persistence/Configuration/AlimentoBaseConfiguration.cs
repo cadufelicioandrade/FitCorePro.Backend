@@ -10,6 +10,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Persistence.Configuration
         {
             builder.ToTable("TB_ALIMENTO_BASE");
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).HasMaxLength(36);
             builder.Property(x => x.Nome).IsRequired().HasMaxLength(355);
             builder.Property(x => x.Gramas).IsRequired();
             builder.Property(x => x.Calorias).IsRequired();

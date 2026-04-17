@@ -9,13 +9,20 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Persistence.Configuration
         public void Configure(EntityTypeBuilder<PlanoSemanalDia> builder)
         {
             builder.ToTable("TB_PLANO_SEMANAL_DIA");
-            builder.HasKey(t => t.Id);
+            builder.HasKey(a => a.Id);
+            builder.Property(p => p.Id).HasMaxLength(36);
+            builder.Property(p => p.PlanoSemanalId).IsRequired().HasMaxLength(36);
             builder.Property(p => p.DiaSemana).IsRequired();
-            builder.Property(p => p.CreatedDate).HasColumnType("Datetime2");
+            builder.Property(p => p.CreatedDate).HasColumnType("datetime2");
 
             builder.HasMany(p => p.RefeicoesPlanoSemanal)
-                .WithOne(p => p.PlanoSemanalDia)
-                .HasForeignKey(r => r.PlanoSemanalDiaId);
+                    .WithOne(p => p.PlanoSemanalDia)
+                    .HasForeignKey(r => r.PlanoSemanalDiaId);
+
+            builder.HasOne(p => p.PlanoSemanal)
+                .WithMany(p => p.PlanoSemanalDias)
+                .HasForeignKey(p => p.PlanoSemanalId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

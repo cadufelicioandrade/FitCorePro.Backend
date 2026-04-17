@@ -10,7 +10,10 @@
 
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-        private List<AlimentoDietaDia> _alimentosDietaDia = new();
+        private readonly List<AlimentoDietaDia> _alimentosDietaDia = new();
+        public IReadOnlyCollection<AlimentoDietaDia> AlimentosDietaDia => _alimentosDietaDia;
+
+        protected RefeicaoDietaDia() { }
 
         public RefeicaoDietaDia(string id, string titulo, int ordem, string dietaDiaId)
         {
@@ -19,9 +22,6 @@
             Ordem = ordem;
             DietaDiaId = dietaDiaId;
         }
-
-        public List<AlimentoDietaDia> AlimentosDietaDia => _alimentosDietaDia;
-
 
         public void AdicionarAlimentoDietaDia(AlimentoDietaDia alimentoDietaDia)
         {

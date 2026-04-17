@@ -2,6 +2,7 @@
 {
     public class AlimentoDietaDia
     {
+        protected AlimentoDietaDia() { }
         public AlimentoDietaDia(string id, string nome, string refeicaoDietaDiaId, int quantidadeGramas, double calorias, double carboidratos, double proteinas, double gorduras, double fibras)
         {
             Id = id;
@@ -17,7 +18,7 @@
 
         public string Id { get; set; }
         public string Nome { get; set; }
-        public RefeicaoDietaDia RefeicaoDietaDia { get; set; }
+        public RefeicaoDietaDia RefeicaoDietaDia { get; set; } = default!;
         public string RefeicaoDietaDiaId { get; set; }
         public int QuantidadeGramas { get; set; }
         public double Calorias { get; set; }

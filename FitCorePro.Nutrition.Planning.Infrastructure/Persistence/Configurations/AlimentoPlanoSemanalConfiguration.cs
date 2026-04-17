@@ -10,9 +10,17 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Persistence.Configuration
         {
             builder.ToTable("TB_ALIMENTO_PLANO_SEMANAL");
             builder.HasKey(a => a.Id);
+            builder.Property(a => a.Id).HasMaxLength(36);
             builder.Property(a => a.Nome).IsRequired().HasMaxLength(255);
             builder.Property(a => a.Gramas).IsRequired();
             builder.Property(a => a.CreatedDate).HasColumnType("datetime2");
+
+            builder.Property(a => a.RefeicaoPlanoSemanalId).IsRequired().HasMaxLength(36);
+
+            builder.HasOne(a => a.RefeicaoPlanoSemanal)
+                .WithMany(r => r.AlimentosPlanoSemanais)
+                .HasForeignKey(a => a.RefeicaoPlanoSemanalId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

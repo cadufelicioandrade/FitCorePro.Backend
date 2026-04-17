@@ -9,11 +9,12 @@ public sealed class PlanoSemanalConfiguration : IEntityTypeConfiguration<PlanoSe
     public void Configure(EntityTypeBuilder<PlanoSemanal> builder)
     {
         builder.ToTable("TB_PLANO_SEMANAL");
-
-        builder.HasKey(p => p.Id);
+        builder.HasKey(a => a.Id);
+        builder.Property(p => p.Id).HasMaxLength(36);
+        builder.Property(p => p.Ativo).IsRequired();
         builder.Property(p => p.Nome).IsRequired().HasMaxLength(355);
         builder.Property(p => p.UsuarioId).IsRequired().HasMaxLength(255);
-        builder.Property(p => p.CreatedDate).HasColumnType("Datetime2");
+        builder.Property(p => p.CreatedDate).HasColumnType("datetime2");
 
         builder.HasMany(p => p.PlanoSemanalDias)
             .WithOne(d => d.PlanoSemanal)

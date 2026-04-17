@@ -8,6 +8,11 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
 {
     public class AlimentoPlanoSemanal
     {
+        protected AlimentoPlanoSemanal()
+        {
+            
+        }
+
         public AlimentoPlanoSemanal(string id, string nome, int gramas, string refeicaoPlanoSemanalId)
         {
             Id = id;
@@ -19,8 +24,9 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
         public string Id { get; set; } = default!;
         public string Nome { get; set; } = default!;
         public int Gramas { get; set; }
+        public RefeicaoPlanoSemanal RefeicaoPlanoSemanal { get; set; } = default!;
         public string RefeicaoPlanoSemanalId { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
     }
 }

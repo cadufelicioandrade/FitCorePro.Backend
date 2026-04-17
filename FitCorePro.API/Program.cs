@@ -2,8 +2,6 @@ using FitCorePro.Nutrition.Planning.Application.DependencyInjection;
 using FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection;
 using FitCorePro.Nutrition.Tracking.Application.DependecyInjection;
 using FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection;
-using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<PlanningDbContext>(options =>
-options.UseInMemoryDatabase("NOME_BANCO_DADOS"));
 
 //injeção Nutrition Planning
 builder.Services.AddPlanningApplication();

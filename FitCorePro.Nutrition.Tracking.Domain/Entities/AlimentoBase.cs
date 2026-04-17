@@ -2,6 +2,7 @@
 {
     public class AlimentoBase
     {
+        protected AlimentoBase() { }
         public AlimentoBase(string id, string nome, int gramas, double calorias, double carboidratos, double proteinas, double gorduras, double fibras)
         {
             Id = id;

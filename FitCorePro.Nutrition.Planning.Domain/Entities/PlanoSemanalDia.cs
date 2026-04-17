@@ -4,6 +4,8 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
 {
     public class PlanoSemanalDia
     {
+        protected PlanoSemanalDia() { }
+
         public PlanoSemanalDia(
             string id,
             string planoSemanalId,
@@ -16,16 +18,15 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
             CreatedDate = createdDate;
         }
 
-        public string Id { get; set; } = default;
-        
-        public PlanoSemanal PlanoSemanal { get; set; }
-        public string PlanoSemanalId { get; set; } = default;
+        public string Id { get; set; } = default!;
+
+        public PlanoSemanal PlanoSemanal { get; set; } = default!;
+        public string PlanoSemanalId { get; set; } = default!;
 
         public int DiaSemana { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-        private List<RefeicaoPlanoSemanal> _refeicoes { get; set; } = new();
-
+        private readonly List<RefeicaoPlanoSemanal> _refeicoes = new();
         public IReadOnlyCollection<RefeicaoPlanoSemanal> RefeicoesPlanoSemanal => _refeicoes;
 
         public void AdicionarRefeicao(RefeicaoPlanoSemanal refeicaoPlanoSemanal)

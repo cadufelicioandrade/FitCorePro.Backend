@@ -7,16 +7,16 @@
         public DateTime DataDieta { get; set; } = DateTime.Now;
         public DateTime CreatedDate { get; set; } = DateTime.Now;
 
-        private List<RefeicaoDietaDia> _refeicoesDietaDia = new();
+        private readonly List<RefeicaoDietaDia> _refeicoesDietaDia = new();
+        public IReadOnlyCollection<RefeicaoDietaDia> RefeicoesDietaDia => _refeicoesDietaDia;
 
+        protected DietaDia() { }
         public DietaDia(string id, string usuarioId, DateTime dataDieta)
         {
             Id = id;
             UsuarioId = usuarioId;
             DataDieta = dataDieta;
         }
-
-        public List<RefeicaoDietaDia> RefeicoesDietaDia => _refeicoesDietaDia;
 
         public void AdicionarRefeicaoDietaDia(RefeicaoDietaDia refeicaoDietaDia)
         {
