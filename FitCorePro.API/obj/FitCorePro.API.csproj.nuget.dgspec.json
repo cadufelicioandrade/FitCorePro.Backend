@@ -33,6 +33,18 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Application\\FitCorePro.Bioimpedancia.Application.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Application\\FitCorePro.Bioimpedancia.Application.csproj"
+              },
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Infrastructure\\FitCorePro.Bioimpedancia.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Infrastructure\\FitCorePro.Bioimpedancia.Infrastructure.csproj"
+              },
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj"
+              },
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj"
+              },
               "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj": {
                 "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Application\\FitCorePro.Nutrition.Planning.Application.csproj"
               },
@@ -44,6 +56,12 @@
               },
               "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj"
+              },
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj"
+              },
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj"
               }
             }
           }
@@ -64,6 +82,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -84,6 +106,371 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Application\\FitCorePro.Bioimpedancia.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Application\\FitCorePro.Bioimpedancia.Application.csproj",
+        "projectName": "FitCorePro.Bioimpedancia.Application",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Application\\FitCorePro.Bioimpedancia.Application.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Infrastructure\\FitCorePro.Bioimpedancia.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Infrastructure\\FitCorePro.Bioimpedancia.Infrastructure.csproj",
+        "projectName": "FitCorePro.Bioimpedancia.Infrastructure",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Infrastructure\\FitCorePro.Bioimpedancia.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Bioimpedancia.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj",
+        "projectName": "FitCorePro.Identity.Application",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[10.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj",
+        "projectName": "FitCorePro.Identity.Domain",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.SharedKernel\\FitCorePro.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.SharedKernel\\FitCorePro.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj",
+        "projectName": "FitCorePro.Identity.Infrastructure",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj"
+              },
+              "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj": {
+                "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Domain\\FitCorePro.Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.35.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -538,6 +925,204 @@
               "version": "[10.0.5, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.SharedKernel\\FitCorePro.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.SharedKernel\\FitCorePro.SharedKernel.csproj",
+        "projectName": "FitCorePro.SharedKernel",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.SharedKernel\\FitCorePro.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj",
+        "projectName": "FitCorePro.Training.Planning.Application",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj",
+        "projectName": "FitCorePro.Training.Planning.Infrastructure",
+        "projectPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

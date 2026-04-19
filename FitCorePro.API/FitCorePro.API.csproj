@@ -1,26 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Contracts\" />
-    <Folder Include="Filters\" />
-    <Folder Include="Middlewares\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Contracts\" />
+		<Folder Include="Filters\" />
+		<Folder Include="Middlewares\" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Application\FitCorePro.Nutrition.Planning.Application.csproj" />
-    <ProjectReference Include="..\FitCorePro.Nutrition.Planning.Infrastructure\FitCorePro.Nutrition.Planning.Infrastructure.csproj" />
-    <ProjectReference Include="..\FitCorePro.Nutrition.Tracking.Application\FitCorePro.Nutrition.Tracking.Application.csproj" />
-    <ProjectReference Include="..\FitCorePro.Nutrition.Tracking.Infrastructure\FitCorePro.Nutrition.Tracking.Infrastructure.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\FitCorePro.Bioimpedancia.Application\FitCorePro.Bioimpedancia.Application.csproj" />
+		<ProjectReference Include="..\FitCorePro.Bioimpedancia.Infrastructure\FitCorePro.Bioimpedancia.Infrastructure.csproj" />
+		<ProjectReference Include="..\FitCorePro.Identity.Application\FitCorePro.Identity.Application.csproj" />
+		<ProjectReference Include="..\FitCorePro.Identity.Infrastructure\FitCorePro.Identity.Infrastructure.csproj" />
+		<ProjectReference Include="..\FitCorePro.Nutrition.Planning.Application\FitCorePro.Nutrition.Planning.Application.csproj" />
+		<ProjectReference Include="..\FitCorePro.Nutrition.Planning.Infrastructure\FitCorePro.Nutrition.Planning.Infrastructure.csproj" />
+		<ProjectReference Include="..\FitCorePro.Nutrition.Tracking.Application\FitCorePro.Nutrition.Tracking.Application.csproj" />
+		<ProjectReference Include="..\FitCorePro.Nutrition.Tracking.Infrastructure\FitCorePro.Nutrition.Tracking.Infrastructure.csproj" />
+		<ProjectReference Include="..\FitCorePro.Training.Planning.Application\FitCorePro.Training.Planning.Application.csproj" />
+		<ProjectReference Include="..\FitCorePro.Training.Planning.Infrastructure\FitCorePro.Training.Planning.Infrastructure.csproj" />
+	</ItemGroup>
 
 </Project>

@@ -1,10 +1,12 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Response;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Plannig
 {
+    [Authorize]
     [ApiController]
     [Route("api/nutritionplanning/plano-semanal")]
     public class PlanoSemanalController : ControllerBase

@@ -3,44 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{532F08BB-BE07-4B55-A1EB-9EAEC89BF590}|FitCorePro.Nutrition.Planning.Domain\\FitCorePro.Nutrition.Planning.Domain.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.domain\\entities\\planosemanaldia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{532F08BB-BE07-4B55-A1EB-9EAEC89BF590}|FitCorePro.Nutrition.Planning.Domain\\FitCorePro.Nutrition.Planning.Domain.csproj|solutionrelative:fitcorepro.nutrition.planning.domain\\entities\\planosemanaldia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.identity.infrastructure\\fitcorepro.identity.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|solutionrelative:fitcorepro.identity.infrastructure\\fitcorepro.identity.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.identity.infrastructure\\persistence\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|solutionrelative:fitcorepro.identity.infrastructure\\persistence\\configurations\\usuarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.identity.infrastructure\\persistence\\configurations\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|solutionrelative:fitcorepro.identity.infrastructure\\persistence\\configurations\\refreshtokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.identity.infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|solutionrelative:fitcorepro.identity.infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\tracking\\refeicaodietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\tracking\\refeicaodietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\tracking\\dietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\tracking\\dietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\tracking\\alimentodietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\tracking\\alimentodietadiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\tracking\\alimentobasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\tracking\\alimentobasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\plannig\\refeicaoplanosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\plannig\\refeicaoplanosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\plannig\\alimentoplanosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\plannig\\alimentoplanosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\nutrition\\plannig\\planosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\nutrition\\plannig\\planosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\authentication\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\authentication\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\refeicaoplanosemanalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\refeicaoplanosemanalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\fitcorepro.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\fitcorepro.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\planosemanaldiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\planosemanaldiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.identity.infrastructure\\persistence\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|solutionrelative:fitcorepro.identity.infrastructure\\persistence\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\refeicaodietadiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\refeicaodietadiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\dietadiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\dietadiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\alimentodietadiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\alimentodietadiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\alimentobaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\persistence\\configuration\\alimentobaseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\planosemanalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\planosemanalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\alimentoplanosemanalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\persistence\\configurations\\alimentoplanosemanalconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.identity.infrastructure\\persistence\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52420EE9-E7AA-440A-9B08-9E7B622665BE}|FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj|solutionrelative:fitcorepro.identity.infrastructure\\persistence\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,131 +79,209 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlanoSemanalDia.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanalDia.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanalDia.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanalDia.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Domain\\Entities\\PlanoSemanalDia.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:10:15.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Program.cs",
-              "RelativeDocumentMoniker": "FitCorePro.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Program.cs",
-              "RelativeToolTip": "FitCorePro.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:09:14.786Z",
+              "Title": "FitCorePro.Identity.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj",
+              "RelativeToolTip": "FitCorePro.Identity.Infrastructure\\FitCorePro.Identity.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T02:05:55.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RefeicaoDietaDiaConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\RefeicaoDietaDiaConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\RefeicaoDietaDiaConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\RefeicaoDietaDiaConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\RefeicaoDietaDiaConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Title": "RefeicaoDietaDiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\RefeicaoDietaDiaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:05:13.325Z",
+              "WhenOpened": "2026-04-19T01:58:02.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DietaDiaConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\DietaDiaConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\DietaDiaConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\DietaDiaConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\DietaDiaConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Title": "DietaDiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\DietaDiaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:05:09.21Z",
+              "WhenOpened": "2026-04-19T01:57:58.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AlimentoDietaDiaConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoDietaDiaConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoDietaDiaConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoDietaDiaConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoDietaDiaConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Title": "AlimentoDietaDiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoDietaDiaController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoDietaDiaController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoDietaDiaController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoDietaDiaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:05:03.12Z",
+              "WhenOpened": "2026-04-19T01:57:54.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AlimentoBaseConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoBaseConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoBaseConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoBaseConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Persistence\\Configuration\\AlimentoBaseConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Title": "AlimentoBaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoBaseController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoBaseController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoBaseController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Tracking\\AlimentoBaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:04:44.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RefeicaoPlanoSemanalConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\RefeicaoPlanoSemanalConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\RefeicaoPlanoSemanalConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\RefeicaoPlanoSemanalConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\RefeicaoPlanoSemanalConfiguration.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:04:39.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlanoSemanalDiaConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalDiaConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalDiaConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalDiaConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalDiaConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:04:34.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlanoSemanalConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\PlanoSemanalConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:04:28.437Z",
+              "WhenOpened": "2026-04-19T01:57:49.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AlimentoPlanoSemanalConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\AlimentoPlanoSemanalConfiguration.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\AlimentoPlanoSemanalConfiguration.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\AlimentoPlanoSemanalConfiguration.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Persistence\\Configurations\\AlimentoPlanoSemanalConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Title": "AlimentoPlanoSemanalController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\AlimentoPlanoSemanalController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\AlimentoPlanoSemanalController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\AlimentoPlanoSemanalController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\AlimentoPlanoSemanalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T02:04:07.514Z",
+              "WhenOpened": "2026-04-19T01:57:39.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlanoSemanalController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\PlanoSemanalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:57:32.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefeicaoPlanoSemanalController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\RefeicaoPlanoSemanalController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\RefeicaoPlanoSemanalController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Nutrition\\Plannig\\RefeicaoPlanoSemanalController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Nutrition\\Plannig\\RefeicaoPlanoSemanalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:57:20.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Authentication\\AuthController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Authentication\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Authentication\\AuthController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Authentication\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:56:47.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Program.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Program.cs",
+              "RelativeToolTip": "FitCorePro.API\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:54:59.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FitCorePro.API",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\FitCorePro.API.csproj",
+              "RelativeDocumentMoniker": "FitCorePro.API\\FitCorePro.API.csproj",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\FitCorePro.API.csproj",
+              "RelativeToolTip": "FitCorePro.API\\FitCorePro.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T01:53:56.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Identity.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeToolTip": "FitCorePro.Identity.Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:49:55.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Identity.Infrastructure\\Persistence\\RefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "FitCorePro.Identity.Infrastructure\\Persistence\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:49:04.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Identity.Infrastructure\\Persistence\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\UsuarioRepository.cs",
+              "RelativeToolTip": "FitCorePro.Identity.Infrastructure\\Persistence\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:47:12.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RefreshTokenConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "RelativeToolTip": "FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:46:23.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "RelativeToolTip": "FitCorePro.Identity.Infrastructure\\Persistence\\Configurations\\UsuarioConfiguration.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T01:45:12.532Z",
               "EditorCaption": ""
             }
           ]

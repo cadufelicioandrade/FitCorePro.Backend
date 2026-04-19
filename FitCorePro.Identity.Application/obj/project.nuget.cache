@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "xTNodMwqmc4=",
+  "dgSpecHash": "xkfbMAADuXw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Identity.Application\\FitCorePro.Identity.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.6\\microsoft.aspnetcore.cryptography.internal.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.6\\microsoft.aspnetcore.cryptography.keyderivation.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.6\\microsoft.extensions.configuration.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.6\\microsoft.extensions.configuration.binder.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.6\\microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.6\\microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.diagnostics\\10.0.6\\microsoft.extensions.diagnostics.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.6\\microsoft.extensions.diagnostics.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.identity.core\\10.0.6\\microsoft.extensions.identity.core.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.logging\\10.0.6\\microsoft.extensions.logging.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.6\\microsoft.extensions.logging.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.options\\10.0.6\\microsoft.extensions.options.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.6\\microsoft.extensions.options.configurationextensions.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.6\\microsoft.extensions.primitives.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.6\\system.diagnostics.diagnosticsource.10.0.6.nupkg.sha512",
+    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\system.memory\\4.6.3\\system.memory.4.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

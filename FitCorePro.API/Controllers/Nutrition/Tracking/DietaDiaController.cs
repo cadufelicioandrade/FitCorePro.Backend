@@ -1,10 +1,12 @@
 ﻿using FitCorePro.Nutrition.Tracking.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Tracking.Application.UseCases.Response;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 
 namespace FitCorePro.API.Controllers.Nutrition.Tracking
 {
+    [Authorize]
     [ApiController]
     [Route("api/tracking/dieta-dia")]
     public class DietaDiaController : ControllerBase

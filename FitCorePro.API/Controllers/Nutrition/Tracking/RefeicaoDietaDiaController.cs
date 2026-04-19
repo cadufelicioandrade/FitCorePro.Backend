@@ -1,10 +1,12 @@
 ﻿using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using FitCorePro.Nutrition.Tracking.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Tracking.Application.UseCases.ModelView;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Tracking
 {
+    [Authorize]
     [ApiController]
     [Route("api/tracking/refeicao-dieta-dia")]
     public class RefeicaoDietaDiaController : ControllerBase

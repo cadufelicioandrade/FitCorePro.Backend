@@ -1,9 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FitCorePro.Identity.Application\FitCorePro.Identity.Application.csproj" />
+		<ProjectReference Include="..\FitCorePro.Identity.Domain\FitCorePro.Identity.Domain.csproj" />
+	</ItemGroup>
 
 </Project>
