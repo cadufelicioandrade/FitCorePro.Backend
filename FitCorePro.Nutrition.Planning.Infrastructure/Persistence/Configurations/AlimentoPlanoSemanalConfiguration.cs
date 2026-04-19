@@ -13,7 +13,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Persistence.Configuration
             builder.Property(a => a.Id).HasMaxLength(36);
             builder.Property(a => a.Nome).IsRequired().HasMaxLength(255);
             builder.Property(a => a.Gramas).IsRequired();
-            builder.Property(a => a.CreatedDate).HasColumnType("datetime2");
+            builder.Property(a => a.CreatedDate).HasColumnType("timestamp with time zone");
 
             builder.Property(a => a.RefeicaoPlanoSemanalId).IsRequired().HasMaxLength(36);
 

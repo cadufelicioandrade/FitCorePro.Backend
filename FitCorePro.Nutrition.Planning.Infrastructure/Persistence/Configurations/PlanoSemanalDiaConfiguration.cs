@@ -13,7 +13,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Persistence.Configuration
             builder.Property(p => p.Id).HasMaxLength(36);
             builder.Property(p => p.PlanoSemanalId).IsRequired().HasMaxLength(36);
             builder.Property(p => p.DiaSemana).IsRequired();
-            builder.Property(p => p.CreatedDate).HasColumnType("datetime2");
+            builder.Property(p => p.CreatedDate).HasColumnType("timestamp with time zone");
 
             builder.HasMany(p => p.RefeicoesPlanoSemanal)
                     .WithOne(p => p.PlanoSemanalDia)

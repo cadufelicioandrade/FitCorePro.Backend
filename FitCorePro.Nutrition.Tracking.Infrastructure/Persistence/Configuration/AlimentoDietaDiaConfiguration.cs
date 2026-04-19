@@ -19,7 +19,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Persistence.Configuration
             builder.Property(d => d.Proteinas).IsRequired();
             builder.Property(d => d.Gorduras).IsRequired();
             builder.Property(d => d.Fibras).IsRequired();
-            builder.Property(d => d.CreatedDate).HasColumnType("datetime2");
+            builder.Property(d => d.CreatedDate).HasColumnType("timestamp with time zone");
 
             builder.HasOne(d => d.RefeicaoDietaDia)
                 .WithMany(r => r.AlimentosDietaDia)

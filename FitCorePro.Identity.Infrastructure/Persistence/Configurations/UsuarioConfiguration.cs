@@ -34,7 +34,7 @@ namespace FitCorePro.Identity.Infrastructure.Persistence.Configurations
                 .IsRequired();
 
             builder.Property(x => x.CreatedDate)
-                .HasColumnType("datetime2");
+                .HasColumnType("timestamp with time zone");
 
             builder.HasIndex(x => x.Email)
                 .IsUnique();

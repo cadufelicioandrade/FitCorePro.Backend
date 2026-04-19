@@ -27,7 +27,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Persistence.Configuration
                 .HasMaxLength(36);
 
             builder.Property(r => r.CreatedDate)
-                .HasColumnType("datetime2");
+                .HasColumnType("timestamp with time zone");
 
             builder.HasOne(r => r.DietaDia)
                 .WithMany(d => d.RefeicoesDietaDia)

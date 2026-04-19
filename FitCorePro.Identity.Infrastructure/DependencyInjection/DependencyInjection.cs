@@ -16,7 +16,7 @@ namespace FitCorePro.Identity.Infrastructure.DependencyInjection
             IConfiguration configuration)
         {
             services.AddDbContext<IdentityDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();

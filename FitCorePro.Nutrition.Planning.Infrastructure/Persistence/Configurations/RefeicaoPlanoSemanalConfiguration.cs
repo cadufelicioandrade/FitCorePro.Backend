@@ -23,7 +23,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Persistence.Configuration
                 .IsRequired();
 
             builder.Property(t => t.CreatedDate)
-                .HasColumnType("datetime2");
+                .HasColumnType("timestamp with time zone");
 
             builder.Property(t => t.PlanoSemanalDiaId)
                 .IsRequired()

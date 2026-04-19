@@ -1,6 +1,8 @@
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.runtimeconfig.json
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.AssemblyInfo.cs
@@ -8,4 +10,5 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructu
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Bioimpedancia.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Infrastructure.genruntimeconfig.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Bioimpedancia.Infrastructure.dll

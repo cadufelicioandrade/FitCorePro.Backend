@@ -1,4 +1,5 @@
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.runtimeconfig.json
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Infrastructure.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\bin\Debug\net8.0\FitCorePro.Identity.Application.dll
@@ -16,4 +17,5 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\ob
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Identity.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\FitCorePro.Identity.Infrastructure.genruntimeconfig.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Identity.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Identity.Infrastructure.dll

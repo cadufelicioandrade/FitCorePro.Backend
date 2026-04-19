@@ -14,7 +14,7 @@ public sealed class PlanoSemanalConfiguration : IEntityTypeConfiguration<PlanoSe
         builder.Property(p => p.Ativo).IsRequired();
         builder.Property(p => p.Nome).IsRequired().HasMaxLength(355);
         builder.Property(p => p.UsuarioId).IsRequired().HasMaxLength(255);
-        builder.Property(p => p.CreatedDate).HasColumnType("datetime2");
+        builder.Property(p => p.CreatedDate).HasColumnType("timestamp with time zone");
 
         builder.HasMany(p => p.PlanoSemanalDias)
             .WithOne(d => d.PlanoSemanal)

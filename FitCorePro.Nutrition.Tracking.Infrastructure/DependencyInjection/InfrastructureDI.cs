@@ -12,7 +12,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection
         public static void AddTrackingInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<TrackingDbContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IDietaDiaRepository, DietaDiaRepository>();
             services.AddScoped<IRefeicaoDietaDiaRepository, RefeicaoDietaDiaRepository>();

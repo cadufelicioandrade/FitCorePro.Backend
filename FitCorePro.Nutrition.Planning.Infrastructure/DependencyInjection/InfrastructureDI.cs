@@ -12,7 +12,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection
         public static IServiceCollection AddPlannigInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<PlanningDbContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IPlanoSemanalRepository, PlanoSemanalRepository>();
             services.AddScoped<IRefeicaoPlanoSemanalRepository, RefeicaoPlanoSemanalRepository>();

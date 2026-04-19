@@ -1,0 +1,15 @@
+﻿
+
+Hospedar no Azure:
+
+Azure Container Apps + Azure Database for PostgreSQL Flexible Server (B1ms no começo).
+O Azure Container Apps tem cobrança por consumo e inclui franquia gratuita mensal de CPU e memória, o que ajuda bastante em app pequeno com tráfego baixo. Já o Azure Database for PostgreSQL Flexible Server tem opção burstable; a página oficial mostra a classe B1ms como o nível de entrada e exibe US$ 12,41/mês para essa instância na referência consultada.
+
+PostgreSQL:
+
+Para o teu caso, PostgreSQL é uma escolha muito boa porque:
+
+conversa muito bem com ASP.NET e EF Core
+roda bem em Azure e AWS
+evita custo/licenciamento de SQL Server
+te deixa livre para crescer depois sem ficar preso a uma solução muito cara

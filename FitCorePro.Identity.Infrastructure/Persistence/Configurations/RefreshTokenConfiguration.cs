@@ -24,10 +24,10 @@ namespace FitCorePro.Identity.Infrastructure.Persistence.Configurations
                 .HasMaxLength(36);
 
             builder.Property(x => x.ExpiresAt)
-                .HasColumnType("datetime2");
+                .HasColumnType("timestamp with time zone");
 
             builder.Property(x => x.CreatedDate)
-                .HasColumnType("datetime2");
+                .HasColumnType("timestamp with time zone");
 
             builder.Property(x => x.Revogado)
                 .IsRequired();
