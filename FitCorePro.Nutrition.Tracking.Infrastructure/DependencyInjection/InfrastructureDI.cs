@@ -9,15 +9,17 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection
 {
     public static class InfrastructureDI
     {
-        public static void AddTrackingInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddTrackingInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<TrackingDbContext>(options =>
-            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
+                options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IDietaDiaRepository, DietaDiaRepository>();
             services.AddScoped<IRefeicaoDietaDiaRepository, RefeicaoDietaDiaRepository>();
             services.AddScoped<IAlimentoDietaDiaRepository, AlimentoDietaDiaRepository>();
             services.AddScoped<IAlimentoBaseRepository, AlimentoBaseRepository>();
+
+            return services;
         }
     }
 }

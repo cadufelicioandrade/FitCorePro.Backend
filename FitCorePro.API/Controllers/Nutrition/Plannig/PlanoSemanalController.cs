@@ -1,4 +1,5 @@
-﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
+﻿using FitCorePro.Identity.Application.Interfaces;
+using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Response;
 using Microsoft.AspNetCore.Authorization;
@@ -12,17 +13,24 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
     public class PlanoSemanalController : ControllerBase
     {
         private readonly IPlanoSemanalService _planoSemanalService;
+        private readonly IUserContext _userContext;
 
-        public PlanoSemanalController(IPlanoSemanalService planoSemanalService)
+        public PlanoSemanalController(
+            IPlanoSemanalService planoSemanalService,
+            IUserContext userContext)
         {
             _planoSemanalService = planoSemanalService;
+            _userContext = userContext;
         }
 
-        [HttpGet("obter-todos/{usuarioId}")]
-        public async Task<IActionResult> GetAllByUsuarioId(string usuarioId)
+        [HttpGet("obter-todos")]
+        public async Task<IActionResult> GetAllByUsuarioId()
         {
+
+            var usuarioId = _userContext.GetUserId();
+
             if (String.IsNullOrEmpty(usuarioId))
-                return BadRequest(new ApiMessagemResponse("Envie um usuário Id válido!"));
+                return Unauthorized();
 
             var result = await _planoSemanalService.GetByUsuarioIdAsync(usuarioId);
 

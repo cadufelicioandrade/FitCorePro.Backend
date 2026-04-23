@@ -1,4 +1,5 @@
-﻿using FitCorePro.Nutrition.Tracking.Application.Abstractions.Services;
+﻿using FitCorePro.Identity.Application.Interfaces;
+using FitCorePro.Nutrition.Tracking.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Tracking.Application.UseCases.Response;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,17 +14,23 @@ namespace FitCorePro.API.Controllers.Nutrition.Tracking
     {
 
         private readonly IDietaDiaService _dietaDiaService;
+        private readonly IUserContext _userContext;
 
-        public DietaDiaController(IDietaDiaService dietaDiaService)
+        public DietaDiaController(
+            IDietaDiaService dietaDiaService, 
+            IUserContext userContext)
         {
             _dietaDiaService = dietaDiaService;
+            _userContext = userContext;
         }
 
         [HttpGet("obter-todos")]
-        public async Task<IActionResult> GetAll([FromQuery] string usuarioId, [FromQuery] DateTime dataDieta)
+        public async Task<IActionResult> GetAll([FromQuery] DateTime dataDieta)
         {
+            var usuarioId = _userContext.GetUserId();
+
             if (String.IsNullOrWhiteSpace(usuarioId))
-                return BadRequest(new ApiMessageResponse("Forneça um usuarioId válido."));
+                return Unauthorized();
 
             var result = await _dietaDiaService.GetAllAsync(usuarioId, dataDieta);
 

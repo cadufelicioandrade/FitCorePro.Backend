@@ -9,6 +9,8 @@
   <ItemGroup>
     <Folder Include="Errors\" />
     <Folder Include="Guards\" />
+    <Folder Include="Primitives\" />
+    <Folder Include="Result\" />
   </ItemGroup>
 
 </Project>

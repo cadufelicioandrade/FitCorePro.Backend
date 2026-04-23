@@ -1,5 +1,7 @@
+using FitCorePro.API.Contexts;
 using FitCorePro.Identity.Application.Configuration;
 using FitCorePro.Identity.Application.DependencyInjection;
+using FitCorePro.Identity.Application.Interfaces;
 using FitCorePro.Identity.Infrastructure.DependencyInjection;
 using FitCorePro.Nutrition.Planning.Application.DependencyInjection;
 using FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection;
@@ -85,6 +87,9 @@ builder.Services.AddTrackingInfrastructure(builder.Configuration);
 
 builder.Services.AddIdentityApplication();
 builder.Services.AddIdentityInfrastructure(builder.Configuration);
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IUserContext, UserContext>();
 
 var app = builder.Build();
 
