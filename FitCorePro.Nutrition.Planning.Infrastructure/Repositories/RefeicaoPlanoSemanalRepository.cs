@@ -1,7 +1,6 @@
 ﻿using FitCorePro.Nutrition.Planning.Domain.Entities;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
 using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
 
 
 namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories

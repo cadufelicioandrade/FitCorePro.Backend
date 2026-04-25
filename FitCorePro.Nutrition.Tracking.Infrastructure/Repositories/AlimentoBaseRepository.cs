@@ -1,12 +1,24 @@
 ﻿using FitCorePro.Nutrition.Tracking.Domain.Entities;
 using FitCorePro.Nutrition.Tracking.Domain.Repositories;
+using FitCorePro.Nutrition.Tracking.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 {
     public class AlimentoBaseRepository : IAlimentoBaseRepository
     {
+        private TrackingDbContext _context;
+
+        public AlimentoBaseRepository(TrackingDbContext context)
+        {
+            _context = context;
+        }
+
         public async Task<List<AlimentoBase>> GetAllAsync()
         {
+            var alimentoBase = await _context.AlimentoBase.ToListAsync();
+
+
             var resultList = GetMock();
             return await Task.FromResult(resultList);
         }
