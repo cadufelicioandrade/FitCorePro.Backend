@@ -77,6 +77,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
                 return "Nenhuma refeição encontrada para este dia.";
 
             _context.RefeicaoDietaDia.RemoveRange(dietaDia.RefeicoesDietaDia);
+            _context.DietaDia.Remove(dietaDia);
 
             var result = await _context.SaveChangesAsync();
 
