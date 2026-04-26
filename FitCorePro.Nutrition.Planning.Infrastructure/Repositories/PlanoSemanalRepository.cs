@@ -1,6 +1,7 @@
 ﻿using FitCorePro.Nutrition.Planning.Domain.Entities;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
 using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 {
@@ -15,8 +16,8 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> AdicionarPlanoSemanalAsync(PlanoSemanal planoSemanal)
         {
-            // _context.PlanosSemanal.Add(planoSemanal);
-            var result = 1;//await _context.SaveChangesAsync();
+            _context.PlanosSemanal.Add(planoSemanal);
+            var result = await _context.SaveChangesAsync();
 
             if (result > 0) return "Plano semanal incluído com sucesso!";
             return "Falha ao incluir plano semana.";
@@ -24,16 +25,14 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<PlanoSemanal?> GetPlanoByUsuarioIdAsync(string usuarioId)
         {
-            var plano = GetMock(usuarioId);
-            return await Task.FromResult<PlanoSemanal?>(plano);
+            return await _context.PlanosSemanal.AsNoTracking()
+                .Include(p => p.PlanoSemanalDias)
+                    .ThenInclude(d => d.RefeicoesPlanoSemanal)
+                        .ThenInclude(r => r.AlimentosPlanoSemanais)
+                .FirstOrDefaultAsync(p => p.UsuarioId == usuarioId);
 
-            //return await _context.PlanosSemanais
-            //    .AsNoTracking()
-            //    .Include(p => p.PlanoSemanalDias)
-            //        .ThenInclude(d => d.Refeicoes)
-            //            .ThenInclude(r => r.RefeicaoAlimentos)
-            //                .ThenInclude(ra => ra.Alimento)
-            //    .FirstOrDefaultAsync(p => p.UsuarioId == usuarioId);
+            //var plano = GetMock(usuarioId);
+            //return await Task.FromResult<PlanoSemanal?>(plano);
         }
 
         private PlanoSemanal GetMock(string usuarioId)
@@ -43,7 +42,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 nome: "Plano Hipertrofia",
                 ativo: true,
                 usuarioId: usuarioId,
-                createdDate: DateTime.Now
+                createdDate: DateOnly.FromDateTime(DateTime.Now)
             );
 
             // =====================
@@ -53,7 +52,7 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
                 id: Guid.NewGuid().ToString(),
                 planoSemanalId: planoSemanal.Id,
                 diaSemana: 1,
-                createdDate: DateTime.UtcNow
+                createdDate: DateOnly.FromDateTime(DateTime.Now)
             );
 
             // Café da manhã

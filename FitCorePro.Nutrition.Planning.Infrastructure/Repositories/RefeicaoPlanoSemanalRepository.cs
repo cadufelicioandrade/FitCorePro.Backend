@@ -1,6 +1,7 @@
 ﻿using FitCorePro.Nutrition.Planning.Domain.Entities;
 using FitCorePro.Nutrition.Planning.Domain.Repositories;
 using FitCorePro.Nutrition.Planning.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
@@ -14,11 +15,11 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<string> AdicionarRefeicaoPlanoSemanalAsync(RefeicaoPlanoSemanal refeicaoPlanoSemanal)
+        public async Task<string> AdicionarRefeicaoPlanoSemanalAsync(string usuarioId, RefeicaoPlanoSemanal refeicaoPlanoSemanal)
         {
-            //_context.RefeicoesPlanoSemanal.Add(refeicaoPlanoSemanal);
+            _context.RefeicoesPlanoSemanal.Add(refeicaoPlanoSemanal);
 
-            var resutl = 1; //await _context.SaveChangesAsync();
+            var resutl = await _context.SaveChangesAsync();
 
             if (resutl > 0)
                 return "Refeição adicionada com sucesso!";
@@ -26,17 +27,19 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
             return "Falha ao tentar adicionar refeição.";
         }
 
-        public async Task<string> RemoverRefeicaoPlanoSemanalAsync(string refeicaoId)
+        public async Task<string> RemoverRefeicaoPlanoSemanalAsync(string usuarioId, string refeicaoId)
         {
-            var result = 1;
+            var refeicao = await _context.RefeicoesPlanoSemanal
+                .FirstOrDefaultAsync(x => 
+                x.Id == refeicaoId 
+                && x.PlanoSemanalDia.PlanoSemanal.UsuarioId == usuarioId);
 
-            //var refeicao = await _context.RefeicoesPlanoSemanais
-            //                        .FirstOrDefaultAsync(x => x.Id == refeicaoId);
+            _context.RefeicoesPlanoSemanal.Remove(refeicao);
+            var result = await _context.SaveChangesAsync();
 
-            //_context.RefeicoesPlanoSemanais.Remove(refeicao);
-            //var result = await _context.SaveChangesAsync();
+            if (result > 0) 
+                return "Refeição Excluída com Sucesso!";
 
-            if (result > 0) return "Refeição Excluída com Sucesso!";
             return "Falha ao tentar excluir a refeição.";
         }
     }

@@ -13,19 +13,19 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
             _handler = handler;
         }
 
-        public async Task<string> AdicionarAsync(AlimentoDietaDiaView view)
+        public async Task<string> AdicionarAsync(string usuarioId, AlimentoDietaDiaView view)
         {
-            return await _handler.CreateHandleAsync(view);
+            return await _handler.CreateHandleAsync(usuarioId, view);
         }
 
-        public async Task<string> EditarAsync(AlimentoDietaDiaView view)
+        public async Task<string> EditarAsync(string usuarioId, AlimentoDietaDiaView view)
         {
-            return await _handler.EditHandleAsync(view);
+            return await _handler.EditHandleAsync(usuarioId, view);
         }
 
-        public async Task<string> ExcluirAsync(string alimentoDietaDiaId)
+        public async Task<string> ExcluirAsync(string usuarioId, string alimentoDietaDiaId)
         {
-            return await _handler.DeleteHandleAsync(alimentoDietaDiaId);
+            return await _handler.DeleteHandleAsync(usuarioId, alimentoDietaDiaId);
         }
     }
 }

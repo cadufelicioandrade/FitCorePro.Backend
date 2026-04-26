@@ -337,18 +337,11 @@
         ],
         "parameters": [
           {
-            "name": "usuarioId",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
             "name": "dataDieta",
             "in": "query",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "date"
             }
           }
         ],
@@ -359,20 +352,10 @@
         }
       }
     },
-    "/api/nutritionplanning/plano-semanal/obter-todos/{usuarioId}": {
+    "/api/nutritionplanning/plano-semanal/obter-todos": {
       "get": {
         "tags": [
           "PlanoSemanal"
-        ],
-        "parameters": [
-          {
-            "name": "usuarioId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "responses": {
           "200": {

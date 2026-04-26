@@ -17,6 +17,9 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Queries
         {
             var dietaDia = await _dietaDiaRepository.GetAllAsync(query.usuarioId, query.dataDieta);
 
+            if (dietaDia is null)
+                return null;
+
             var view = new DietaDiaView(dietaDia.Id, dietaDia.UsuarioId, dietaDia.DataDieta.ToString("yyyy-MM-dd"), dietaDia.CreatedDate.ToString("yyyy-MM-dd"));
 
             view.RefeicoesDietaDia = dietaDia.RefeicoesDietaDia.Select(y => new RefeicaoDietaDiaView

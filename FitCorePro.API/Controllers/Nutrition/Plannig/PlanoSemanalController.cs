@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Plannig
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/nutritionplanning/plano-semanal")]
     public class PlanoSemanalController : ControllerBase
@@ -29,8 +29,8 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
 
             var usuarioId = _userContext.GetUserId();
 
-            if (String.IsNullOrEmpty(usuarioId))
-                return Unauthorized();
+            //if (String.IsNullOrEmpty(usuarioId))
+            //    return Unauthorized();
 
             var result = await _planoSemanalService.GetByUsuarioIdAsync(usuarioId);
 
@@ -43,7 +43,12 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
             if (request is null)
                 return BadRequest(new ApiMessagemResponse("Envie um Plano Semanal Válido!"));
 
-            var result = await _planoSemanalService.AdicionarPlanoSemanalAsync(request);
+            var usuarioId = _userContext.GetUserId();
+
+            //if (String.IsNullOrEmpty(usuarioId))
+            //    return Unauthorized();
+
+            var result = await _planoSemanalService.AdicionarPlanoSemanalAsync(usuarioId, request);
             return Ok(new ApiMessagemResponse(result));
         }
     }

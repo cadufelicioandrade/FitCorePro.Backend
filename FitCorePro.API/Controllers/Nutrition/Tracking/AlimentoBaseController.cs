@@ -1,10 +1,8 @@
 ﻿using FitCorePro.Nutrition.Tracking.Application.Abstractions.Services;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Tracking
 {
-    [Authorize]
     [ApiController]
     [Route("api/tracking/alimento-base")]
     public class AlimentoBaseController : ControllerBase

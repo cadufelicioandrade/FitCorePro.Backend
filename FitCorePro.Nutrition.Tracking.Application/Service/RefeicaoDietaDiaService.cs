@@ -16,29 +16,29 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
             _queryHandle = queryHandle;
         }
 
-        public async Task<string> AdicionarRefeicaoDietaDiaAsync(RefeicaoDietaDiaView view)
+        public async Task<string> AdicionarRefeicaoDietaDiaAsync(string usuarioId, RefeicaoDietaDiaView view)
         {
-            return await _comandHandle.PostHandleAsync(view);
+            return await _comandHandle.PostHandleAsync(usuarioId, view);
         }
 
-        public async Task<string> AtualizarListaRefeicoes(List<RefeicaoDietaDiaView> list)
+        public async Task<string> AtualizarListaRefeicoes(string usuarioId,  List<RefeicaoDietaDiaView> list)
         {
-            return await _comandHandle.UpdateListRefeicoes(list);
+            return await _comandHandle.UpdateListRefeicoes(usuarioId, list);
         }
 
-        public async Task<string> ExcluirRefeicaoDietaDiaAsync(string id)
+        public async Task<string> ExcluirRefeicaoDietaDiaAsync(string usuarioId, string id)
         {
-            return await _comandHandle.DeleteHandleAsync(id);
+            return await _comandHandle.DeleteHandleAsync(usuarioId, id);
         }
 
-        public async Task<string> ExcluirRefeicoesPorDataAsync(DateTime dataDia)
+        public async Task<string> ExcluirRefeicoesPorDataAsync(string usuarioId, DateOnly dataDia)
         {
-            return await _comandHandle.ExcluirRefeicoesPorDataAsync(dataDia);
+            return await _comandHandle.ExcluirRefeicoesPorDataAsync(usuarioId, dataDia);
         }
 
-        public async Task<RefeicaoDietaDiaView> ObterPorId(string id)
+        public async Task<RefeicaoDietaDiaView> ObterPorId(string usuarioId, string id)
         {
-            return await _queryHandle.ObterPorIdAsync(id);
+            return await _queryHandle.ObterPorIdAsync(usuarioId, id);
         }
     }
 }

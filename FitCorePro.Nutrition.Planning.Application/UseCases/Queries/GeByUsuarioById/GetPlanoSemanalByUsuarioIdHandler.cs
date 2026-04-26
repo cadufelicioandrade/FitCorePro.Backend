@@ -58,12 +58,12 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
             };
         }
 
-        public async Task<string> AddHandleAsync(PlanoSemanalRequest request)
+        public async Task<string> AddHandleAsync(string usuarioId, PlanoSemanalRequest request)
         {
             var planoSemanalId = Guid.NewGuid().ToString();
             
 
-            var planoSemanal = new PlanoSemanal(planoSemanalId, request.Nome, true, request.UsuarioId, DateTime.Now);
+            var planoSemanal = new PlanoSemanal(planoSemanalId, request.Nome, true, request.UsuarioId, DateOnly.FromDateTime(DateTime.Now));
 
             request.PlanoSemanalDias.ForEach(diaRequest => {
                 var planoSemanalDiaId = Guid.NewGuid().ToString();
@@ -72,7 +72,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Queries.GeByUsuario
                     planoSemanalDiaId,
                     planoSemanalId,
                     diaRequest.DiaSemana,
-                    DateTime.Now);
+                    DateOnly.FromDateTime(DateTime.Now));
 
                 planoSemanal.AdicionarPlanSemanalDia(planoSemanalDia);
 

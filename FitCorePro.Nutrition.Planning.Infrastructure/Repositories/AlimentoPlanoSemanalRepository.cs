@@ -16,8 +16,8 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> AdicionarAlimentoPLanoSemanalAsync(List<AlimentoPlanoSemanal> listAlimentos)
         {
-            //_context.AlimentosPlanoSemanal.AddRange(listAlimentos);
-            var result = 1; //await _context.SaveChangesAsync();
+            _context.AlimentosPlanoSemanal.AddRange(listAlimentos);
+            var result = await _context.SaveChangesAsync();
 
             if (result > 0)
                 return "Alimento adicionado com sucesso!";
@@ -27,8 +27,8 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> EditarAlimentoPlanoSemanalAsync(AlimentoPlanoSemanal alimento)
         {
-            //_context.AlimentosPlanoSemanal.Update(alimento);
-            var result = 1;//await _context.SaveChangesAsync();
+            _context.AlimentosPlanoSemanal.Update(alimento);
+            var result = await _context.SaveChangesAsync();
 
             if (result > 0) return "Alimento editado com sucesso!";
             return "Falha ao editar alimento";
@@ -36,12 +36,12 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
 
         public async Task<string> ExcluirAlimentoPlanoSemanalAsync(string id)
         {
-            //var alimento = await _context.AlimentosPlanoSemanal.FirstOrDefaultAsync(a => a.Id == id);
+            var alimento = await _context.AlimentosPlanoSemanal.FirstOrDefaultAsync(a => a.Id == id);
 
-            //if (alimento == null) return "Alimento não encontrado!";
+            if (alimento == null) return "Alimento não encontrado!";
             
-            //_context.AlimentosPlanoSemanal.Remove(alimento);
-            var result = 1;//await _context.SaveChangesAsync();
+            _context.AlimentosPlanoSemanal.Remove(alimento);
+            var result = await _context.SaveChangesAsync();
 
             if (result > 0) return "Alimento excluído com sucesso!";
 

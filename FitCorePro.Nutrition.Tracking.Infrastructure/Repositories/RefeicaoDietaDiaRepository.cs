@@ -14,8 +14,21 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<string> AdicionarRefeicaoDietaDiaAsync(RefeicaoDietaDia refeicao)
+        public async Task<string> AdicionarRefeicaoDietaDiaAsync(string usuarioId, RefeicaoDietaDia refeicao)
         {
+            if (String.IsNullOrEmpty(refeicao.DietaDiaId))
+            {
+                var dietaDiaId = Guid.NewGuid().ToString();
+                var dietaDia = new DietaDia(
+                                    dietaDiaId,
+                                    usuarioId,
+                                    DateOnly.FromDateTime(DateTime.Now));
+
+                _context.DietaDia.Add(dietaDia);
+                await _context.SaveChangesAsync();
+                refeicao.DietaDiaId = dietaDiaId;
+            }
+
             _context.RefeicaoDietaDia.Add(refeicao);
             var result = await _context.SaveChangesAsync();
 
@@ -24,10 +37,9 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 
             return "Erro de servidor, tente mais tarde.";
 
-            return await Task.FromResult<string>("Refeição adicionada com sucesso!");
         }
 
-        public async Task<string> AtualizarListRefeicoesAsync(List<RefeicaoDietaDia> list)
+        public async Task<string> AtualizarListRefeicoesAsync(string usuarioId, List<RefeicaoDietaDia> list)
         {
             _context.RefeicaoDietaDia.UpdateRange(list);
             var result = await _context.SaveChangesAsync();
@@ -36,13 +48,11 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
                 return "Refeições atualizadas com sucesso!";
 
             return "Erro de servidor, tente novamente mais tarde.";
-
-            return await Task.FromResult<string>("Refeição atualizadas com sucesso!");
         }
 
-        public async Task<string> ExcluirRefeicaoPorIdAsync(string id)
+        public async Task<string> ExcluirRefeicaoPorIdAsync(string usuarioId, string id)
         {
-            var refeicao = await this.ObterPorIdAsync(id);
+            var refeicao = await this.ObterPorIdAsync(usuarioId, id);
 
             if (refeicao == null)
                 return "Refeição não encontrada.";
@@ -55,34 +65,33 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 
             return "Erro de servidor, tente novamente mais tarde.";
 
-            return await Task.FromResult<string>("Refeição excluída com sucesso!");
         }
 
-        public async Task<string> ExcluirRefeicoesPorDataAsync(DateTime dataDia)
+        public async Task<string> ExcluirRefeicoesPorDataAsync(string usuarioId, DateOnly dataDia)
         {
-            var refeicao = await _context.RefeicaoDietaDia.FirstOrDefaultAsync(r => r.CreatedDate == dataDia);
+            var dietaDia = await _context.DietaDia
+                .Include(d => d.RefeicoesDietaDia)
+                .FirstOrDefaultAsync(d => d.UsuarioId == usuarioId && d.DataDieta == dataDia);
 
-            if (refeicao == null)
-                return "Refeição não encontrada.";
+            if (dietaDia == null || !dietaDia.RefeicoesDietaDia.Any())
+                return "Nenhuma refeição encontrada para este dia.";
 
-            _context.RefeicaoDietaDia.Remove(refeicao);
-            var result =  await _context.SaveChangesAsync();
+            _context.RefeicaoDietaDia.RemoveRange(dietaDia.RefeicoesDietaDia);
+
+            var result = await _context.SaveChangesAsync();
 
             if (result > 0)
-                return "Refeição excluída com sucesso!";
+                return "Refeições excluídas com sucesso!";
 
-            return "Erro de servicdor, tente novamente mais tarde.";
-
-            return await Task.FromResult<string>("Refeições excluídas com sucesso!");
+            return "Erro de servidor, tente novamente mais tarde.";
         }
 
-        public async Task<RefeicaoDietaDia> ObterPorIdAsync(string id)
+        public async Task<RefeicaoDietaDia> ObterPorIdAsync(string usuarioId, string id)
         {
             var result = await _context.RefeicaoDietaDia.FirstOrDefaultAsync(r => r.Id == id);
 
             return result;
 
-            return await Task.FromResult<RefeicaoDietaDia>(new RefeicaoDietaDia(id, "teste", 1, "teste-123"));
         }
     }
 }

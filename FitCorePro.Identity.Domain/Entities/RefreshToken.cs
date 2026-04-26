@@ -10,7 +10,7 @@
             Token = token;
             UsuarioId = usuarioId;
             ExpiresAt = expiresAt;
-            CreatedDate = DateTime.UtcNow;
+            CreatedDate = DateTime.Now;
             Revogado = false;
         }
 

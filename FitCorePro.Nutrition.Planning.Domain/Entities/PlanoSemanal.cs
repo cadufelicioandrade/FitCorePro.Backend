@@ -15,7 +15,7 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
             string nome,
             bool ativo,
             string usuarioId,
-            DateTime createdDate)
+            DateOnly createdDate)
         {
             Id = id;
             Nome = nome;
@@ -28,7 +28,7 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
         public string Nome { get; set; } = default!;
         public bool Ativo { get; set; }
         public string UsuarioId { get; set; } = default!;
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public DateOnly CreatedDate { get; set; } 
 
         private List<PlanoSemanalDia> _planoSemanalDias { get; set; } = new();
         public IReadOnlyCollection<PlanoSemanalDia> PlanoSemanalDias => _planoSemanalDias;

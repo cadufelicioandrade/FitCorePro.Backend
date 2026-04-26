@@ -12,9 +12,9 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Queries
             _repo = repo;
         }
 
-        public async Task<RefeicaoDietaDiaView> ObterPorIdAsync(string id)
+        public async Task<RefeicaoDietaDiaView> ObterPorIdAsync(string usuarioId, string id)
         {
-            var refeicao = await _repo.ObterPorIdAsync(id);
+            var refeicao = await _repo.ObterPorIdAsync(usuarioId, id);
 
             var view = new RefeicaoDietaDiaView
             {

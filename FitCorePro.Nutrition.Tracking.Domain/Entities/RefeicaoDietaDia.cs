@@ -7,8 +7,7 @@
         public int Ordem { get; set; }
         public DietaDia DietaDia { get; set; }
         public string DietaDiaId { get; set; }
-
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         private readonly List<AlimentoDietaDia> _alimentosDietaDia = new();
         public IReadOnlyCollection<AlimentoDietaDia> AlimentosDietaDia => _alimentosDietaDia;

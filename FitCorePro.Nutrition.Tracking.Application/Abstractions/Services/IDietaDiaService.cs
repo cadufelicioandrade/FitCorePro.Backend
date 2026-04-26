@@ -4,6 +4,6 @@ namespace FitCorePro.Nutrition.Tracking.Application.Abstractions.Services
 {
     public interface IDietaDiaService
     {
-        Task<DietaDiaView> GetAllAsync(string usuarioId, DateTime dataDieta);
+        Task<DietaDiaView> GetAllAsync(string usuarioId, DateOnly dataDieta);
     }
 }

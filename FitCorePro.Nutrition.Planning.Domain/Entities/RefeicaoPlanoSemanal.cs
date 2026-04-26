@@ -8,7 +8,7 @@
         public string PlanoSemanalDiaId { get; private set; } = default!;
         public PlanoSemanalDia PlanoSemanalDia { get; set; }
 
-        public DateTime CreatedDate { get; private set; } = DateTime.Now;
+        public DateOnly CreatedDate { get; private set; } 
 
         private readonly List<AlimentoPlanoSemanal> _alimentosPlanoSemanais = new();
         public IReadOnlyCollection<AlimentoPlanoSemanal> AlimentosPlanoSemanais => _alimentosPlanoSemanais;

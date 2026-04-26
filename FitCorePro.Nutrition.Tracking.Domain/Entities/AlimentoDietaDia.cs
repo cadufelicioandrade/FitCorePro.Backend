@@ -14,6 +14,7 @@
             Proteinas = proteinas;
             Gorduras = gorduras;
             Fibras = fibras;
+            CreatedDate = DateTime.UtcNow;
         }
 
         public string Id { get; set; }
@@ -26,7 +27,7 @@
         public double Proteinas { get; set; }
         public double Gorduras { get; set; }
         public double Fibras { get; set; }
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
     }
 }

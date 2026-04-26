@@ -15,15 +15,15 @@ namespace FitCorePro.Nutrition.Planning.Application.Service
             _deleteHandler = deleteHandler;
         }
 
-        public async Task<string> AdicionarRefeicaoPlanoSemanalAsync(CriaRefeicaoRequest criaRefeicaoRequest)
+        public async Task<string> AdicionarRefeicaoPlanoSemanalAsync(string usuarioId, CriaRefeicaoRequest criaRefeicaoRequest)
         {
-            var result = await _postHandler.HandleAsync(criaRefeicaoRequest);
+            var result = await _postHandler.HandleAsync(usuarioId, criaRefeicaoRequest);
             return result;
         }
 
-        public async Task<string> RemoverRefeicaoPlanoSemanalAsync(string refeicaoId)
+        public async Task<string> RemoverRefeicaoPlanoSemanalAsync(string usuarioId, string refeicaoId)
         {
-            return await _deleteHandler.HandleAsync(refeicaoId);
+            return await _deleteHandler.HandleAsync(usuarioId, refeicaoId);
         }
     }
 }

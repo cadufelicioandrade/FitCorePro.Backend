@@ -13,25 +13,25 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Comands
             _repo = repo;
         }
 
-        public async Task<string> CreateHandleAsync(AlimentoDietaDiaView view)
+        public async Task<string> CreateHandleAsync(string usuarioId, AlimentoDietaDiaView view)
         {
             var id = Guid.NewGuid().ToString();
 
             var alimento = new AlimentoDietaDia(id, view.Nome, view.RefeicaoDietaDiaId, view.QuantidadeGramas, view.Calorias, view.Carboidratos,view.Proteinas, view.Gorduras, view.Fibras);
 
-            return await _repo.AdicionarAsync(alimento);
+            return await _repo.AdicionarAsync(usuarioId, alimento);
         }
 
-        public async Task<string> EditHandleAsync(AlimentoDietaDiaView view)
+        public async Task<string> EditHandleAsync(string usuarioId, AlimentoDietaDiaView view)
         {
             var alimento = new AlimentoDietaDia(view.Id, view.Nome, view.RefeicaoDietaDiaId, view.QuantidadeGramas, view.Calorias, view.Carboidratos, view.Proteinas, view.Gorduras, view.Fibras);
 
-            return await _repo.EditarAsync(alimento);
+            return await _repo.EditarAsync(usuarioId, alimento);
         }
 
-        internal async Task<string> DeleteHandleAsync(string alimentoDietaDiaId)
+        internal async Task<string> DeleteHandleAsync(string usuarioId, string alimentoDietaDiaId)
         {
-            return await _repo.ExcluirAsync(alimentoDietaDiaId);
+            return await _repo.ExcluirAsync(usuarioId, alimentoDietaDiaId);
         }
     }
 }

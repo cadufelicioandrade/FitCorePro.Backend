@@ -1,20 +1,23 @@
-﻿using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
+﻿using FitCorePro.Identity.Application.Interfaces;
+using FitCorePro.Nutrition.Planning.Application.Abstractions.Services;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitCorePro.API.Controllers.Nutrition.Plannig
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/nutritionplanning/alimento-plano-semanal")]
     public class AlimentoPlanoSemanalController : ControllerBase
     {
         private readonly IAlimentoPlanoSemanalService _alimentoPlanoSemanalService;
+        private readonly IUserContext _userContext;
 
-        public AlimentoPlanoSemanalController(IAlimentoPlanoSemanalService alimentoPlanoSemanalService)
+        public AlimentoPlanoSemanalController(IAlimentoPlanoSemanalService alimentoPlanoSemanalService, IUserContext userContext)
         {
             _alimentoPlanoSemanalService = alimentoPlanoSemanalService;
+            _userContext = userContext;
         }
 
         [HttpPost("adiciona-range")]

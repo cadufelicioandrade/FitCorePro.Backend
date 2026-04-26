@@ -5,7 +5,7 @@ namespace FitCorePro.Nutrition.Planning.Application.Abstractions.Services
 {
     public interface IPlanoSemanalService
     {
-        Task<string> AdicionarPlanoSemanalAsync(PlanoSemanalRequest request);
+        Task<string> AdicionarPlanoSemanalAsync(string usuarioId, PlanoSemanalRequest request);
         Task<PlanoSemanalResponse?> GetByUsuarioIdAsync(string usuarioId);
     }
 }

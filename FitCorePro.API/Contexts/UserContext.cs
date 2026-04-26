@@ -15,9 +15,11 @@ namespace FitCorePro.API.Contexts
 
         public string? GetUserId()
         {
-            return _httpContextAccessor.HttpContext?
-                .User?
-                .FindFirstValue(JwtRegisteredClaimNames.Sub);
+            return "97cb3ea6-906e-420d-9ce4-ec426dd9f5c5";
+
+                //return _httpContextAccessor.HttpContext?
+                //    .User?
+                //    .FindFirstValue(JwtRegisteredClaimNames.Sub);
         }
 
         public string? GetEmail()

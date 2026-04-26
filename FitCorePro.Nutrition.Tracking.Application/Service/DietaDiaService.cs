@@ -13,7 +13,7 @@ namespace FitCorePro.Nutrition.Tracking.Application.Service
             _handle = handle;
         }
 
-        public async Task<DietaDiaView> GetAllAsync(string usuarioId, DateTime dataDieta)
+        public async Task<DietaDiaView> GetAllAsync(string usuarioId, DateOnly dataDieta)
         {
             return await _handle.GetAllHandle(new DietaDiaGetAllQuery(usuarioId, dataDieta));
         }

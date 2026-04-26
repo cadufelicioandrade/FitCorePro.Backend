@@ -13,9 +13,9 @@ namespace FitCorePro.Nutrition.Planning.Application.Service
             _handler = handler;
         }
 
-        public async Task<string> AdicionarPlanoSemanalAsync(PlanoSemanalRequest request)
+        public async Task<string> AdicionarPlanoSemanalAsync(string usuarioId, PlanoSemanalRequest request)
         {
-            return await _handler.AddHandleAsync(request);
+            return await _handler.AddHandleAsync(usuarioId, request);
         }
 
         public async Task<PlanoSemanalResponse?> GetByUsuarioIdAsync(string usuarioId)

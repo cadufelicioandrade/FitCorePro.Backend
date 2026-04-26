@@ -151,10 +151,10 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\stati
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCoreP.265127EC.Up2Date
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\refint\FitCorePro.API.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.genruntimeconfig.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\ref\FitCorePro.API.dll
-C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

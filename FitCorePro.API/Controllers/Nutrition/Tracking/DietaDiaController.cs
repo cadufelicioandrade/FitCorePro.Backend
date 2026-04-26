@@ -7,7 +7,7 @@ using System.Text.Json;
 
 namespace FitCorePro.API.Controllers.Nutrition.Tracking
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/tracking/dieta-dia")]
     public class DietaDiaController : ControllerBase
@@ -25,12 +25,12 @@ namespace FitCorePro.API.Controllers.Nutrition.Tracking
         }
 
         [HttpGet("obter-todos")]
-        public async Task<IActionResult> GetAll([FromQuery] DateTime dataDieta)
+        public async Task<IActionResult> GetAll([FromQuery] DateOnly dataDieta)
         {
             var usuarioId = _userContext.GetUserId();
 
-            if (String.IsNullOrWhiteSpace(usuarioId))
-                return Unauthorized();
+            //if (String.IsNullOrWhiteSpace(usuarioId))
+            //    return Unauthorized();
 
             var result = await _dietaDiaService.GetAllAsync(usuarioId, dataDieta);
 

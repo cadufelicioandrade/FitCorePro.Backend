@@ -14,7 +14,7 @@
             PasswordHash = passwordHash;
             Role = role;
             Ativo = true;
-            CreatedDate = DateTime.UtcNow;
+            CreatedDate = DateOnly.FromDateTime(DateTime.Now);
         }
 
         public string Id { get; private set; } = default!;
@@ -23,7 +23,7 @@
         public string PasswordHash { get; private set; } = default!;
         public string Role { get; private set; } = default!;
         public bool Ativo { get; private set; }
-        public DateTime CreatedDate { get; private set; }
+        public DateOnly CreatedDate { get; private set; }
 
         public IReadOnlyCollection<RefreshToken> RefreshTokens => _refreshTokens;
 
