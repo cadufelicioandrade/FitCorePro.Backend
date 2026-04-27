@@ -11,9 +11,9 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
             _repo = repo;
         }
 
-        public async Task<string> HandleAsync(string usuarioId, string refeicaoId)
+        public async Task<string> HandleAsync(string refeicaoId)
         {
-            return await _repo.RemoverRefeicaoPlanoSemanalAsync(usuarioId, refeicaoId);
+            return await _repo.RemoverRefeicaoPlanoSemanalAsync(refeicaoId);
         }
     }
 }

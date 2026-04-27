@@ -26,7 +26,7 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
         public int Gramas { get; set; }
         public RefeicaoPlanoSemanal RefeicaoPlanoSemanal { get; set; } = default!;
         public string RefeicaoPlanoSemanalId { get; set; }
-        public DateOnly CreatedDate { get; set; } 
+        public DateTime CreatedDate { get; set; } 
 
     }
 }

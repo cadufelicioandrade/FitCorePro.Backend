@@ -10,7 +10,7 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
             string id,
             string planoSemanalId,
             int diaSemana,
-            DateOnly createdDate)
+            DateTime createdDate)
         {
             Id = id;
             PlanoSemanalId = planoSemanalId;
@@ -24,7 +24,7 @@ namespace FitCorePro.Nutrition.Planning.Domain.Entities
         public string PlanoSemanalId { get; set; } = default!;
 
         public int DiaSemana { get; set; }
-        public DateOnly CreatedDate { get; set; } 
+        public DateTime CreatedDate { get; set; } 
 
         private readonly List<RefeicaoPlanoSemanal> _refeicoes = new();
         public IReadOnlyCollection<RefeicaoPlanoSemanal> RefeicoesPlanoSemanal => _refeicoes;

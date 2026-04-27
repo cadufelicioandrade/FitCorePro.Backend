@@ -1,0 +1,11 @@
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.deps.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\bin\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.AssemblyInfoInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.AssemblyInfo.cs
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\refint\FitCorePro.Bioimpedancia.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\FitCorePro.Bioimpedancia.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Bioimpedancia.Domain\obj\Debug\net8.0\ref\FitCorePro.Bioimpedancia.Domain.dll

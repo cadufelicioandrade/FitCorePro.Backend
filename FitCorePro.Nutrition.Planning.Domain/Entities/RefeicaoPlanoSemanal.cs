@@ -5,10 +5,10 @@
         public string Id { get; private set; } = default!;
         public string Tipo { get; private set; } = default!;
         public int Ordem { get; private set; }
-        public string PlanoSemanalDiaId { get; private set; } = default!;
+        public string PlanoSemanalDiaId { get; set; } = default!;
         public PlanoSemanalDia PlanoSemanalDia { get; set; }
 
-        public DateOnly CreatedDate { get; private set; } 
+        public DateTime CreatedDate { get; private set; } 
 
         private readonly List<AlimentoPlanoSemanal> _alimentosPlanoSemanais = new();
         public IReadOnlyCollection<AlimentoPlanoSemanal> AlimentosPlanoSemanais => _alimentosPlanoSemanais;

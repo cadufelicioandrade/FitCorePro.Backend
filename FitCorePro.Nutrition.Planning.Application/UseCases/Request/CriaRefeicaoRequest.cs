@@ -2,6 +2,7 @@
 {
     public class CriaRefeicaoRequest
     {
+        public string planoSemanalId { get; set; }
         public string PlanoSemanalDiaId { get; set; }
         public int DiaSemana { get; set; }
         public string TipoRefeicao { get; set; }

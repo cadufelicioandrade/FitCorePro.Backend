@@ -28,7 +28,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
             //if (String.IsNullOrWhiteSpace(usuarioId))
             //    return Unauthorized();
 
-            var result = await _service.AdicionarRefeicaoPlanoSemanalAsync(usuarioId, criaRefeicaoRequest);
+            var result = await _service.AdicionarRefeicaoPlanoSemanalAsync(criaRefeicaoRequest);
 
             return Ok(new ApiMessagemResponse(result));
         }
@@ -41,8 +41,7 @@ namespace FitCorePro.API.Controllers.Nutrition.Plannig
             //if (String.IsNullOrWhiteSpace(usuarioId))
             //    return Unauthorized();
 
-
-            var resutl = await _service.RemoverRefeicaoPlanoSemanalAsync(usuarioId, refeicaoId);
+            var resutl = await _service.RemoverRefeicaoPlanoSemanalAsync(refeicaoId);
 
             return Ok(new ApiMessagemResponse(resutl));
         }

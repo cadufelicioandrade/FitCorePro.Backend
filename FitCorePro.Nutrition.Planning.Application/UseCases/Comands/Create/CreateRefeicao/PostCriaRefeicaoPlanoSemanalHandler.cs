@@ -12,7 +12,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
             _repo = refeicaoPlanoSemanal;
         }
 
-        public async Task<string> HandleAsync(string usuarioId, CriaRefeicaoRequest criaRefeicaoRequest)
+        public async Task<string> HandleAsync(CriaRefeicaoRequest criaRefeicaoRequest)
         {
             var refeicaoId = Guid.NewGuid().ToString();
 
@@ -29,8 +29,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
                 refeicaoPlanoSemanal.AdicionarAlimentoPlanoSemanal(alimento);
             });
 
-            //modelar a relação PK e FK para o ef core salvar tudo
-            return await _repo.AdicionarRefeicaoPlanoSemanalAsync(usuarioId,refeicaoPlanoSemanal);            
+            return await _repo.AdicionarRefeicaoPlanoSemanalAsync(criaRefeicaoRequest.planoSemanalId, refeicaoPlanoSemanal);
         }
     }
 }
