@@ -158,3 +158,5 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\refin
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\FitCorePro.API.genruntimeconfig.cache
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\obj\Debug\net8.0\ref\FitCorePro.API.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\FitCorePro.Training.Planning.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.API\bin\Debug\net8.0\FitCorePro.Training.Planning.Domain.pdb

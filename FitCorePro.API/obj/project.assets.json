@@ -1451,6 +1451,9 @@
       "FitCorePro.Training.Planning.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FitCorePro.Training.Planning.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/FitCorePro.Training.Planning.Application.dll": {}
         },
@@ -1458,9 +1461,24 @@
           "bin/placeholder/FitCorePro.Training.Planning.Application.dll": {}
         }
       },
+      "FitCorePro.Training.Planning.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FitCorePro.Training.Planning.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FitCorePro.Training.Planning.Domain.dll": {}
+        }
+      },
       "FitCorePro.Training.Planning.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FitCorePro.Training.Planning.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
+        },
         "compile": {
           "bin/placeholder/FitCorePro.Training.Planning.Infrastructure.dll": {}
         },
@@ -3830,6 +3848,11 @@
       "type": "project",
       "path": "../FitCorePro.Training.Planning.Application/FitCorePro.Training.Planning.Application.csproj",
       "msbuildProject": "../FitCorePro.Training.Planning.Application/FitCorePro.Training.Planning.Application.csproj"
+    },
+    "FitCorePro.Training.Planning.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FitCorePro.Training.Planning.Domain/FitCorePro.Training.Planning.Domain.csproj",
+      "msbuildProject": "../FitCorePro.Training.Planning.Domain/FitCorePro.Training.Planning.Domain.csproj"
     },
     "FitCorePro.Training.Planning.Infrastructure/1.0.0": {
       "type": "project",

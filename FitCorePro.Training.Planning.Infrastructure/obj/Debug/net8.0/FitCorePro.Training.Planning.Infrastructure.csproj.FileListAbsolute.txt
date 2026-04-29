@@ -9,3 +9,4 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastr
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\refint\FitCorePro.Training.Planning.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Training.Planning.Infrastructure.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Training.Planning.Infrastructure.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Training.Planning.Infrastructure.csproj.AssemblyReference.cache

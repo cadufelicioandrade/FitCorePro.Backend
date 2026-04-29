@@ -861,8 +861,19 @@
         }
       },
       "FitCorePro.Training.Planning.Application/1.0.0": {
+        "dependencies": {
+          "FitCorePro.Training.Planning.Domain": "1.0.0"
+        },
         "runtime": {
           "FitCorePro.Training.Planning.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FitCorePro.Training.Planning.Domain/1.0.0": {
+        "runtime": {
+          "FitCorePro.Training.Planning.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1295,6 +1306,11 @@
       "sha512": ""
     },
     "FitCorePro.Training.Planning.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FitCorePro.Training.Planning.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

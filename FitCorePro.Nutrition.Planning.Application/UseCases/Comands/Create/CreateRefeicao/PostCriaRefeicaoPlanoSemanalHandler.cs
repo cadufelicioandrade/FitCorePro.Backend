@@ -29,7 +29,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Post
                 refeicaoPlanoSemanal.AdicionarAlimentoPlanoSemanal(alimento);
             });
 
-            return await _repo.AdicionarRefeicaoPlanoSemanalAsync(criaRefeicaoRequest.planoSemanalId, refeicaoPlanoSemanal);
+            return await _repo.AdicionarRefeicaoPlanoSemanalAsync(criaRefeicaoRequest.planoSemanalId, criaRefeicaoRequest.DiaSemana, refeicaoPlanoSemanal);
         }
     }
 }

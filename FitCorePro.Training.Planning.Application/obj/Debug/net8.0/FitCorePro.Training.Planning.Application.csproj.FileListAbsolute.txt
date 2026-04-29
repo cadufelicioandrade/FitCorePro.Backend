@@ -9,3 +9,7 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Applicat
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\refint\FitCorePro.Training.Planning.Application.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\ref\FitCorePro.Training.Planning.Application.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\bin\Debug\net8.0\FitCorePro.Training.Planning.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\bin\Debug\net8.0\FitCorePro.Training.Planning.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCorePro.Training.Planning.Application.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Application\obj\Debug\net8.0\FitCoreP.5466C1F7.Up2Date

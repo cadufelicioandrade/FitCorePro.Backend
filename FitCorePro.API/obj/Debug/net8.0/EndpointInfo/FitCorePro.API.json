@@ -638,6 +638,10 @@
       "CriaRefeicaoRequest": {
         "type": "object",
         "properties": {
+          "planoSemanalId": {
+            "type": "string",
+            "nullable": true
+          },
           "planoSemanalDiaId": {
             "type": "string",
             "nullable": true
