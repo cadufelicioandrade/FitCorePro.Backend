@@ -1,5 +1,6 @@
 ﻿using FitCorePro.Identity.Application.Interfaces;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
+using FitCorePro.Training.Planning.Application.Abstractions.Services;
 using FitCorePro.Training.Planning.Application.UseCases.ModelView;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,10 +14,25 @@ namespace FitCorePro.API.Controllers.Training
     {
 
         private readonly IUserContext _userContext;
+        private readonly IPlanoTreinoSemanalService _treinoSemanalService;
 
-        public PlanoTreinoSemanalController(IUserContext userContext)
+        public PlanoTreinoSemanalController(IUserContext userContext, IPlanoTreinoSemanalService treinoSemanalService)
         {
             _userContext = userContext;
+            _treinoSemanalService = treinoSemanalService;
+        }
+
+        [HttpPost("adicionar-plano_treinamento")]
+        public async Task<IActionResult> AdicionarPlanoTreinamento([FromBody] PlanoTreinoSemanalView view)
+        {
+            var usuarioId = _userContext.GetUserId();
+
+            //if (String.IsNullOrWhiteSpace(usuarioId))
+            //    return Unauthorized();
+
+            string result = await _treinoSemanalService.AdicionarPlanoTreinoSemanalAsync(view, usuarioId);
+
+            return Ok(new ApiMessagemResponse(result));
         }
 
         [HttpGet("obter-plano-treinamento")]
@@ -27,18 +43,22 @@ namespace FitCorePro.API.Controllers.Training
             //if (String.IsNullOrWhiteSpace(usuarioId))
             //    return Unauthorized();
 
+            var result = await _treinoSemanalService.ObterPlanoTreinoSemanalAsync(usuarioId);
+
             return Ok();
         }
 
         [HttpPut("atualizar-plano-treinamento")]
-        public async Task<IActionResult> AtualizarPlanoTreinamento([FromBody] PlanoTreinoSemanalView planoTreinoSemanal)
+        public async Task<IActionResult> AtualizarPlanoTreinamento([FromBody]PlanoTreinoSemanalView view)
         {
             var usuarioId = _userContext.GetUserId();
 
             //if (String.IsNullOrWhiteSpace(usuarioId))
             //    return Unauthorized();
 
-            return Ok();
+            var result = await _treinoSemanalService.EditarPlanoTreinoSemanalAsync(view, usuarioId);
+
+            return Ok(new ApiMessagemResponse(result));
         }
 
     }

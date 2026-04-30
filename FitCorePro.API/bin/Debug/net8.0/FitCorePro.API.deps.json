@@ -880,6 +880,11 @@
         }
       },
       "FitCorePro.Training.Planning.Infrastructure/1.0.0": {
+        "dependencies": {
+          "FitCorePro.Training.Planning.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
+        },
         "runtime": {
           "FitCorePro.Training.Planning.Infrastructure.dll": {
             "assemblyVersion": "1.0.0.0",

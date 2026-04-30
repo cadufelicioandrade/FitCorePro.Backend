@@ -10,3 +10,8 @@ C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastr
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Training.Planning.Infrastructure.pdb
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\ref\FitCorePro.Training.Planning.Infrastructure.dll
 C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Training.Planning.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Training.Planning.Infrastructure.runtimeconfig.json
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Training.Planning.Domain.dll
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\bin\Debug\net8.0\FitCorePro.Training.Planning.Domain.pdb
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\FitCoreP.D7AB81DB.Up2Date
+C:\Users\Carlos Eduardo\Desktop\FitCorePro\FitCorePro.Training.Planning.Infrastructure\obj\Debug\net8.0\FitCorePro.Training.Planning.Infrastructure.genruntimeconfig.cache

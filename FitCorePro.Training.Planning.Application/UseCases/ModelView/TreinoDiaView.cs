@@ -6,7 +6,7 @@ namespace FitCorePro.Training.Planning.Application.UseCases.ModelView
     {
         public string Id { get; set; }
         public int DiaSemana { get; set; }
-
+        public string PlanoTreinoSemanalId { get; set; }
         public List<ExercicioView> Exercicios { get; set; } = new();
     }
 }

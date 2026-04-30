@@ -2,14 +2,18 @@
 {
     public class PlanoTreinoSemanal
     {
-        public PlanoTreinoSemanal(string id, bool ativo)
+        public PlanoTreinoSemanal(string id, bool ativo, string titulo, string usuarioId)
         {
             Id = id;
             Ativo = ativo;
+            Titulo = titulo;
+            UsuarioId = usuarioId;
         }
 
-        public string Id { get; private set; }
-        public bool Ativo { get; private set; }
+        public string Id { get; set; }
+        public string Titulo { get; set; }
+        public bool Ativo { get; set; }
+        public string UsuarioId { get; set; }
 
         private List<TreinoDia> _treinosDia { get; set; } = new();
         public IReadOnlyCollection<TreinoDia> TreinosDia => _treinosDia;

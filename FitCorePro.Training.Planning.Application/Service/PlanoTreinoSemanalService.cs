@@ -16,14 +16,19 @@ namespace FitCorePro.Training.Planning.Application.Service
             _handlerQuery = handlerQuery;
         }
 
-        public async Task<string> EditarPlanoTreinoSemanalAsync(PlanoTreinoSemanalView planoTreinoSemanalView)
+        public async Task<string> AdicionarPlanoTreinoSemanalAsync(PlanoTreinoSemanalView view, string usuarioId)
         {
-            return await _handlerComand.EditHandleAsync(planoTreinoSemanalView);
+            return await _handlerComand.CreateHandleAsync(view, usuarioId);
         }
 
-        public async Task<PlanoTreinoSemanalView> ObterPlanoTreinoSemanalAsync()
+        public async Task<string> EditarPlanoTreinoSemanalAsync(PlanoTreinoSemanalView planoTreinoSemanalView, string usuarioId)
         {
-            return await _handlerQuery.GetHandleAsync();
+            return await _handlerComand.EditHandleAsync(planoTreinoSemanalView, usuarioId);
+        }
+
+        public async Task<PlanoTreinoSemanalView> ObterPlanoTreinoSemanalAsync(string usuarioId)
+        {
+            return await _handlerQuery.GetHandleAsync(usuarioId);
         }
     }
 }

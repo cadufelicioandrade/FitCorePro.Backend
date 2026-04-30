@@ -395,6 +395,49 @@
         }
       }
     },
+    "/api/training/plano-treino-semanal/obter-plano-treinamento": {
+      "get": {
+        "tags": [
+          "PlanoTreinoSemanal"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/training/plano-treino-semanal/atualizar-plano-treinamento": {
+      "put": {
+        "tags": [
+          "PlanoTreinoSemanal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanoTreinoSemanalView"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanoTreinoSemanalView"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PlanoTreinoSemanalView"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/tracking/refeicao-dieta-dia/adicionar-refeicao": {
       "post": {
         "tags": [
@@ -664,6 +707,32 @@
         },
         "additionalProperties": false
       },
+      "ExercicioView": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipoExercicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "serie": {
+            "type": "string",
+            "nullable": true
+          },
+          "carga": {
+            "type": "string",
+            "nullable": true
+          },
+          "treinoDiaId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginRequest": {
         "type": "object",
         "properties": {
@@ -725,6 +794,30 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/PlanoSemanalDiaRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlanoTreinoSemanalView": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ativo": {
+            "type": "boolean"
+          },
+          "treinosDia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TreinoDiaView"
             },
             "nullable": true
           }
@@ -816,6 +909,31 @@
           },
           "senha": {
             "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TreinoDiaView": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "diaSemana": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planoTreinoSemanalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "exercicios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExercicioView"
+            },
             "nullable": true
           }
         },

@@ -316,5 +316,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Training.PlanoTreinoSemanalController",
+    "Method": "AtualizarPlanoTreinamento",
+    "RelativePath": "api/training/plano-treino-semanal/atualizar-plano-treinamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "view",
+        "Type": "FitCorePro.Training.Planning.Application.UseCases.ModelView.PlanoTreinoSemanalView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Training.PlanoTreinoSemanalController",
+    "Method": "ObterPlanoTreinamento",
+    "RelativePath": "api/training/plano-treino-semanal/obter-plano-treinamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

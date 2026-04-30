@@ -13,9 +13,9 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Queries
             _repo = repo;
         }
 
-        public async Task<PlanoTreinoSemanalView> GetHandleAsync()
+        public async Task<PlanoTreinoSemanalView> GetHandleAsync(string usuarioId)
         {
-            var result = await _repo.ObterPlanoTreinoSemanalAsync();
+            var result = await _repo.ObterPlanoTreinoSemanalAsync(usuarioId);
 
             if (result is null)
                 return null;
