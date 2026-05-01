@@ -33,7 +33,7 @@ namespace FitCorePro.Training.Planning.Infrastructure.Repositories
             if (result > 0)
                 return "Plano treino semanal adicionado com sucesso!";
 
-            return "Falha ao adicionar plano, tente novamente mais tarde.";
+            return "Não foi possível realizar a operção, tente novamente mais tarde.";
         }
 
         public async Task<string> AtualizarPlanoSemanalAsync(PlanoTreinoSemanal planoTreinoSemanal)
@@ -52,7 +52,7 @@ namespace FitCorePro.Training.Planning.Infrastructure.Repositories
             if (result > 0)
                 return "Plano treino semanal atualizado com sucesso!";
 
-            return "Falha ao atualizar plano treino semanal.";
+            return "Não foi possível realizar a operção, tente novamente mais tarde.";
         }
 
         public async Task<PlanoTreinoSemanal?> ObterPlanoTreinoSemanalAsync(string usuarioId)

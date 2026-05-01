@@ -367,7 +367,7 @@
       },
       "Microsoft.Extensions.DependencyInjection/10.0.6": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
@@ -376,11 +376,11 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.6": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.7": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.626.17701"
+            "fileVersion": "10.0.726.21808"
           }
         }
       },
@@ -407,7 +407,7 @@
       },
       "Microsoft.Extensions.Diagnostics.Abstractions/10.0.6": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
           "Microsoft.Extensions.Options": "10.0.6",
           "System.Diagnostics.DiagnosticSource": "10.0.6"
         },
@@ -447,7 +447,7 @@
       },
       "Microsoft.Extensions.Logging.Abstractions/10.0.6": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
           "System.Diagnostics.DiagnosticSource": "10.0.6"
         },
         "runtime": {
@@ -459,7 +459,7 @@
       },
       "Microsoft.Extensions.Options/10.0.6": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
           "Microsoft.Extensions.Primitives": "10.0.6"
         },
         "runtime": {
@@ -473,7 +473,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "10.0.6",
           "Microsoft.Extensions.Configuration.Binder": "10.0.6",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
           "Microsoft.Extensions.Options": "10.0.6",
           "Microsoft.Extensions.Primitives": "10.0.6"
         },
@@ -788,7 +788,7 @@
       "FitCorePro.Nutrition.Planning.Application/1.0.0": {
         "dependencies": {
           "FitCorePro.Nutrition.Planning.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
         },
         "runtime": {
           "FitCorePro.Nutrition.Planning.Application.dll": {
@@ -821,7 +821,7 @@
       "FitCorePro.Nutrition.Tracking.Application/1.0.0": {
         "dependencies": {
           "FitCorePro.Nutrition.Tracking.Domain": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
         },
         "runtime": {
           "FitCorePro.Nutrition.Tracking.Application.dll": {
@@ -842,7 +842,7 @@
         "dependencies": {
           "FitCorePro.Nutrition.Tracking.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.6",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.8"
         },
         "runtime": {
@@ -862,7 +862,8 @@
       },
       "FitCorePro.Training.Planning.Application/1.0.0": {
         "dependencies": {
-          "FitCorePro.Training.Planning.Domain": "1.0.0"
+          "FitCorePro.Training.Planning.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.7"
         },
         "runtime": {
           "FitCorePro.Training.Planning.Application.dll": {
@@ -1019,12 +1020,12 @@
       "path": "microsoft.extensions.dependencyinjection/10.0.6",
       "hashPath": "microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.6": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w+dX4SIr1X9yegX2yX2dU1XtP4JAUVNdvOG/Evn+H+ndn96YzfIPX52FALXChrRNWFR9l77FQyg1mB7WQo6iOA==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.6",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512"
+      "sha512": "sha512-Z6mfFEaFcwCfSboxJwOLfu7/31npCY9q70WUamHW/vRQhDvBKOT4Vf9YkZj5J6hLvJpb0oDEYfHunQZj0xxvKw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.7",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyModel/8.0.1": {
       "type": "package",

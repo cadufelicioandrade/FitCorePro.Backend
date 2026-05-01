@@ -31,12 +31,45 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Comands
         {
             var planoTreinoSemanalId = Guid.NewGuid().ToString();
 
-            var plano = new PlanoTreinoSemanal(planoTreinoSemanalId, true, view.Titulo, usuarioId);
+            var plano = new PlanoTreinoSemanal(
+                planoTreinoSemanalId,
+                true,
+                view.Titulo,
+                usuarioId
+            );
 
-            for (int i = 0; i < 7; i++)
+            var treinosDiaView = view.TreinosDia ?? new List<TreinoDiaView>();
+
+            for (int diaSemana = 0; diaSemana <= 6; diaSemana++)
             {
+                var treinoDiaView = treinosDiaView
+                    .FirstOrDefault(x => x.DiaSemana == diaSemana);
+
                 var treinoDiaId = Guid.NewGuid().ToString();
-                plano.AdicionarTreinoDia(new TreinoDia(treinoDiaId, i, planoTreinoSemanalId));
+
+                var treinoDia = new TreinoDia(
+                    treinoDiaId,
+                    diaSemana,
+                    planoTreinoSemanalId
+                );
+
+                if (treinoDiaView?.Exercicios != null && treinoDiaView.Exercicios.Any())
+                {
+                    foreach (var exercicioView in treinoDiaView.Exercicios)
+                    {
+                        var exercicio = new Exercicio(
+                            Guid.NewGuid().ToString(),
+                            exercicioView.TipoExercicio,
+                            exercicioView.Serie,
+                            exercicioView.Carga,
+                            treinoDiaId
+                        );
+
+                        treinoDia.AdicionarExercicio(exercicio);
+                    }
+                }
+
+                plano.AdicionarTreinoDia(treinoDia);
             }
 
             return await _repo.AdicionarPlanoSemanalAsync(plano);

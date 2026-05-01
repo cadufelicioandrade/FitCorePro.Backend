@@ -318,6 +318,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FitCorePro.API.Controllers.Training.ExercicioController",
+    "Method": "AdicionarExercicio",
+    "RelativePath": "api/training/exercicio/adicionar-exercicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "view",
+        "Type": "FitCorePro.Training.Planning.Application.UseCases.ModelView.ExercicioView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Training.ExercicioController",
+    "Method": "EditarExercicio",
+    "RelativePath": "api/training/exercicio/editar-exercicio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "view",
+        "Type": "FitCorePro.Training.Planning.Application.UseCases.ModelView.ExercicioView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Training.ExercicioController",
+    "Method": "ExcluirExercicio",
+    "RelativePath": "api/training/exercicio/excluir-exercicio/{exercicioId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exercicioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FitCorePro.API.Controllers.Training.PlanoTreinoSemanalController",
+    "Method": "AdicionarPlanoTreinamento",
+    "RelativePath": "api/training/plano-treino-semanal/adicionar-plano-treinamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "view",
+        "Type": "FitCorePro.Training.Planning.Application.UseCases.ModelView.PlanoTreinoSemanalView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FitCorePro.API.Controllers.Training.PlanoTreinoSemanalController",
     "Method": "AtualizarPlanoTreinamento",
     "RelativePath": "api/training/plano-treino-semanal/atualizar-plano-treinamento",

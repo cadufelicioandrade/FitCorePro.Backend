@@ -14,7 +14,7 @@
         public string PlanoTreinoSemanalId { get; private set; }
         public PlanoTreinoSemanal PlanoTreinoSemanal { get; set; }
 
-        private List<Exercicio> _exercicios { get; set; } = new();
+        private readonly List<Exercicio> _exercicios = new();
 
         public IReadOnlyCollection<Exercicio> Exercicios => _exercicios;
 

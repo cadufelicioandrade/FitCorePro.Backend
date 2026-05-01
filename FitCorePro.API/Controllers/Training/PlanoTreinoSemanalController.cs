@@ -22,7 +22,7 @@ namespace FitCorePro.API.Controllers.Training
             _treinoSemanalService = treinoSemanalService;
         }
 
-        [HttpPost("adicionar-plano_treinamento")]
+        [HttpPost("adicionar-plano-treinamento")]
         public async Task<IActionResult> AdicionarPlanoTreinamento([FromBody] PlanoTreinoSemanalView view)
         {
             var usuarioId = _userContext.GetUserId();

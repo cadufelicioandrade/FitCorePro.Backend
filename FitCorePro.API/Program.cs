@@ -7,6 +7,8 @@ using FitCorePro.Nutrition.Planning.Application.DependencyInjection;
 using FitCorePro.Nutrition.Planning.Infrastructure.DependencyInjection;
 using FitCorePro.Nutrition.Tracking.Application.DependecyInjection;
 using FitCorePro.Nutrition.Tracking.Infrastructure.DependencyInjection;
+using FitCorePro.Training.Planning.Application.DependencyInjection;
+using FitCorePro.Training.Planning.Infrastructure.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -87,6 +89,9 @@ builder.Services.AddTrackingInfrastructure(builder.Configuration);
 
 builder.Services.AddIdentityApplication();
 builder.Services.AddIdentityInfrastructure(builder.Configuration);
+
+builder.Services.AddTrainingApplication();
+builder.Services.AddTrainingInfrastructure(builder.Configuration);
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IUserContext, UserContext>();

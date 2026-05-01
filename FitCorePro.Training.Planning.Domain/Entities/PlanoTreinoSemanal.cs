@@ -15,7 +15,7 @@
         public bool Ativo { get; set; }
         public string UsuarioId { get; set; }
 
-        private List<TreinoDia> _treinosDia { get; set; } = new();
+        private readonly List<TreinoDia> _treinosDia = new();
         public IReadOnlyCollection<TreinoDia> TreinosDia => _treinosDia;
 
         public void AdicionarTreinoDia(TreinoDia treioDia)

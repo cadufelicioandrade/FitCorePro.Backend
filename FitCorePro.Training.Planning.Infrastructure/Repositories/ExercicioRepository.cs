@@ -1,6 +1,7 @@
 ﻿using FitCorePro.Training.Planning.Domain.Entities;
 using FitCorePro.Training.Planning.Domain.Repositories;
 using FitCorePro.Training.Planning.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace FitCorePro.Training.Planning.Infrastructure.Repositories
 {
@@ -13,19 +14,42 @@ namespace FitCorePro.Training.Planning.Infrastructure.Repositories
             _context = context;
         }
 
-        public Task<string> AdicionarExercicioAsync(Exercicio exercicio)
+        public async Task<string> AdicionarExercicioAsync(Exercicio exercicio)
         {
-            throw new NotImplementedException();
+            _context.Exercicio.Add(exercicio);
+            var result = await _context.SaveChangesAsync();
+
+            if (result > 0)
+                return "Exercício adicionado com sucesso!";
+
+            return "Não foi possível realizar a operção, tente novamente mais tarde.";
         }
 
-        public Task<string> EditarExercicioAsync(Exercicio exercicio)
+        public async Task<string> EditarExercicioAsync(Exercicio exercicio)
         {
-            throw new NotImplementedException();
+            _context.Exercicio.Update(exercicio);
+            var result = await _context.SaveChangesAsync();
+
+            if (result > 0)
+                return "Exercício editado com sucesso!";
+
+            return "Não foi possível realizar a operção, tente novamente mais tarde.";
         }
 
-        public Task<string> ExcluirExercicio(string exercicioId)
+        public async Task<string> ExcluirExercicio(string exercicioId)
         {
-            throw new NotImplementedException();
+            var exercio = await _context.Exercicio.FirstOrDefaultAsync(e => e.Id == exercicioId);
+
+            if (exercio == null)
+                return "Exercício não encontrado.";
+
+            _context.Exercicio.Remove(exercio);
+            var result = await _context.SaveChangesAsync();
+
+            if (result > 0)
+                return "Exercício excluído com sucesso!";
+
+            return "Não foi possível realizar a operção, tente novamente mais tarde.";
         }
     }
 }
