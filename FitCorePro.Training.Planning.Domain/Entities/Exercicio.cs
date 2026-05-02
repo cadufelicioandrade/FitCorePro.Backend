@@ -11,11 +11,11 @@
             TreinoDiaId = treinoDiaId;
         }
 
-        public string Id { get; private set; }
-        public string TipoExercicio { get; private set; }
-        public string Serie { get; private set; }
-        public string Carga { get; private set; }
-        public string TreinoDiaId { get; private set; }
+        public string Id { get; set; }
+        public string TipoExercicio { get; set; }
+        public string Serie { get; set; }
+        public string Carga { get; set; }
+        public string TreinoDiaId { get; set; }
         public TreinoDia TreinoDia { get; set; }
 
     }

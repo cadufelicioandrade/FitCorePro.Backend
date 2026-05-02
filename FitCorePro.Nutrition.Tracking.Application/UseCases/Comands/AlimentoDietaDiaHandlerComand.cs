@@ -26,7 +26,7 @@ namespace FitCorePro.Nutrition.Tracking.Application.UseCases.Comands
         {
             var alimento = new AlimentoDietaDia(view.Id, view.Nome, view.RefeicaoDietaDiaId, view.QuantidadeGramas, view.Calorias, view.Carboidratos, view.Proteinas, view.Gorduras, view.Fibras);
 
-            return await _repo.EditarAsync(usuarioId, alimento);
+            return await _repo.atualizarAsync(usuarioId, alimento);
         }
 
         internal async Task<string> DeleteHandleAsync(string usuarioId, string alimentoDietaDiaId)

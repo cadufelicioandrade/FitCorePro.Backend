@@ -9,9 +9,9 @@
             PlanoTreinoSemanalId = planoTreinoSemanalId;
         }
 
-        public string Id { get; private set; }
-        public int DiaSemana { get; private set; }
-        public string PlanoTreinoSemanalId { get; private set; }
+        public string Id { get; set; }
+        public int DiaSemana { get; set; }
+        public string PlanoTreinoSemanalId { get; set; }
         public PlanoTreinoSemanal PlanoTreinoSemanal { get; set; }
 
         private readonly List<Exercicio> _exercicios = new();

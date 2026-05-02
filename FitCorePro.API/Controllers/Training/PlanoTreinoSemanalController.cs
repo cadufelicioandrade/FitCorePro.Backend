@@ -1,6 +1,7 @@
 ﻿using FitCorePro.Identity.Application.Interfaces;
 using FitCorePro.Nutrition.Planning.Application.UseCases.Request;
 using FitCorePro.Training.Planning.Application.Abstractions.Services;
+using FitCorePro.Training.Planning.Application.UseCases.ModelUpdate;
 using FitCorePro.Training.Planning.Application.UseCases.ModelView;
 using Microsoft.AspNetCore.Mvc;
 
@@ -45,11 +46,11 @@ namespace FitCorePro.API.Controllers.Training
 
             var result = await _treinoSemanalService.ObterPlanoTreinoSemanalAsync(usuarioId);
 
-            return Ok();
+            return Ok(result);
         }
 
         [HttpPut("atualizar-plano-treinamento")]
-        public async Task<IActionResult> AtualizarPlanoTreinamento([FromBody]PlanoTreinoSemanalView view)
+        public async Task<IActionResult> AtualizarPlanoTreinamento([FromBody] PlanoTreinoSemanalUpdate view)
         {
             var usuarioId = _userContext.GetUserId();
 

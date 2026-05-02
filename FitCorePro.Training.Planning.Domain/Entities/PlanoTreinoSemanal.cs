@@ -23,5 +23,12 @@
             _treinosDia.Add(treioDia);
         }
 
+        public void OrdenarTreinosPorDiaSemana()
+        {
+            var ordenado = _treinosDia.OrderBy(t => t.DiaSemana).ToList();
+
+            _treinosDia.Clear();
+            _treinosDia.AddRange(ordenado);
+        }
     }
 }

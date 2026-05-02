@@ -25,9 +25,20 @@ namespace FitCorePro.Nutrition.Planning.Infrastructure.Repositories
             return "Falha ao adicionar alimento.";
         }
 
-        public async Task<string> EditarAlimentoPlanoSemanalAsync(AlimentoPlanoSemanal alimento)
+        public async Task<string> AtualizarAlimentoPlanoSemanalAsync(AlimentoPlanoSemanal alimento)
         {
-            _context.AlimentosPlanoSemanal.Update(alimento);
+            var alimentoUpdate = await _context.AlimentosPlanoSemanal
+                                    .FirstOrDefaultAsync(a => a.Id == alimento.Id);
+
+            if (alimentoUpdate is null)
+                return "Item inexistente.";
+
+            alimentoUpdate.Id = alimento.Id;
+            alimentoUpdate.Nome = alimento.Nome;
+            alimentoUpdate.Gramas = alimento.Gramas;
+            alimentoUpdate.RefeicaoPlanoSemanalId = alimento.RefeicaoPlanoSemanalId;
+
+            _context.AlimentosPlanoSemanal.Update(alimentoUpdate);
             var result = await _context.SaveChangesAsync();
 
             if (result > 0) return "Alimento editado com sucesso!";

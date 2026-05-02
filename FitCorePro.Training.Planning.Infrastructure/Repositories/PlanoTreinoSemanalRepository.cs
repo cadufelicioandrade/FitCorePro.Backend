@@ -38,15 +38,17 @@ namespace FitCorePro.Training.Planning.Infrastructure.Repositories
 
         public async Task<string> AtualizarPlanoSemanalAsync(PlanoTreinoSemanal planoTreinoSemanal)
         {
-            var plano = await _contex.PlanoTreinoSemanal.Where(x => x.UsuarioId == planoTreinoSemanal.UsuarioId && x.Id == planoTreinoSemanal.Id).FirstOrDefaultAsync();
+            var planoUpdate = await _contex.PlanoTreinoSemanal.Where(x => x.UsuarioId == planoTreinoSemanal.UsuarioId && x.Id == planoTreinoSemanal.Id).FirstOrDefaultAsync();
 
-            if (plano == null)
+            if (planoUpdate == null)
                 return "Plano não encontrado.";
 
-            /// TODO
-            /// fazer o depara das propriedade para atualizar o plano
+            planoUpdate.Id = planoTreinoSemanal.Id;
+            planoUpdate.Titulo = planoTreinoSemanal.Titulo;
+            planoUpdate.Ativo = planoTreinoSemanal.Ativo;
+            planoUpdate.UsuarioId = planoTreinoSemanal.UsuarioId;
 
-            _contex.PlanoTreinoSemanal.Update(planoTreinoSemanal);
+            _contex.PlanoTreinoSemanal.Update(planoUpdate);
             var result = await _contex.SaveChangesAsync();
 
             if (result > 0)
@@ -59,9 +61,12 @@ namespace FitCorePro.Training.Planning.Infrastructure.Repositories
         {
             var result = await _contex.PlanoTreinoSemanal
                             .Include(p => p.TreinosDia)
-                            .ThenInclude(t => t.Exercicios)
-                                .Where(p => p.Ativo && p.UsuarioId == usuarioId)
-                                    .FirstOrDefaultAsync();
+                                .ThenInclude(t => t.Exercicios)
+                            .Where(p => p.Ativo && p.UsuarioId == usuarioId)
+                            .FirstOrDefaultAsync();
+
+            if (result is not null)
+                result.OrdenarTreinosPorDiaSemana();
 
             return result;
         }

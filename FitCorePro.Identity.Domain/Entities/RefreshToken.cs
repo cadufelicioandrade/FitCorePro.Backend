@@ -14,14 +14,14 @@
             Revogado = false;
         }
 
-        public string Id { get; private set; } = default!;
-        public string Token { get; private set; } = default!;
-        public string UsuarioId { get; private set; } = default!;
-        public DateTime ExpiresAt { get; private set; }
-        public DateTime CreatedDate { get; private set; }
-        public bool Revogado { get; private set; }
+        public string Id { get; set; } = default!;
+        public string Token { get; set; } = default!;
+        public string UsuarioId { get; set; } = default!;
+        public DateTime ExpiresAt { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public bool Revogado { get; set; }
 
-        public Usuario Usuario { get; private set; } = default!;
+        public Usuario Usuario { get; set; } = default!;
 
         public bool EstaAtivo => !Revogado && ExpiresAt > DateTime.UtcNow;
 

@@ -391,7 +391,7 @@
     "Parameters": [
       {
         "Name": "view",
-        "Type": "FitCorePro.Training.Planning.Application.UseCases.ModelView.PlanoTreinoSemanalView",
+        "Type": "FitCorePro.Training.Planning.Application.UseCases.ModelUpdate.PlanoTreinoSemanalUpdate",
         "IsRequired": true
       }
     ],

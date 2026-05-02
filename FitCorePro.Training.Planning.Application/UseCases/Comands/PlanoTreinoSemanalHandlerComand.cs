@@ -1,4 +1,5 @@
-﻿using FitCorePro.Training.Planning.Application.UseCases.ModelView;
+﻿using FitCorePro.Training.Planning.Application.UseCases.ModelUpdate;
+using FitCorePro.Training.Planning.Application.UseCases.ModelView;
 using FitCorePro.Training.Planning.Domain.Entities;
 using FitCorePro.Training.Planning.Domain.Repositories;
 
@@ -13,14 +14,9 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Comands
             _repo = repo;
         }
 
-        public async Task<string> EditHandleAsync(PlanoTreinoSemanalView view,string usuarioId)
+        public async Task<string> EditHandleAsync(PlanoTreinoSemanalUpdate view,string usuarioId)
         {
             var plano = new PlanoTreinoSemanal(view.Id, view.Ativo, view.Titulo, usuarioId);
-
-            view.TreinosDia.ForEach(t => 
-            {
-                plano.AdicionarTreinoDia(new TreinoDia(t.Id,t.DiaSemana,t.PlanoTreinoSemanalId));
-            });
 
             var result = await _repo.AtualizarPlanoSemanalAsync(plano);
 

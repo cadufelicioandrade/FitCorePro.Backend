@@ -531,17 +531,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlanoTreinoSemanalView"
+                "$ref": "#/components/schemas/PlanoTreinoSemanalUpdate"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlanoTreinoSemanalView"
+                "$ref": "#/components/schemas/PlanoTreinoSemanalUpdate"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PlanoTreinoSemanalView"
+                "$ref": "#/components/schemas/PlanoTreinoSemanalUpdate"
               }
             }
           }
@@ -911,6 +911,23 @@
               "$ref": "#/components/schemas/PlanoSemanalDiaRequest"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PlanoTreinoSemanalUpdate": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "nullable": true
+          },
+          "titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ativo": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false

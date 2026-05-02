@@ -29,7 +29,7 @@ namespace FitCorePro.Nutrition.Planning.Application.UseCases.Comands.Create.Crea
         public async Task<string> EditarHandleAsync(AlimentoPlanoSemanalRequest request)
         {
             var alimento = new AlimentoPlanoSemanal(request.Id, request.Nome, request.Gramas, request.RefeicaoPlanoSemanalId);
-            return await _repo.EditarAlimentoPlanoSemanalAsync(alimento);
+            return await _repo.AtualizarAlimentoPlanoSemanalAsync(alimento);
         }
 
         public async Task<string> ExcluirHandleAsync(string id)

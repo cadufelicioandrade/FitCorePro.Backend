@@ -15,7 +15,10 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Comands
 
         public async Task<string> CreateHandleAsync(ExercicioView view)
         {
-            var exercicio = new Exercicio(view.Id, view.TipoExercicio, view.Serie, view.Carga, view.TreinoDiaId);
+
+            var exercicioId = Guid.NewGuid().ToString();
+
+            var exercicio = new Exercicio(exercicioId, view.TipoExercicio, view.Serie, view.Carga, view.TreinoDiaId);
 
             return await _repo.AdicionarExercicioAsync(exercicio);
         }

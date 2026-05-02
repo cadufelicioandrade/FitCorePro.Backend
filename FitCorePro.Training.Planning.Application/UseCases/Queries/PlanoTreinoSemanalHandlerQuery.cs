@@ -24,6 +24,7 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Queries
             {
                 Id = result.Id,
                 Ativo = result.Ativo,
+                Titulo = result.Titulo,
                 TreinosDia = result.TreinosDia.Select(treinoDia => new TreinoDiaView
                 {
                     Id = treinoDia.Id,

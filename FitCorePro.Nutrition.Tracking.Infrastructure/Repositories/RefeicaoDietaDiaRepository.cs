@@ -41,7 +41,14 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
 
         public async Task<string> AtualizarListRefeicoesAsync(string usuarioId, List<RefeicaoDietaDia> list)
         {
-            _context.RefeicaoDietaDia.UpdateRange(list);
+            var listUpdate = new List<RefeicaoDietaDia>();
+
+            foreach (var item in list)
+            {
+                listUpdate.Add(new RefeicaoDietaDia(item.Id,item.Titulo, item.Ordem,item.DietaDiaId));
+            }
+
+            _context.RefeicaoDietaDia.UpdateRange(listUpdate);
             var result = await _context.SaveChangesAsync();
 
             if (result > 0)
@@ -64,7 +71,6 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
                 return "Refeição excluída com sucesso!";
 
             return "Erro de servidor, tente novamente mais tarde.";
-
         }
 
         public async Task<string> ExcluirRefeicoesPorDataAsync(string usuarioId, DateOnly dataDia)
@@ -90,9 +96,7 @@ namespace FitCorePro.Nutrition.Tracking.Infrastructure.Repositories
         public async Task<RefeicaoDietaDia> ObterPorIdAsync(string usuarioId, string id)
         {
             var result = await _context.RefeicaoDietaDia.FirstOrDefaultAsync(r => r.Id == id);
-
             return result;
-
         }
     }
 }

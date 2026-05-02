@@ -1,5 +1,6 @@
 ﻿using FitCorePro.Training.Planning.Application.Abstractions.Services;
 using FitCorePro.Training.Planning.Application.UseCases.Comands;
+using FitCorePro.Training.Planning.Application.UseCases.ModelUpdate;
 using FitCorePro.Training.Planning.Application.UseCases.ModelView;
 using FitCorePro.Training.Planning.Application.UseCases.Queries;
 
@@ -21,7 +22,7 @@ namespace FitCorePro.Training.Planning.Application.Service
             return await _handlerComand.CreateHandleAsync(view, usuarioId);
         }
 
-        public async Task<string> EditarPlanoTreinoSemanalAsync(PlanoTreinoSemanalView planoTreinoSemanalView, string usuarioId)
+        public async Task<string> EditarPlanoTreinoSemanalAsync(PlanoTreinoSemanalUpdate planoTreinoSemanalView, string usuarioId)
         {
             return await _handlerComand.EditHandleAsync(planoTreinoSemanalView, usuarioId);
         }

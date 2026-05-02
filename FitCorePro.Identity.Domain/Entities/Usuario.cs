@@ -17,13 +17,13 @@
             CreatedDate = DateOnly.FromDateTime(DateTime.Now);
         }
 
-        public string Id { get; private set; } = default!;
-        public string Nome { get; private set; } = default!;
-        public string Email { get; private set; } = default!;
-        public string PasswordHash { get; private set; } = default!;
-        public string Role { get; private set; } = default!;
-        public bool Ativo { get; private set; }
-        public DateOnly CreatedDate { get; private set; }
+        public string Id { get; set; } = default!;
+        public string Nome { get; set; } = default!;
+        public string Email { get; set; } = default!;
+        public string PasswordHash { get; set; } = default!;
+        public string Role { get; set; } = default!;
+        public bool Ativo { get; set; }
+        public DateOnly CreatedDate { get; set; }
 
         public IReadOnlyCollection<RefreshToken> RefreshTokens => _refreshTokens;
 

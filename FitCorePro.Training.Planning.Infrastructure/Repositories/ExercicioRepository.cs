@@ -27,7 +27,19 @@ namespace FitCorePro.Training.Planning.Infrastructure.Repositories
 
         public async Task<string> EditarExercicioAsync(Exercicio exercicio)
         {
-            _context.Exercicio.Update(exercicio);
+            var exercicioUpdate = await _context.Exercicio.FirstOrDefaultAsync(e => e.Id == exercicio.Id);
+
+
+            if (exercicioUpdate is null)
+                return "Item não inexistente.";
+
+            exercicioUpdate.Id = exercicio.Id;
+            exercicioUpdate.TipoExercicio = exercicio.TipoExercicio;
+            exercicioUpdate.Serie = exercicio.Serie;
+            exercicioUpdate.Carga = exercicio.Carga;
+            exercicioUpdate.TreinoDiaId = exercicio.TreinoDiaId;
+
+            _context.Exercicio.Update(exercicioUpdate);
             var result = await _context.SaveChangesAsync();
 
             if (result > 0)
