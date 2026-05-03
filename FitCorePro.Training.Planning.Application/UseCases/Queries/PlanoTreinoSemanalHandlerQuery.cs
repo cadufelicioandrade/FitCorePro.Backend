@@ -33,7 +33,7 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Queries
                     {
                         Id = exercicio.Id,
                         TipoExercicio = exercicio.TipoExercicio,
-                        Serie = exercicio.Serie,
+                        Series = exercicio.Serie,
                         Carga = exercicio.Carga
                     }).ToList()
                 }).ToList()

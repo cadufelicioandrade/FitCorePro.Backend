@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF5BB38D-ED04-4FBC-976D-F762AE6A798A}|FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.infrastructure\\repositories\\planotreinosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF5BB38D-ED04-4FBC-976D-F762AE6A798A}|FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.training.planning.infrastructure\\repositories\\planotreinosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.application\\usecases\\queries\\planotreinosemanalhandlerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|solutionrelative:fitcorepro.training.planning.application\\usecases\\queries\\planotreinosemanalhandlerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.application\\service\\planotreinosemanalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|solutionrelative:fitcorepro.training.planning.application\\service\\planotreinosemanalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\training\\planotreinosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\training\\planotreinosemanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +11,24 @@
       "RelativeMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|solutionrelative:fitcorepro.training.planning.application\\usecases\\comands\\planotreinosemanalhandlercomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.api\\controllers\\training\\exerciciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42E6E6A5-59FE-446D-86EC-F8D4FC4B5D90}|FitCorePro.API\\FitCorePro.API.csproj|solutionrelative:fitcorepro.api\\controllers\\training\\exerciciocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.application\\usecases\\comands\\exerciciohandlercomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|solutionrelative:fitcorepro.training.planning.application\\usecases\\comands\\exerciciohandlercomand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\repositories\\refeicaodietadiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\repositories\\refeicaodietadiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5BB38D-ED04-4FBC-976D-F762AE6A798A}|FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.infrastructure\\repositories\\exerciciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5BB38D-ED04-4FBC-976D-F762AE6A798A}|FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.training.planning.infrastructure\\repositories\\exerciciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.tracking.infrastructure\\repositories\\alimentodietadiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA744E02-A380-4DF5-8FF7-54B5773F3968}|FitCorePro.Nutrition.Tracking.Infrastructure\\FitCorePro.Nutrition.Tracking.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.tracking.infrastructure\\repositories\\alimentodietadiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5BB38D-ED04-4FBC-976D-F762AE6A798A}|FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.infrastructure\\repositories\\planotreinosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5BB38D-ED04-4FBC-976D-F762AE6A798A}|FitCorePro.Training.Planning.Infrastructure\\FitCorePro.Training.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.training.planning.infrastructure\\repositories\\planotreinosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.nutrition.planning.infrastructure\\repositories\\alimentoplanosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1C2D22-F068-4ACD-9F6B-6011E29226D8}|FitCorePro.Nutrition.Planning.Infrastructure\\FitCorePro.Nutrition.Planning.Infrastructure.csproj|solutionrelative:fitcorepro.nutrition.planning.infrastructure\\repositories\\alimentoplanosemanalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.application\\usecases\\modelview\\planotreinosemanalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|solutionrelative:fitcorepro.training.planning.application\\usecases\\modelview\\planotreinosemanalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|c:\\users\\carlos eduardo\\desktop\\fitcorepro\\fitcorepro.training.planning.application\\usecases\\modelview\\exercicioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02C985B-A543-4990-9655-A9DEC82A84D5}|FitCorePro.Training.Planning.Application\\FitCorePro.Training.Planning.Application.csproj|solutionrelative:fitcorepro.training.planning.application\\usecases\\modelview\\exercicioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlanoTreinoSemanalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
-              "RelativeToolTip": "FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAADwv0AAAABMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ExercicioHandlerComand.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\Comands\\ExercicioHandlerComand.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Application\\UseCases\\Comands\\ExercicioHandlerComand.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\Comands\\ExercicioHandlerComand.cs",
+              "RelativeToolTip": "FitCorePro.Training.Planning.Application\\UseCases\\Comands\\ExercicioHandlerComand.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T23:17:25.014Z",
+              "WhenOpened": "2026-05-03T21:37:56.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlanoTreinoSemanalHandlerQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\Queries\\PlanoTreinoSemanalHandlerQuery.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Application\\UseCases\\Queries\\PlanoTreinoSemanalHandlerQuery.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\Queries\\PlanoTreinoSemanalHandlerQuery.cs",
-              "RelativeToolTip": "FitCorePro.Training.Planning.Application\\UseCases\\Queries\\PlanoTreinoSemanalHandlerQuery.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T23:15:32.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "PlanoTreinoSemanalHandlerComand.cs",
               "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\Comands\\PlanoTreinoSemanalHandlerComand.cs",
               "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Application\\UseCases\\Comands\\PlanoTreinoSemanalHandlerComand.cs",
               "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\Comands\\PlanoTreinoSemanalHandlerComand.cs",
               "RelativeToolTip": "FitCorePro.Training.Planning.Application\\UseCases\\Comands\\PlanoTreinoSemanalHandlerComand.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAMwA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T23:11:31.007Z",
+              "WhenOpened": "2026-05-03T21:37:47.31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlanoTreinoSemanalService.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\Service\\PlanoTreinoSemanalService.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Application\\Service\\PlanoTreinoSemanalService.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\Service\\PlanoTreinoSemanalService.cs",
-              "RelativeToolTip": "FitCorePro.Training.Planning.Application\\Service\\PlanoTreinoSemanalService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwB8AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "PlanoTreinoSemanalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
+              "RelativeToolTip": "FitCorePro.Training.Planning.Infrastructure\\Repositories\\PlanoTreinoSemanalRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T23:11:18.548Z",
+              "WhenOpened": "2026-05-03T21:37:20.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlanoTreinoSemanalController.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
-              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
-              "RelativeToolTip": "FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowC4AAAA+AAAAAAAAAA==",
+              "Title": "ExercicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\Repositories\\ExercicioRepository.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Infrastructure\\Repositories\\ExercicioRepository.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Infrastructure\\Repositories\\ExercicioRepository.cs",
+              "RelativeToolTip": "FitCorePro.Training.Planning.Infrastructure\\Repositories\\ExercicioRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T22:27:06.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExercicioController.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Training\\ExercicioController.cs",
-              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Training\\ExercicioController.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Training\\ExercicioController.cs",
-              "RelativeToolTip": "FitCorePro.API\\Controllers\\Training\\ExercicioController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T22:50:40.518Z",
+              "WhenOpened": "2026-05-03T21:37:14.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RefeicaoDietaDiaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\RefeicaoDietaDiaRepository.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\RefeicaoDietaDiaRepository.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\RefeicaoDietaDiaRepository.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\RefeicaoDietaDiaRepository.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFcAAAA2AAAAAAAAAA==",
+              "Title": "ExercicioView.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\ExercicioView.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\ExercicioView.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\ExercicioView.cs",
+              "RelativeToolTip": "FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\ExercicioView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T22:09:42.744Z",
+              "WhenOpened": "2026-05-03T20:59:38.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AlimentoDietaDiaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\AlimentoDietaDiaRepository.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\AlimentoDietaDiaRepository.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\AlimentoDietaDiaRepository.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Tracking.Infrastructure\\Repositories\\AlimentoDietaDiaRepository.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PlanoTreinoSemanalView.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\PlanoTreinoSemanalView.cs",
+              "RelativeDocumentMoniker": "FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\PlanoTreinoSemanalView.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\PlanoTreinoSemanalView.cs",
+              "RelativeToolTip": "FitCorePro.Training.Planning.Application\\UseCases\\ModelView\\PlanoTreinoSemanalView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T22:09:23.973Z",
+              "WhenOpened": "2026-05-03T19:51:44.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AlimentoPlanoSemanalRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\AlimentoPlanoSemanalRepository.cs",
-              "RelativeDocumentMoniker": "FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\AlimentoPlanoSemanalRepository.cs",
-              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\AlimentoPlanoSemanalRepository.cs",
-              "RelativeToolTip": "FitCorePro.Nutrition.Planning.Infrastructure\\Repositories\\AlimentoPlanoSemanalRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCgAAABCAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PlanoTreinoSemanalController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
+              "RelativeDocumentMoniker": "FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
+              "ToolTip": "C:\\Users\\Carlos Eduardo\\Desktop\\FitCorePro\\FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
+              "RelativeToolTip": "FitCorePro.API\\Controllers\\Training\\PlanoTreinoSemanalController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T22:06:03.033Z",
+              "WhenOpened": "2026-05-03T19:51:34.199Z",
               "EditorCaption": ""
             }
           ]

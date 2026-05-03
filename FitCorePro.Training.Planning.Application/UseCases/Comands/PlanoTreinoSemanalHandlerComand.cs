@@ -36,7 +36,7 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Comands
 
             var treinosDiaView = view.TreinosDia ?? new List<TreinoDiaView>();
 
-            for (int diaSemana = 0; diaSemana <= 6; diaSemana++)
+            for (int diaSemana = 1; diaSemana <= 7; diaSemana++)
             {
                 var treinoDiaView = treinosDiaView
                     .FirstOrDefault(x => x.DiaSemana == diaSemana);
@@ -56,7 +56,7 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Comands
                         var exercicio = new Exercicio(
                             Guid.NewGuid().ToString(),
                             exercicioView.TipoExercicio,
-                            exercicioView.Serie,
+                            exercicioView.Series,
                             exercicioView.Carga,
                             treinoDiaId
                         );

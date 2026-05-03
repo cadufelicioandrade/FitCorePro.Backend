@@ -18,14 +18,14 @@ namespace FitCorePro.Training.Planning.Application.UseCases.Comands
 
             var exercicioId = Guid.NewGuid().ToString();
 
-            var exercicio = new Exercicio(exercicioId, view.TipoExercicio, view.Serie, view.Carga, view.TreinoDiaId);
+            var exercicio = new Exercicio(exercicioId, view.TipoExercicio, view.Series, view.Carga, view.TreinoDiaId);
 
             return await _repo.AdicionarExercicioAsync(exercicio);
         }
 
         public async Task<string> EditHandleAsync(ExercicioView view)
         {
-            var exercicio = new Exercicio(view.Id, view.TipoExercicio, view.Serie, view.Carga, view.TreinoDiaId);
+            var exercicio = new Exercicio(view.Id, view.TipoExercicio, view.Series, view.Carga, view.TreinoDiaId);
 
             return await _repo.EditarExercicioAsync(exercicio);
         }

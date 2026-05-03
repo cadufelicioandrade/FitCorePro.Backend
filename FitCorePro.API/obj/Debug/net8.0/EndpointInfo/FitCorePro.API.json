@@ -833,7 +833,7 @@
             "type": "string",
             "nullable": true
           },
-          "serie": {
+          "series": {
             "type": "string",
             "nullable": true
           },
